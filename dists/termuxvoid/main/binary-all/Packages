@@ -1262,18 +1262,20 @@ SHA256: a3c03d05b07a0bed01b900a47331dfa708b0c28e6cbcd14b4a4af44228110d1d
 SHA512: 778cf648660e311990898d42a8d2a009bb6fc19f4014e8c344779533e8de8e784782e1679d058b9d1f8b05d7b32266318b7a8c8d4691249e3f1b10cef78ea8a1
 
 Package: term-helper
-Version: 1.0.0
+Version: 1.1.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: termux-exec,pv
-Installed-Size: 36
-Description: termux command helper...
+Depends: curl, pv
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/term-helper
+Description: Terminal command helper and cheatsheet tool
 Filename: dists/termuxvoid/main/binary-all/term-helper.deb
-Size: 1296
-MD5Sum: 7b0dfa7c7c0c623961da21853198c3cd
-SHA1: 768abd264f4aa5bc11310af3320ac7132da9e013
-SHA256: b8b1124096f6e453fbd0ce7d3bc210317caf8ca3c06e010ee11169472634f832
-SHA512: 20997e86c05ba73cf809493b31225d7ad5b23baa3189eb651fe814e33c31a49ae619fe1dbcb5f5c3edb066be0b4fa48838771e6ad80d6b77ebc26a9ec8c92c25
+Size: 3384
+MD5Sum: e32309f42782f4298431db7c2045ba75
+SHA1: 6747861bb4500268780c6711ab9055b7f0ccfae5
+SHA256: de39bfe702664cf5a46d85a669ef2285e261097ef853940f8aea904220d7c7fb
+SHA512: 550865dd119fb867fe5b8f1938b519ee30ce2ff79c64190fa874b62c6689f1c2fa42f9800a3c3ee8aa0d66d80c288f37f573536eb80c13f737f9010c6c923617
 
 Package: termsploit
 Version: 1.0.1
