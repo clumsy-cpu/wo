@@ -1103,6 +1103,26 @@ SHA1: 01ea5e1986c32e5092f5adf1b294f770beca4364
 SHA256: de11d29f0a8efea2c420533d7218a2fbcc7176982f1013eb8aa65045c6333dd2
 SHA512: dcb757ea58ff1b4ba78d413165a898077997ed6a50a4891306f79a6cb011d3f940724e5ff3dc9e5270c5fa6db407f3a990f7c3965f278a301358fa7aa4982e21
 
+Package: shellcrypt
+Version: 2.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, nodejs, figlet
+Section: security
+Priority: optional
+Homepage: https://github.com/Anon4You/ShellCrypt
+Description: Professional code obfuscation tool for Bash and Python
+ Dual language obfuscation/decode tool featuring:
+ - Bash script obfuscation
+ - Python script encryption
+ - Multiple encoding methods
+Filename: dists/termuxvoid/main/binary-all/shellcrypt.deb
+Size: 3616
+MD5Sum: f5edc964cd2a6ded8fc2416849862219
+SHA1: 2de0c1c231b3bec3b70c492d504532b2f48141e3
+SHA256: ede1ed085d26d62ea83a2febcd4c2352854711e79cf4db32cf3cad3acd863ac0
+SHA512: 9d6510a76e50a1eff1c7240cd3cd891d49a9940c8506a4b384a87537eca3b7d3c1036e58343b388fb1389ed4dc8ede03a35d9b12ee8e44b3cfae54fa501887d5
+
 Package: sherlock
 Version: 0.15.0
 Architecture: all

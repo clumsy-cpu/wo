@@ -117,8 +117,9 @@ This repository provides specialized security and penetration testing tools for 
 |----------------|--------------------------------------|
 | alienkrishn    | Termux Void helper |
 | enctool        | Script obfuscation utility |
+| shellcrypt     | Professional code obfuscation tool for Bash and Python |
 | ip-changer     | Automated IP rotation tool |
-| ruby-nokogiri | Powerful HTML/XML parser for Ruby     |
+| ruby-nokogiri  | Powerful HTML/XML parser for Ruby     |
 | termux-desktop | Termux desktop environment |
 | termux-penv    | Chroot container for Termux |
 
