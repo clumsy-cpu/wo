@@ -100,6 +100,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 🎭 Social Engineering
 | Tool       | Description                          |
 |------------|--------------------------------------|
+| evilurl       | Generate unicode evil domains for IDN homograph attacks |
 | storm-breaker | Social Engineering Toolkit |
 | beef       | Browser Exploitation Framework |
 | instajack  | Instagram account toolkit |
@@ -134,6 +135,7 @@ This repository provides specialized security and penetration testing tools for 
 | blackbox-framework | A Penetration Testing Framework |
 | darksploit-framework | Penetration testing framework |
 | drshell | Reverse shell session manager |
+| hunner-framework   | Open Source Penetration Testing Framework |
 | metasploit-framework | Comprehensive exploit framework |
 | powerdos          | Denial-of-service toolkit |
 | slowhttptest      | Slow HTTP DoS testing tool |

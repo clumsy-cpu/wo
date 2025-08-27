@@ -413,6 +413,27 @@ SHA1: 9d731a57d3a90bc1ce0842a837cd98283ee8093d
 SHA256: 7783a7d3d72d28f72ef999427c429bb5122196297bdb6be65f057d3465f0f4d8
 SHA512: d62f4f5572e48c43f87e32aefc32757bf21fe4344693e361ad6e38458f5be658f3494496da10ee2784d92a3eff28917c62723b7f7245ec2ccff044aaf5877cf7
 
+Package: evilurl
+Version: 3.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/UndeadSec/EvilURL
+Description: Generate unicode evil domains for IDN homograph attacks
+ Create homograph phishing domains with:
+ - Unicode character substitution
+ - Domain availability checking
+ - Multiple TLD support
+ - IDN homograph attack simulation
+Filename: dists/termuxvoid/main/binary-all/evilurl.deb
+Size: 1364
+MD5Sum: 1d984987a4c62329c6fa02641e3f35e7
+SHA1: 2a6492a4c5fc4eb743abac4eae19de10b16ce763
+SHA256: ed206122fe502feb354d4f4ab83bd821f7bd48c2d9197788c479706c27230538
+SHA512: 66c4bbe174262d65f1f565dfd683d357e0c0e447d9262a9e840e51f432e7dc0cf9d0847bee7629749289f4f0094d3d13ecfe78f323bb2c964b250f8b0f2aa4e4
+
 Package: flutter
 Version: 3.29.2
 Architecture: all
@@ -599,6 +620,27 @@ MD5Sum: 15027c03523cf78d97aeee1385e6e0f7
 SHA1: 2a9a9458fefd2487bbba93a8e95457db21fc74ac
 SHA256: ba853367ae4042046b9698c47ed1b93e3cee66462e6f537333adc5e9662b96d8
 SHA512: ae5628da7b5d9f53dfc39933ace7e2cf6d25564abc4efc8d015ed411c54537d43e6fffbecb491245610989fdc21a4bc13ae69e433bbf1f25d3e76e2cc8ad9d8d
+
+Package: hunner-framework
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/b3-v3r/Hunner
+Description: Open Source Penetration Testing Framework
+ Web application security scanner with:
+ - Multiple vulnerability detection
+ - Automated scanning
+ - Report generation
+ - Custom module support
+Filename: dists/termuxvoid/main/binary-all/hunner-framework.deb
+Size: 1328
+MD5Sum: e4658c10614156bc970edf2fcdc020bf
+SHA1: c3e9299888061f5882beedebe69ba288402f62aa
+SHA256: 7570ce4dd9c2a1eca35822465b9b88fc741c17427b14c854866422a1fd363351
+SHA512: eb4bdff205eec3b511bc1c25a813d98eadba39c2f8e601567d3986707e48021be738ce8d50afa94223121414ec94536ba181ca5cd7799c7eb3b3e7f3f4e7ce74
 
 Package: infect
 Version: 1.03
