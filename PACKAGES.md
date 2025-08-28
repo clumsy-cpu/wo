@@ -21,6 +21,7 @@ This repository provides specialized security and penetration testing tools for 
 | pandora    | Automated web vulnerability scanner |
 | katana     | Next-gen crawling and spidering framework |
 | fscan      | Comprehensive network scanning tool |
+|paramspider | paramspider allows you to fetch URLs related to any domain |
 
 ### 📱 Mobile Development 
 | Tool          | Description                          |
