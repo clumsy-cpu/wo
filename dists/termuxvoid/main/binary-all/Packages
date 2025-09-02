@@ -439,7 +439,7 @@ Version: 3.29.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Pre-Depends: x11-repo
-Depends: axel, which, gtk3, xorgproto, ninja, cmake, clang, pkg-config, termux-x11-nightly
+Depends: git, axel, which, gtk3, xorgproto, ninja, cmake, clang, pkg-config, termux-x11-nightly, p7zip
 Section: development
 Priority: optional
 Homepage: https://flutter.dev
@@ -450,11 +450,11 @@ Description: Google's UI toolkit for building native apps
  - Material/Cupertino widgets
  - Android/iOS/Linux support
 Filename: dists/termuxvoid/main/binary-all/flutter.deb
-Size: 1612
-MD5Sum: 1b92028fd0e952cbb3a40ce75cb73353
-SHA1: e454b81d05abd315b4de82e03ee4e089c36d8cac
-SHA256: 266156eb86a0f612f2c9b7f6dac78f03848b027b51f3307525baa1c3d8d18ee3
-SHA512: 5afa90f5353170cd126f82e006646fbc00818ce5d167b61e6114ed995a0a97e2c27a7866f63005018cfc43dc9ded8c75cee39c82d140389f4e6126e9556e1e2a
+Size: 1616
+MD5Sum: 05695cd62d765ef5b5d0682274919082
+SHA1: 6e016a67bf5d06fe4b344ddd3271374ffe788408
+SHA256: 95931f6a661d7b839fa0f7d1968b582a43819823486f9b9accfd4739c9573850
+SHA512: 786abd9f396a6146480142b7cbf739304b8ff85e4abdd2dd160e05011c502c441a0c5a18e7d82d434dee57cf85ae073a97439e2b784211b09d0a7da912b1bcee
 
 Package: fscan
 Version: 1.8.4
