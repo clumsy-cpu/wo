@@ -503,6 +503,27 @@ SHA1: 8412b3eb760ab80088856d163aa8d93309cc32d1
 SHA256: c0f1598a93309e64a69d8b0408a89d5b10264caf7dcfe5a870f22c51236a7e8c
 SHA512: 6993ce20115001eabcd444acdd4e0b31e21d5c48c30638f85ae6f65eb550b707a48b6087bb3e6c46f26efb9b02fcfda47edf56600b8d1ed9321def71ca54cd6b
 
+Package: gobuster
+Version: 3.8.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/OJ/gobuster
+Description: Directory/file & DNS busting tool written in Go
+ Fast directory and file brute-forcing tool featuring:
+ - Multiple busting modes (dir, dns, vhost)
+ - Concurrent threading
+ - Multiple extension support
+ - Output formatting
+Filename: dists/termuxvoid/main/binary-all/gobuster.deb
+Size: 1552
+MD5Sum: bc4b06a5e8dbfd5cde3b641ea4b6d836
+SHA1: 4c09aacc4744a40a432882e3e2299f81dd243a57
+SHA256: 002f63ff08e9d58739329b89ad631a7de763e7284b1c2f3d1c16d55ce6b35c86
+SHA512: da9e5c066a53e5decf80ffd8d349c3f7a53e3d1174e39d20431b5d25bdc393c635e0e1815d1e0a92f0a92bfbe292a0f24df7087ac01f576e12245e16e719c3fa
+
 Package: gophish
 Version: 0.12.1-latest
 Architecture: all
