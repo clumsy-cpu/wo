@@ -94,7 +94,7 @@ SHA256: ac3b23a8dc3bd29d74c9a7af6cd17637da6f70023930a3b02bc8e3dd736b9efb
 SHA512: 7f5ed7cbdd55d7a04916d2941d03f49e72f045951f1f6a0678e8c3aee430b764a9a4a4d9edae0e79919ead5e2681b3c99b0e95079b063fbb95cf66e530358a87
 
 Package: apkeditor
-Version: 1.4.4
+Version: 1.4.5
 Architecture: all
 Maintainer: Alienkrishn [Anon4You] 
 Depends: openjdk-17, wget
@@ -105,11 +105,11 @@ Description: Lightweight APK modification tool
  Edit APKs directly via JAR executable.
  Supports decompiling, resource editing, and APK rebuilding.
 Filename: dists/termuxvoid/main/binary-all/apkeditor.deb
-Size: 1364
-MD5Sum: b4bd26986482ffd517f04394cf3873a2
-SHA1: eaf81aa17f4e7c2e66e27b7e8a28fb63f3e7b45d
-SHA256: 572e9d28cfb750a3523a3668ada1083628120ba8387043b96247ac8df7a764b8
-SHA512: 88d2666c893babb99c7cb64b10facbf827d882e525dd0e7e6d37c5faf106e17424f4389dcbff07a1d57d5399d04ee1aff4903bdcaba0113524919c5ac1825349
+Size: 1360
+MD5Sum: 774d87db18524f6801d66aeab3177112
+SHA1: 2b76c5e786790e5626a75b7ecf4fc2601dc66745
+SHA256: 8181684cd43bc5d635d406aad9a909d2b562fb39a36ef396f27a97f23daee7af
+SHA512: 5168582ca7feb7937617dbdbee598221992ef87f1293cadb1153603d98ab76a34f29efb1cee4ce4d7ac41e7bd87acc8cc5eae1fd8b5c21f2c783afaf4c177b0c
 
 Package: apkpatcher
 Version: 1.0
@@ -131,7 +131,7 @@ Package: apktool
 Version: 2.12.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: openjdk-17, wget
+Depends: openjdk-17, wget, aapt2
 Section: utils
 Priority: optional
 Homepage: https://ibotpeaches.github.io/Apktool/
@@ -139,11 +139,11 @@ Description: Reverse engineering Android APKs
  Decompile and rebuild APK files with resource preservation.
  Supports Smali debugging and manifest analysis.
 Filename: dists/termuxvoid/main/binary-all/apktool.deb
-Size: 1400
-MD5Sum: 5810bebd8894d88e633764b34825d30e
-SHA1: 80773f985a4c919863e4da1c7116dd00ad403eff
-SHA256: 1c780b1f81a7bce79fdd4a962d76d92b2888e0734cbe4eaecf7cba0a1af3eab8
-SHA512: 59ddff687487b8447da6d8f5415cc090106afcbfb05fd7627fe0d285b67231d20aa7d5f7257d62477b64b80da1a5f7f7838620ab6d07ad72899ee7a131371a77
+Size: 1404
+MD5Sum: 263f052fd7f5457830367e7c0503d77e
+SHA1: 73f6dff211b5e6196eb160c7a751d7f86290b809
+SHA256: e1737381d80f6e329ad52bd84dedeb0fac5cf96f0eea9ce358358dff3bed7d72
+SHA512: 9a58e1ced238f6ccc1f874da616c5237275d52dc4313c13b2ec29e845292d9adbf2acdaaf8e80ae755845cded55961ff0a071a2416e42aebc4ab3c4448045a13
 
 Package: asciibanner
 Version: 2.1.0 
