@@ -884,15 +884,15 @@ Package: nethunter-cli
 Version: 2025.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: proot-distro
-Homepage: https://anon4you.github.io/kalilinux/
-Description: A simple Bash script to install Kali Linux on Termux
+Depends: proot, tar, axel
+Homepage: https://www.kali.org/
+Description: NetHunter Rootless Edition
 Filename: dists/termuxvoid/main/binary-all/nethunter-cli.deb
-Size: 1468
-MD5Sum: f176e41c2b958d4eadb89fceb83514e6
-SHA1: a8ebbe16ba4fae28c13a3ed2e2f25b45297b07d1
-SHA256: fb0e7d5c360d57748a17325a8c6d985d1e046c638d9d7a12830b655abdf41344
-SHA512: 69ea6fdb37abeba4aff82ac8fdaf2d46119338b18a6f92b5a0ae47b600533909c40a1fc91528c0bf6729b2457e5aa9c3a1eea3a245a21441ad16552265f4bd36
+Size: 1996
+MD5Sum: c031bfd6bc26ef8b867692c1432e47fc
+SHA1: aa9a029e0ab9a452d05ee824e0f17dde11c23faf
+SHA256: 610dab2d71f318be7907ebbc12e55514c81eb0879618dca4075241a6c80d9c91
+SHA512: 2ecf2643eb4f94e43d3e36baf91d6930878ae0bce95d2fe60d63bb8051c05e853895c908b62896d183d431e3b250900a0db4aec30f75e1ea04277fc4b16944db
 
 Package: ngrok
 Version: 3.4.1
@@ -1151,18 +1151,25 @@ SHA256: c88c1600b2a6f629ac7c8bf2bb40efa46ce2230b203c6942b18987e5500ef8d3
 SHA512: 1d77f167dd3a096af106dde5ae70574e2dae53475fdeac467e216103cbf2feb7e8bd3ba936e087529401feb01561795d0e264670de58b9ea4b828b761d877fa2
 
 Package: setoolkit
-Version: 8.0.3
+Version: 8.0.3+git20241021-0kali1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Homepage: https://github.com/Keyaru-code/SetoolkitTermux/
-Depends: curl, tar, proot
-Description: The Social-Engineer Toolkit (SET) repository from TrustedSec [termux-proot]
+Depends: proot, tar, axel, nethunter-cli
+Section: security
+Priority: optional
+Homepage: https://github.com/trustedsec/social-engineer-toolkit
+Description: Social Engineering Toolkit
+ Open-source penetration testing framework featuring:
+ - Social engineering attacks
+ - Phishing campaign management
+ - Credential harvesting
+ - Multi-vector attack support
 Filename: dists/termuxvoid/main/binary-all/setoolkit.deb
-Size: 1636
-MD5Sum: 1b7b8461b59c20212db4afc85f60de6e
-SHA1: 01ea5e1986c32e5092f5adf1b294f770beca4364
-SHA256: de11d29f0a8efea2c420533d7218a2fbcc7176982f1013eb8aa65045c6333dd2
-SHA512: dcb757ea58ff1b4ba78d413165a898077997ed6a50a4891306f79a6cb011d3f940724e5ff3dc9e5270c5fa6db407f3a990f7c3965f278a301358fa7aa4982e21
+Size: 1432
+MD5Sum: 672bbdea53f5d88efb13092afd4b8724
+SHA1: dcae1b0b8dc9415994b1a3e240487e6d05ba3dc5
+SHA256: 781bf4599071fe77be3317131771b6a9370e3e826b02cbe89400c2ea70456134
+SHA512: 45c02fdc90b497a00996560222d3364a3618bddf2674cb107d51f52669635baccb9e46d755cc374df46a79ba1ef83f86dc87913e451c27fb8cf3ee0664fe1c8f
 
 Package: shellcrypt
 Version: 2.0.0
