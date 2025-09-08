@@ -14,6 +14,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 🔍 Reconnaissance & Scanning
 | Tool       | Description                          |
 |------------|--------------------------------------|
+| cdxsummary | CDX summary and analysis tool |
 | dnsx       | Fast DNS toolkit for reconnaissance  |
 | dalfox     | Parameter analysis and XSS scanning tool |
 | nuclei     | Fast vulnerability scanner (5000+ templates) |

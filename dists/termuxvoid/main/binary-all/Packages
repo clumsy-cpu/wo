@@ -298,6 +298,27 @@ SHA1: f25274c73bbc38a8d582519f66a9aa83865f3188
 SHA256: 786a39ff3c64bab6f648d9472f57a6b3a279862532b0ef592656ff0706ed7523
 SHA512: d4a51d7ba0c7d913d64d06d070ef0d2ca79aa5fba86efcfc5cb62623ff3c8af2cafebaa072aaed669efbea90fb6ebcf57a6eec20e7c303a456f434881fc78784
 
+Package: cdxsummary
+Version: 0.1.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/internetarchive/cdx-summary
+Description: CDX summary and analysis tool
+ Analyze and summarize CDX files from Wayback Machine with:
+ - CDX file parsing
+ - Statistical analysis
+ - Domain summary reports
+ - Data export capabilities
+Filename: dists/termuxvoid/main/binary-all/cdxsummary.deb
+Size: 1204
+MD5Sum: e2257907fb5961f392165b67a259b39d
+SHA1: 3aea2c67268f1203f20c38e4db23a9aab9ca3875
+SHA256: 7e454cbfe08bd143d92b764bd8119cc1f9491f53e924f80c6ca6dc1ace9e181e
+SHA512: 79309c9550cdd4957a0f8498d90c4150ff3291e5804b8040e9cfb6e6c20743d20cb2a0bdc20a8ca8f8b0e6aa631f06e00849d9e3367448f77868fb0f72d036ba
+
 Package: cewl
 Version: 6.2.1
 Architecture: all
