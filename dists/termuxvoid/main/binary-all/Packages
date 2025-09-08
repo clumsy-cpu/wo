@@ -455,6 +455,27 @@ SHA1: 2a6492a4c5fc4eb743abac4eae19de10b16ce763
 SHA256: ed206122fe502feb354d4f4ab83bd821f7bd48c2d9197788c479706c27230538
 SHA512: 66c4bbe174262d65f1f565dfd683d357e0c0e447d9262a9e840e51f432e7dc0cf9d0847bee7629749289f4f0094d3d13ecfe78f323bb2c964b250f8b0f2aa4e4
 
+Package: ffuf
+Version: 2.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/ffuf/ffuf
+Description: Fast web fuzzer written in Go
+ High-performance fuzzing tool featuring:
+ - Directory/file fuzzing
+ - Parameter discovery
+ - VHost enumeration
+ - Multi-threaded performance
+Filename: dists/termuxvoid/main/binary-all/ffuf.deb
+Size: 1416
+MD5Sum: cd301a96661eecf0ce54a6ef3fe6f49d
+SHA1: c04110f039f7770d827cf3ad5278277b2261d797
+SHA256: 260e2afa83487c2b9f7a97a343cb898ae50e19e57d36dea7fadfe22970b95a63
+SHA512: fd7e251ab33123910c78ab189031e92dfe22371013c8d213618bfe1f72088daae08d375ca9b216043777a78ae1d7a7382a0d27cb2756fb1f1bb954f26ca56d8f
+
 Package: flutter
 Version: 3.29.2
 Architecture: all
@@ -506,27 +527,6 @@ MD5Sum: 143579b801d75d20028addd71b7d3526
 SHA1: f3e0cc1dcfedd9d87419f8dc45733e30a093dfad
 SHA256: d12f54059031b021bd82eb0c25078cd725c15363caa560b27952fa9ab123a916
 SHA512: 828cec6a54353d2f7b122c44dcea672df543774c19018cb2e63dc12bc400ad65834cdc1e1d2c2945ecf98bdbb3350eb8d105a1413a7f358a4595186f64225f30
-
-Package: ffuf
-Version: 2.1.0
-Architecture: all
-Maintainer: Alienkrishn [Anon4You]
-Depends: golang, git
-Section: security
-Priority: optional
-Homepage: https://github.com/ffuf/ffuf
-Description: Fast web fuzzer written in Go
- High-performance fuzzing tool featuring:
- - Directory/file fuzzing
- - Parameter discovery
- - VHost enumeration
- - Multi-threaded performance
-Filename: dists/termuxvoid/main/binary-all/fuff.deb
-Size: 1416
-MD5Sum: f8c2b1d221746503301fd27c186b8ea7
-SHA1: 7c260f3350a5c2b07e9e27aaec7dfab0166f3c2e
-SHA256: 32258a82aa32f13ae3331360d6755ab866aef5b1e6092edaeb3338dee860ca71
-SHA512: eea43f8ae287382963d7f6d92d74391cb8e297028c57c9e0ccd247f8983b925b5094801e916ef6a6aef52e1c8419dfe015741b673e9fae9142de22e7f31fa529
 
 Package: ghidra
 Version: 11.4.1
@@ -1587,6 +1587,27 @@ MD5Sum: ba0fa5347d969bba5c4ddb409136a30c
 SHA1: f9c4f1d4e94d8a684a1e94805e3b7ab5c78f5f8d
 SHA256: b208c91b3c5466acb85ce6c9b5c72c24c5e022b22edeee91dc52ca4476fce3b0
 SHA512: 6456764b7c5b8d822cf228385a643f94c31354370558e01954349d3511613cb3b566beea15f3bb4d81d33a48e8908dacc2d17c0c02851b9e1f7e9aee56273b44
+
+Package: waybackurls
+Version: 0.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: recon
+Priority: optional
+Homepage: https://github.com/tomnomnom/waybackurls
+Description: Fetch known URLs from Wayback Machine archives
+ Extract historical URLs from Wayback Machine with:
+ - Domain-based URL discovery
+ - Subdomain enumeration
+ - Timestamp filtering
+ - JSON output support
+Filename: dists/termuxvoid/main/binary-all/waybackurls.deb
+Size: 1440
+MD5Sum: 2301da2a4e333e31e10504758ba56a29
+SHA1: fcb231b80c28f1603077dba25ebe76988c2c9c82
+SHA256: 1915860b9ddc58e91d3a844a25356beecf237ea2fc550b88ab906c88dc54e9f6
+SHA512: 2c36bf4664c5b2115baea9475cd4e56c7542bd419221c835adea497a5b9856fc31079833f58619bcb84d44bca03981e8b2f6aaeaf89ee08de02447dc89d6430c
 
 Package: webinfo
 Version: 3.0
