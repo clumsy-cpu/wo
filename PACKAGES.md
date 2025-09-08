@@ -14,6 +14,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 🔍 Reconnaissance & Scanning
 | Tool       | Description                          |
 |------------|--------------------------------------|
+| dalfox     | Parameter analysis and XSS scanning tool |
 | nuclei     | Fast vulnerability scanner (5000+ templates) |
 | httpx      | Advanced HTTP toolkit for web scanning |
 | subfinder  | Subdomain discovery tool |

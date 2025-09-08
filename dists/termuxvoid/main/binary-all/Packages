@@ -350,6 +350,27 @@ SHA1: eeab408bb75afd489933b2da357e5ef04d2f5f58
 SHA256: 5688835625cbd85612d18df0992d6a346b64b0ddb93f196c647c4bd7c2f6ddab
 SHA512: 473948f061bf47d0e82083a5f605afca6b50b575d27eef57ab3ac46d05f73d61d161431c1033687547417d5e2667dea5787ba470145e6c3a5505a75536c00d01
 
+Package: dalfox
+Version: 2.12.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/hahwul/dalfox
+Description: Parameter analysis and XSS scanning tool
+ Powerful XSS vulnerability scanner featuring:
+ - Automatic parameter discovery
+ - Multiple XSS payloads
+ - Blind XSS support
+ - CI/CD integration
+Filename: dists/termuxvoid/main/binary-all/dalfox.deb
+Size: 1432
+MD5Sum: 6970a34a197f890ccde95d99f66bd1c7
+SHA1: 061d72af499977817ac1830cae6ca5c4bc8d3988
+SHA256: b4c25c61418bdca3178650670118d01cc4df4ea544d3e001ecb501f770b3acd9
+SHA512: 994ac8712257ff7e872b975d285aa7aa3313b269113015cd2a04cd722b9613a6441a2d2ce75173f9d8e5b973001862d39c5c179880f7908dedc80a8cbca85bea
+
 Package: darksploit-framework
 Version: 2
 Architecture: all
