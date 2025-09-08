@@ -486,6 +486,27 @@ SHA1: f3e0cc1dcfedd9d87419f8dc45733e30a093dfad
 SHA256: d12f54059031b021bd82eb0c25078cd725c15363caa560b27952fa9ab123a916
 SHA512: 828cec6a54353d2f7b122c44dcea672df543774c19018cb2e63dc12bc400ad65834cdc1e1d2c2945ecf98bdbb3350eb8d105a1413a7f358a4595186f64225f30
 
+Package: ffuf
+Version: 2.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/ffuf/ffuf
+Description: Fast web fuzzer written in Go
+ High-performance fuzzing tool featuring:
+ - Directory/file fuzzing
+ - Parameter discovery
+ - VHost enumeration
+ - Multi-threaded performance
+Filename: dists/termuxvoid/main/binary-all/fuff.deb
+Size: 1416
+MD5Sum: f8c2b1d221746503301fd27c186b8ea7
+SHA1: 7c260f3350a5c2b07e9e27aaec7dfab0166f3c2e
+SHA256: 32258a82aa32f13ae3331360d6755ab866aef5b1e6092edaeb3338dee860ca71
+SHA512: eea43f8ae287382963d7f6d92d74391cb8e297028c57c9e0ccd247f8983b925b5094801e916ef6a6aef52e1c8419dfe015741b673e9fae9142de22e7f31fa529
+
 Package: ghidra
 Version: 11.4.1
 Architecture: all

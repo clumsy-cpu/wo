@@ -20,6 +20,7 @@ This repository provides specialized security and penetration testing tools for 
 | naabu      | Fast port scanner with SYN/CONNECT probes |
 | pandora    | Automated web vulnerability scanner |
 | katana     | Next-gen crawling and spidering framework |
+| ffuf       | Fast web fuzzer written in Go |
 | fscan      | Comprehensive network scanning tool |
 | gobuster   | Directory/File, DNS and VHost busting tool written in Go |
 |paramspider | paramspider allows you to fetch URLs related to any domain |
