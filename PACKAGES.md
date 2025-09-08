@@ -14,10 +14,12 @@ This repository provides specialized security and penetration testing tools for 
 ### 🔍 Reconnaissance & Scanning
 | Tool       | Description                          |
 |------------|--------------------------------------|
+| dnsx       | Fast DNS toolkit for reconnaissance  |
 | dalfox     | Parameter analysis and XSS scanning tool |
 | nuclei     | Fast vulnerability scanner (5000+ templates) |
 | httpx      | Advanced HTTP toolkit for web scanning |
 | subfinder  | Subdomain discovery tool |
+| subzy         | Subdomain takeover vulnerability scanner |
 | naabu      | Fast port scanner with SYN/CONNECT probes |
 | pandora    | Automated web vulnerability scanner |
 | katana     | Next-gen crawling and spidering framework |
@@ -25,6 +27,7 @@ This repository provides specialized security and penetration testing tools for 
 | fscan      | Comprehensive network scanning tool |
 | gobuster   | Directory/File, DNS and VHost busting tool written in Go |
 | paramspider| paramspider allows you to fetch URLs related to any domain |
+| wafw00f       | Web Application Firewall detection tool |
 | waybackurls| Fetch known URLs from Wayback Machine archives |
 
 ### 📱 Mobile Development 

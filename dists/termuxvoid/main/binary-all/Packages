@@ -387,6 +387,27 @@ SHA1: 7b443100faeb5571a770cf8d26e2e3de68d64b98
 SHA256: dccee9294d02a3872b44d457d1bbb4e079b19d8a6c97caac7c59cb62ea4a71f7
 SHA512: 9a0ce44ea2bfef96a3454fdbd82449c78dfb7c3441cf647172f3572e4c2f4934af1953454dadb56d6fd1f4e194a76edba4f65b2043b9daa80b3c430235fde094
 
+Package: dnsx
+Version: 1.2.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: recon
+Priority: optional
+Homepage: https://github.com/projectdiscovery/dnsx
+Description: Fast DNS toolkit for reconnaissance
+ High-performance DNS utility featuring:
+ - DNS resolution and enumeration
+ - Multiple query types (A, AAAA, CNAME, etc.)
+ - Wildcard detection
+ - Mass DNS lookups
+Filename: dists/termuxvoid/main/binary-all/dnsx.deb
+Size: 1444
+MD5Sum: 711cb13bca039898a42ad0b1620f48e5
+SHA1: 18fb4fb4b81ab514c1b028a4a59f785f3fc78c15
+SHA256: d46cf0df61d4955f6729cd2e68022e3701b52052f8eb34d1ff65b5706d1b9473
+SHA512: 7ee0e7bbe35421ae379f12b18fcea1979acb03ed0c48657c65770957a56f77e83760dff3424ba84480a8424bcdd97f79c5185b6dc76150711c78e18324f636a6
+
 Package: drshell
 Version: 1.0.1
 Architecture: all
@@ -1391,6 +1412,27 @@ SHA1: 13ab90e261e69e007573082ff7ae442176797f0d
 SHA256: a3c03d05b07a0bed01b900a47331dfa708b0c28e6cbcd14b4a4af44228110d1d
 SHA512: 778cf648660e311990898d42a8d2a009bb6fc19f4014e8c344779533e8de8e784782e1679d058b9d1f8b05d7b32266318b7a8c8d4691249e3f1b10cef78ea8a1
 
+Package: subzy
+Version: 1.2.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/PentestPad/subzy
+Description: Subdomain takeover vulnerability scanner
+ Automated subdomain takeover detection featuring:
+ - Multiple service provider support
+ - Concurrent scanning
+ - Custom fingerprint database
+ - JSON output format
+Filename: dists/termuxvoid/main/binary-all/subzy.deb
+Size: 1436
+MD5Sum: e31b7a2c3cc0779cf8b5841986156b85
+SHA1: 5a30f04a9ccbb9f56cfae6d673fdf56ad846ff28
+SHA256: 70b6299084acbea0b58eb1c2bf66a84bc07814ab450e4da3c387ec105406cca7
+SHA512: a8fe3dac3a3f4ecc58d08ce3afce32819e83221d5bc8ddabac7f315513de6d4d88d1d2cad216306ea9989a32cf6b5283c28408e5a28980bcaeaeb719ef6395f2
+
 Package: term-helper
 Version: 1.1.1
 Architecture: all
@@ -1587,6 +1629,27 @@ MD5Sum: ba0fa5347d969bba5c4ddb409136a30c
 SHA1: f9c4f1d4e94d8a684a1e94805e3b7ab5c78f5f8d
 SHA256: b208c91b3c5466acb85ce6c9b5c72c24c5e022b22edeee91dc52ca4476fce3b0
 SHA512: 6456764b7c5b8d822cf228385a643f94c31354370558e01954349d3511613cb3b566beea15f3bb4d81d33a48e8908dacc2d17c0c02851b9e1f7e9aee56273b44
+
+Package: wafw00f
+Version: 2.3.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/EnableSecurity/wafw00f
+Description: Web Application Firewall detection tool
+ Identify and fingerprint Web Application Firewalls with:
+ - 150+ WAF detection signatures
+ - HTTP request analysis
+ - Custom plugin support
+ - Evasion technique testing
+Filename: dists/termuxvoid/main/binary-all/wafw00f.deb
+Size: 1224
+MD5Sum: 0b8141b8c3154951b2613e47baba62d7
+SHA1: 5d1ca543cd114d699dbd5688816aecc365c4d1ce
+SHA256: 917101e783d478e5fa23a73df188f7d9986a7f8b9c00c8078cb0f75c22193bcd
+SHA512: 766ff27cd2ced5f1d23736b369f3136b4c23a6f6e882a817ddb11e850076fa389f98b52408dda791b44b73d1af54f89ec0828a44eff02ee336a5ac9825c4bbe5
 
 Package: waybackurls
 Version: 0.1.0
