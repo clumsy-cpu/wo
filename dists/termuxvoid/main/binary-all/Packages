@@ -40,6 +40,23 @@ SHA1: b9265309442cac4c058016db4f24d34a405cb460
 SHA256: 45cd5d99a204a1b465791239a4f489c411e650382af906ed9b778291771409a7
 SHA512: 4837f2c09e8857fcf7665211283b8cbb3afefc9d6a339bf8d46d6842e12c1fa4e6f3233cebc85c2f23004d1314c0496f47ba929749529ec7dd6d50964c736c5e
 
+Package: amass
+Version: 5.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: axel, tar
+Section: recon
+Priority: optional
+Homepage: https://github.com/owasp-amass/amass
+Description: OWASP Amass - In-depth Attack Surface Mapping
+ Comprehensive network reconnaissance tool
+Filename: dists/termuxvoid/main/binary-all/amass.deb
+Size: 1292
+MD5Sum: 475c0f902c251ca613e9fa9bcc1e0568
+SHA1: d852c83adaf098ce02eb71b60a75e2f69f02aa64
+SHA256: f07cd97a4fab88b0ffbbb50e54fff041ba312cff0c1a20852739b812e3b17d30
+SHA512: b388b221cf07f3c052d356ef06cdc35a3d7efa815d3956c4b2e6c36909affabd112915a56df333671c966764712e005333420e90391240b4d16e8fda573917e6
+
 Package: androdos
 Version: 1.0.0
 Architecture: all
