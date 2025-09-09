@@ -1450,6 +1450,27 @@ SHA1: 13ab90e261e69e007573082ff7ae442176797f0d
 SHA256: a3c03d05b07a0bed01b900a47331dfa708b0c28e6cbcd14b4a4af44228110d1d
 SHA512: 778cf648660e311990898d42a8d2a009bb6fc19f4014e8c344779533e8de8e784782e1679d058b9d1f8b05d7b32266318b7a8c8d4691249e3f1b10cef78ea8a1
 
+Package: subjack
+Version: 2.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/haccer/subjack
+Description: Subdomain Takeover tool written in Go
+ Automated subdomain takeover detection featuring:
+ - Multiple service provider support
+ - Fingerprint-based detection
+ - Concurrent scanning
+ - Custom configuration support
+Filename: dists/termuxvoid/main/binary-all/subjack.deb
+Size: 1436
+MD5Sum: 5d4aa52d8b710ecb11f45db43ca2e308
+SHA1: 8f3453604521365be96ea5f73c3e9a544a66f7b0
+SHA256: 435c8f02568e897762b790983968dba13e566eb755703666707dc2a48c0dac65
+SHA512: 9d6b461af8a2141a076a9ee99ed355255df5827e8c991df4defe1872f9eaee8388a032128a3606ececc2118ce19b7e7c1b1c5b9b5522d418bb904e9c300d8cda
+
 Package: subzy
 Version: 1.2.1
 Architecture: all

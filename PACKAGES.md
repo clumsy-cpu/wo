@@ -25,6 +25,7 @@ This repository provides specialized security and penetration testing tools for 
 | nuclei        | Fast vulnerability scanner (5000+ templates) |
 | pandora       | Automated web vulnerability scanner  |
 | subfinder     | Subdomain discovery tool             |
+| subjack       | Subdomain Takeover tool written in Go |
 | subzy         | Subdomain takeover vulnerability scanner |
 | wafw00f       | Web Application Firewall detection tool |
 | waybackurls   | Fetch known URLs from Wayback Machine archives |
