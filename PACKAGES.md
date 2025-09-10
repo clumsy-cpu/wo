@@ -21,6 +21,7 @@ This repository provides specialized security and penetration testing tools for 
 | fscan         | Comprehensive network scanning tool  |
 | gobuster      | Directory/File, DNS and VHost busting tool written in Go |
 | httpx         | Advanced HTTP toolkit for web scanning |
+| mantra        | Detect API key leaks in JavaScript files |
 | naabu         | Fast port scanner with SYN/CONNECT probes |
 | nuclei        | Fast vulnerability scanner (5000+ templates) |
 | pandora       | Automated web vulnerability scanner  |
@@ -61,6 +62,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 🔐 Password Tools
 | Tool       | Description                          |
 |------------|--------------------------------------|
+| brutespray  | Brute-force attacks from Nmap output |
 | wordlists   | Security wordlists collection        |
 | cewl | Custom wordlist generator from websites |
 | pdfcracker | PDF password recovery tool |
