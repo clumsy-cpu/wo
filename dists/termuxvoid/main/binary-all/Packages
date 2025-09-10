@@ -1683,6 +1683,27 @@ SHA1: 1f97336f2d243c4fb0fe32ad71258efee7d146bb
 SHA256: 18cabc39eaa34e21d6faa0dc7db5368b1f514fafe8ed426f16a7a7fdd57c0369
 SHA512: 6bc94af33a755f15d690f1712fbf713237a5fd589e4e778aca4af54ea21133b1607f6dd8ef50fa6c6fe008289f4461b159fb523b573442680233304be9d5ef7f
 
+Package: thezoo
+Version: 0.60
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/ytisf/theZoo
+Description: A repository of live malware samples
+ Malware analysis and research platform featuring:
+ - Live malware samples
+ - Research documentation
+ - Analysis tools
+ - Educational resources
+Filename: dists/termuxvoid/main/binary-all/thezoo.deb
+Size: 1420
+MD5Sum: ac92deaa21d7eae67063269ec6dce0ef
+SHA1: fc84b03fb44e9586f385078813db9a205afe0491
+SHA256: a601358486e2a9d3c2c0297d1909b097c1eb3a559b76ab277533c07213f00d40
+SHA512: 5c33fd8d5fd52a33f377f9a1e605fecfe85c062906d65fbbbdea63c173d5f3105e459ae47301979103bb5f14e901a6b3b9d71fd897ba68dea7ac4cbc226ca8dc
+
 Package: vedic
 Version: 2.0.6
 Architecture: all
