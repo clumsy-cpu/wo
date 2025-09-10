@@ -256,6 +256,27 @@ SHA1: d9841e69b2591c4c0a1a0f9ae8b6c3ab278313d5
 SHA256: bec0237c7af0052d09016bf24ac72c9c417ffa7eb35915555fc31acefe93a158
 SHA512: 4af5491226b229fd275d8f75929a61f7ba684d3181793301b78a27a66810c504b303a401a4397bc591a3f908e55f32492791eef062779d4a68ed64da2f13d50e
 
+Package: brutespray
+Version: 2.4.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/x90skysn3k/brutespray
+Description: Brute-force attacks from Nmap output
+ Automate brute-force attacks with:
+ - Nmap output parsing
+ - Multiple service support
+ - Parallel attacks
+ - Custom credential lists
+Filename: dists/termuxvoid/main/binary-all/brutespray.deb
+Size: 1420
+MD5Sum: 097f0b0b4e7842bff17889bf1b8f8ef1
+SHA1: 110334602654f8af91c09b0c91c30bf04b5676b7
+SHA256: 48cd1223fd8b5e397e16b930cddd9f0e615404ca248823802eefba632e7d725c
+SHA512: b858b7e950921df11e700ab2c4e85a5b84a6a463750d15c41831b040a0e70d6477155becf93eadb0dcf0446fe676cdea707f4feb805106e61c47d911bacb249a
+
 Package: burpsuite-pro
 Version: 2024.12.1
 Architecture: all
@@ -934,6 +955,27 @@ MD5Sum: c9200fa29835c042e8b59b997fc1c9e9
 SHA1: a2af2da12a30e470518dd0441f16e79600a6ef4b
 SHA256: 228187e408a3720aa77cb61aa542bbae24eed86b5917b308ff208d6aeec92363
 SHA512: e4dbd584668efabd501bedbbb4bf6f98de990877d625c366058fa095e06b8fa550448089fe39c809990f396ceda66663b2de96626e89a8ade7e1e0faac29fb6c
+
+Package: mantra
+Version: 3.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: golang, git
+Section: security
+Priority: optional
+Homepage: https://github.com/brosck/mantra
+Description: API key hunter for JS files and web pages
+ Detect API key leaks in JavaScript files with:
+ - Multiple API provider patterns
+ - JavaScript file analysis
+ - Web page scanning
+ - Custom regex patterns
+Filename: dists/termuxvoid/main/binary-all/mantra.deb
+Size: 1424
+MD5Sum: 4ed4e233605d3feeb0d66c0c8cd78729
+SHA1: ddf4b933441ad83090054a416699642eeeca0713
+SHA256: 5c41ae5e9d9646049893b38b93bfd8078d3dd02b6125d7095f72cd24cb66dc4e
+SHA512: b7acf2580e597ee47ab152c5b5bc3bb4ef344c4e3aa9e7bb1caa5dff076029fe0d24b05bbac1ba4e18ecda4733c4faabed6c521fcf73e467ed3313c401eea469
 
 Package: maskme
 Version: 1.0.0
