@@ -25,6 +25,7 @@ This repository provides specialized security and penetration testing tools for 
 | naabu         | Fast port scanner with SYN/CONNECT probes |
 | nuclei        | Fast vulnerability scanner (5000+ templates) |
 | pandora       | Automated web vulnerability scanner  |
+| pywhat        | Identify anything - text analysis tool |
 | subfinder     | Subdomain discovery tool             |
 | subjack       | Subdomain Takeover tool written in Go |
 | subzy         | Subdomain takeover vulnerability scanner |
