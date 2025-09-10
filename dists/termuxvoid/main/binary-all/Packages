@@ -1215,6 +1215,27 @@ SHA1: c931757446b0fe7df665de2bd47d9a9a4cd6126e
 SHA256: c3d9e16a5c71fcd29e72f3be7a060fd16ef49a53e0bf46b37c2ada60723d1fb4
 SHA512: 3dcf2119f73531a7517541fbbbb05cdb64c2a23a9a984898e94eb42833563b7f7bedfc8440264ffe7aa3d539b7ddf8d716d502fefe480c84503ad7df6348c3c8
 
+Package: pywhat
+Version: 5.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/bee-san/pyWhat
+Description: Identify anything - text analysis tool
+ Powerful text analysis and identification featuring:
+ - Regex pattern matching
+ - File format detection
+ - API key identification
+ - Data type recognition
+Filename: dists/termuxvoid/main/binary-all/pywhat.deb
+Size: 1204
+MD5Sum: 120df2c9a9aa442ea34204ac1c44a7c4
+SHA1: bc67b93b39e4d89a63c4f693fe06fce737ef9563
+SHA256: 9307030ea055179abf7932b9883b8df03638aec77baa58a44c4f3b46ac50877f
+SHA512: 60233ca793c595904741fac67b65acc30e8a7bd734306be3854eafaa1506916158a347cf1e9c0fadf385a2ea8d6653560465e2192b5b73b5b47925435df9e258
+
 Package: random-banner
 Architecture: all
 Version: 1
