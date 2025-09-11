@@ -19,6 +19,7 @@ This repository provides specialized security and penetration testing tools for 
 | dnsx          | Fast DNS toolkit for reconnaissance  |
 | ffuf          | Fast web fuzzer written in Go        |
 | fscan         | Comprehensive network scanning tool  |
+| ghosttrack       | Advanced tracking and reconnaissance tool |
 | gobuster      | Directory/File, DNS and VHost busting tool written in Go |
 | httpx         | Advanced HTTP toolkit for web scanning |
 | mantra        | Detect API key leaks in JavaScript files |
@@ -55,6 +56,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool       | Description                          |
 |------------|--------------------------------------|
 | sherlock   | Find social media accounts by username |
+| silverinstaeye   | Instagram information gathering tool |
 | holehe        | Check email accounts across 120+ sites |
 | byakugan   | Advanced live location tracker |
 | hound      | Lightweight info gathering with GPS |

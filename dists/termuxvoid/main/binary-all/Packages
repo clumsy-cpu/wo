@@ -535,6 +535,27 @@ SHA1: 2a6492a4c5fc4eb743abac4eae19de10b16ce763
 SHA256: ed206122fe502feb354d4f4ab83bd821f7bd48c2d9197788c479706c27230538
 SHA512: 66c4bbe174262d65f1f565dfd683d357e0c0e447d9262a9e840e51f432e7dc0cf9d0847bee7629749289f4f0094d3d13ecfe78f323bb2c964b250f8b0f2aa4e4
 
+Package: exiftool
+Version: 13.36
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, perl
+Section: utils
+Priority: optional
+Homepage: https://exiftool.org/
+Description: Read, write and edit meta information in files
+ Metadata manipulation tool featuring:
+ - EXIF data extraction
+ - Multiple file format support
+ - Metadata editing
+ - Batch processing
+Filename: dists/termuxvoid/main/binary-all/exiftool.deb
+Size: 1368
+MD5Sum: 8c910fccd986667bb7dcc4f5a942ad18
+SHA1: 2c29d3ed7d5551a8649f70049bcc8fabbea219fe
+SHA256: c29b2f1ff26fe39b0fbc377d1cb25c607b7b91ef64b5854dd6d6174fb7f78b49
+SHA512: 3e3dcfe21d84f040128a54885fdc028a172af7e1bff6a4a27cb6cc315ac8fe890ad26e0caab2067b2d04b2f406583bb6517baa658e5889fe29b71c5d08ee41b5
+
 Package: ffuf
 Version: 2.1.0
 Architecture: all
@@ -624,6 +645,27 @@ MD5Sum: 06bf154db7c0e632c4df477e50ffab9f
 SHA1: 8412b3eb760ab80088856d163aa8d93309cc32d1
 SHA256: c0f1598a93309e64a69d8b0408a89d5b10264caf7dcfe5a870f22c51236a7e8c
 SHA512: 6993ce20115001eabcd444acdd4e0b31e21d5c48c30638f85ae6f65eb550b707a48b6087bb3e6c46f26efb9b02fcfda47edf56600b8d1ed9321def71ca54cd6b
+
+Package: ghosttrack
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: recon
+Priority: optional
+Homepage: https://github.com/HunxByts/GhostTrack
+Description: Advanced tracking and reconnaissance tool
+ OSINT and tracking tool featuring:
+ - IP address tracking
+ - Geolocation services
+ - Social media reconnaissance
+ - Data correlation analysis
+Filename: dists/termuxvoid/main/binary-all/ghosttrack.deb
+Size: 1408
+MD5Sum: b554ce967c2eff0a3687bfc951aea1ec
+SHA1: 15bfed30f7937791fd4f40195423ac9c65e11c7c
+SHA256: c0b026a211cb3aa76354750a5f754c9c5c3c6fd24f967c8ace0edfe0c7789600
+SHA512: 6432041774cd2e519b8c393922445f397683ada42a93cd0abae7080252849b3b540e67188a4492860ae8d536b7d66da1467c2756d07d863c1a883faf290156ac
 
 Package: gobuster
 Version: 3.8.2
@@ -1382,6 +1424,27 @@ MD5Sum: e2da5cc6c9dcd34de2198e79cc594ee1
 SHA1: 0f60081c80449ac535d993ef6e62d1ada15778a4
 SHA256: f6ae1973b6133525cd0518a105c02a0bea43dc4af0cc27cbafadae4f9c52668e
 SHA512: af3f0ef916b5be2ac013af560a0f93e10fef24976f4e520e716dc298a8bc09ea85ac9319d732c5091fbaeb0066bc450e276931d1033e2fdffd4fb9ca021f7664
+
+Package: silverinstaeye
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip, python-pillow, python-numpy, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils-is-llvm, rust
+Section: security
+Priority: optional
+Homepage: https://github.com/silverxpymaster/SilverInstaEye
+Description: Instagram information gathering tool
+ OSINT tool for Instagram featuring:
+ - Profile information extraction
+ - Media analysis
+ - Follower/following statistics
+ - Data export capabilities
+Filename: dists/termuxvoid/main/binary-all/silverinstaeye.deb
+Size: 1524
+MD5Sum: 0a47d7ed5ece300066fe9950e41314c4
+SHA1: 31b8b17cfc61220ba77f4153a8a5eba5ccbeb5fb
+SHA256: e046f6b22c8f4d1c1c1b8c13f184f641b2f851e80efddc1f973f27bb45ccfb3a
+SHA512: 6d33af14464c1b32cb65797e337f15d7a1cc033353828982b5cd34e57209c1f4b008add930d27dd01643c6ce3e3ab75edd5f24ca11202aea41f175cf5d4537ca
 
 Package: slowhttptest
 Version: 1.9.0
