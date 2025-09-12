@@ -80,6 +80,7 @@ This repository provides specialized security and penetration testing tools for 
 | hashid     | Advanced hash identifier |
 | hashcat    | Advanced password recovery |
 | john       | John the Ripper password cracker |
+| openbullet  | A tool for running openbullet configurations |
 | kerbrute   | Kerberos brute force and enumeration tool |
 | thc-hydra  | Network login cracker |
 

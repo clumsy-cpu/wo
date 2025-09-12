@@ -1128,6 +1128,27 @@ SHA1: 8939475452fa5966043fd2b467e7151d3de933ba
 SHA256: ee340ac3e721efde9a219904606e429271b147c3b7bc9d62bc26de82af4d5841
 SHA512: 00bd7005f7b20061518a19ffe11a400682690029c0f0d4c5ac410a1a80e1f98086edc16d9442b9130edaa869ef1d799a10db000e502b481e7ff9b37eaa5889ea
 
+Package: openbullet
+Version: 1.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip
+Section: security
+Priority: optional
+Homepage: https://github.com/esfelurm/OpenBullet.git
+Description: A tool for running openbullet configurations
+ Automated security testing tool featuring:
+ - Credential stuffing attacks
+ - Proxy support and rotation
+ - Configurable attack modules
+ - Real-time results monitoring
+Filename: dists/termuxvoid/main/binary-all/openbullet.deb
+Size: 1428
+MD5Sum: 483ad3ce1e6356f63e00c77122b64751
+SHA1: f48de028701bf133f745fa1ef344966de7878362
+SHA256: 068ca79cd4ada151563a337546920bee933b04572269a215c6ca686ef12b2119
+SHA512: de18101d820b8a1be6ad9b19a5f551b820fc3ada36ec82450d4fe098cbebd3f8717f37c164b1b48d28ee83ab33cb7ba9b389f4359175bac3949a2b0e5c919daf
+
 Package: pandora
 Version: 3.2.0
 Architecture: all
