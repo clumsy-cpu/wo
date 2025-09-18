@@ -22,6 +22,7 @@ This repository provides specialized security and penetration testing tools for 
 | ghosttrack       | Advanced tracking and reconnaissance tool |
 | gobuster      | Directory/File, DNS and VHost busting tool written in Go |
 | httpx         | Advanced HTTP toolkit for web scanning |
+| knockpy          | Subdomain enumeration and reconnaissance tool |
 | mantra        | Detect API key leaks in JavaScript files |
 | naabu         | Fast port scanner with SYN/CONNECT probes |
 | nuclei        | Fast vulnerability scanner (5000+ templates) |
@@ -152,6 +153,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 🚨 Attack Tools
 | Tool               | Description                          |
 |--------------------|--------------------------------------|
+| knockpy | Subdomain enumeration and reconnaissance tool |
 | blackbox-framework | A Penetration Testing Framework |
 | darksploit-framework | Penetration testing framework |
 | drshell | Reverse shell session manager |

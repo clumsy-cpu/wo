@@ -970,6 +970,27 @@ SHA1: 3c44086e4b100bdc07ef73ac5004237473d19c81
 SHA256: 6db415d9a15c4d4b641e478745d49dd7e353d49d3154ab5a6a637f0b96b7df64
 SHA512: d26c139a13841104171e4de7c77434425ed79241c20fe1ce3ee9c95bf09137d38a1d579f26745b334a5d35e47c544c6b72e6136a1db1993a2fa14d75773eb20b
 
+Package: knockpy
+Version: 7.0.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, python-cryptography
+Section: recon
+Priority: optional
+Homepage: https://github.com/guelfoweb/knock
+Description: Subdomain enumeration and reconnaissance tool
+ Advanced subdomain discovery featuring:
+ - Multiple enumeration techniques
+ - DNS reconnaissance
+ - Certificate transparency logs
+ - API integration
+Filename: dists/termuxvoid/main/binary-all/knockpy.deb
+Size: 1200
+MD5Sum: a6f33d7c4a6f20aac549ddba68d37767
+SHA1: b6fa72c0b4154ed83b99dcbd3d138eb11515695a
+SHA256: e2c7d0abb740fdaf2612ccb14c006943fc010b7e9efb43201c6527b9408fce14
+SHA512: d3299184dff4ef14482b41e207ed8fd69e795f6df60891f802e9826f4681cbbb4d2a9f71f54a0b033fd404c199c7a416aad8cde35da8876110dc7b25852cf155
+
 Package: local2onion
 Version: 1.0
 Architecture: all
@@ -1972,6 +1993,24 @@ MD5Sum: 2fc7527f5b680e4cb2d3371bbcbbcd73
 SHA1: 5e89624c7b7379a5a86e109c53439e95ad16a5de
 SHA256: ac67fe743dde100b51bfb3b10b6e5aeda6eb136dc787ce659948362ca8f85cec
 SHA512: 3abf72d3b682bb8764f297a0a7b42e5aa2c7c2729632039a15d1df0242f5d006daa9e76494b1f880fab8e510c5dcc1cf66a698926b4b1f1bb3d7efddf0e3d19c
+
+Package: xbomber
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, curl
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/XBomber
+Description: SMS bomber script
+ Bulk SMS sending utility featuring:
+ - Multiple API integration
+Filename: dists/termuxvoid/main/binary-all/xbomber.deb
+Size: 1116
+MD5Sum: e98a5451c6501167651b76c2dee570a5
+SHA1: 3886524f2512a77e8fc42afa2890f3d33d63f9f8
+SHA256: e43313d38a0bc6780ff27b3f31e9709bd4d789ecb147a9fdc58f4fe74b85f0de
+SHA512: 387fe5cd59974a217a4f8c4474aee09f89ae50cdc6de951dd1802975a1af96f107fb9a2629818571f41a42cb438e04a32da48821925eac55e5087b8a78a29c87
 
 Package: zaproxy
 Version: 2.16.1
