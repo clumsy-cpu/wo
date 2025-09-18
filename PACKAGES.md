@@ -91,6 +91,7 @@ This repository provides specialized security and penetration testing tools for 
 | afrog       | Fast web vulnerability scanner |
 | burpsuite   | Industry-standard web scanner |
 | burpsuite-pro | Professional web scanner |
+| commix      | Automated All-in-One OS Command Injection and Exploitation Tool |
 | hatcloud    | Bypass CloudFlare security with IP/domain reconnaissance |
 | nikto       | Comprehensive web server scanner (6000+ tests) |
 | evilginx    | Advanced phishing framework |

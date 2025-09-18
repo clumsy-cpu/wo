@@ -394,6 +394,31 @@ SHA1: 0e6057b8c8baf969773d87cd0c8184cf73edb1e3
 SHA256: e6c5edda214810170e863657295da68f5db7e1c71aa421aad82bf93a8f7b83fd
 SHA512: 52dc27cce9a61938e83107d1963825b04b97ae235e2468513ba51d3cd4c0512e99ceafed00f43efdf8ba834ab1db8186c285e3a3eaee970901eb001774034e54
 
+Package: commix
+Version: 4.1.dev101
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, git
+Section: web
+Priority: optional
+Homepage: https://commixproject.com/
+Description: Automated All-in-One OS Command Injection and Exploitation Tool
+ Commix (short for [comm]and [i]njection e[x]ploiter) is an automated tool
+ that can be used from web developers, penetration testers or even security
+ researchers in order to test web-based applications with the view to find
+ bugs, errors or vulnerabilities related to command injection attacks.
+ Features:
+ - Support for multiple injection techniques
+ - Tampering capabilities
+ - Wizard mode for beginners
+ - Regular expression-based payloads
+Filename: dists/termuxvoid/main/binary-all/commix.deb
+Size: 1596
+MD5Sum: 7fe5b77e0ba58831c6961bd78e195241
+SHA1: 4a2ba54c57709d90282c537f0819635cf9eb9b1f
+SHA256: 91d4715bcfe84f2ad9389483a4e9af4e9631819f639514df337fcb08abc01bde
+SHA512: e91ef048dcec89e33ffd40f9444b067087a583161da0616801a0e10ee3b0106c9015e3ec57aa8bf1515f81a6a2ff1a6951fe998aa8bb82655cfec22d8202f9ff
+
 Package: cupp
 Version: 3.3.0
 Architecture: all
