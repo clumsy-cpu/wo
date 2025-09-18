@@ -114,7 +114,7 @@ Package: apkeditor
 Version: 1.4.5
 Architecture: all
 Maintainer: Alienkrishn [Anon4You] 
-Depends: openjdk-17, wget
+Depends: openjdk-21, wget
 Section: utils
 Priority: optional
 Homepage: https://github.com/REandroid/APKEditor
@@ -122,11 +122,11 @@ Description: Lightweight APK modification tool
  Edit APKs directly via JAR executable.
  Supports decompiling, resource editing, and APK rebuilding.
 Filename: dists/termuxvoid/main/binary-all/apkeditor.deb
-Size: 1360
-MD5Sum: 774d87db18524f6801d66aeab3177112
-SHA1: 2b76c5e786790e5626a75b7ecf4fc2601dc66745
-SHA256: 8181684cd43bc5d635d406aad9a909d2b562fb39a36ef396f27a97f23daee7af
-SHA512: 5168582ca7feb7937617dbdbee598221992ef87f1293cadb1153603d98ab76a34f29efb1cee4ce4d7ac41e7bd87acc8cc5eae1fd8b5c21f2c783afaf4c177b0c
+Size: 1364
+MD5Sum: ae27c8c35be6c4807a347f1e1346e598
+SHA1: ac5555660c62cfa9f998446c8ba1cbe617ba0f3d
+SHA256: b2c7f0716dd4618b4366478981af3ee81fbe6800d766ccf49c30dc41011d877d
+SHA512: b24b87be8dc9dabe75dd557a946166381199e1727e4eababdcc0ee28b83f10ea05d61fe6082d5f2026a502692ee5a693f2780349ea5c22534b858784dbd25a15
 
 Package: apkpatcher
 Version: 1.0
@@ -145,10 +145,10 @@ SHA256: 88639346307cfb4c2316c075a19f0d1bb683856c88590b32d0fbe04d711b15d0
 SHA512: 0a76499144872900bf93f42913c9f1913f7ec27f42f5425c5a3b508fc4afeb050af99e33ebd97d36a75eca42eedd66c20245f59301dbeeda3907441e6cd2b5a8
 
 Package: apktool
-Version: 2.12.0
+Version: 2.12.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: openjdk-17, wget, aapt2
+Depends: openjdk-21, wget, aapt2
 Section: utils
 Priority: optional
 Homepage: https://ibotpeaches.github.io/Apktool/
@@ -156,11 +156,11 @@ Description: Reverse engineering Android APKs
  Decompile and rebuild APK files with resource preservation.
  Supports Smali debugging and manifest analysis.
 Filename: dists/termuxvoid/main/binary-all/apktool.deb
-Size: 1404
-MD5Sum: 263f052fd7f5457830367e7c0503d77e
-SHA1: 73f6dff211b5e6196eb160c7a751d7f86290b809
-SHA256: e1737381d80f6e329ad52bd84dedeb0fac5cf96f0eea9ce358358dff3bed7d72
-SHA512: 9a58e1ced238f6ccc1f874da616c5237275d52dc4313c13b2ec29e845292d9adbf2acdaaf8e80ae755845cded55961ff0a071a2416e42aebc4ab3c4448045a13
+Size: 1408
+MD5Sum: d57e23dd8fee51c174fc2809811a3c4c
+SHA1: 76dec2dbc761df82bdea9ac3f1958a30169d8681
+SHA256: f7c4304a189f879cc60d5cb88c9d5879e2f1b1f58f22de5a69059b1472d8a632
+SHA512: 49c5b1293fac9f050d386071ca6c70e13dff460c5272d6f015c803af389dd3a6a32853f2845a42685420295bfb9eeb20d15b45d5c701b83a5e99bb85ede6325c
 
 Package: asciibanner
 Version: 2.1.0 
