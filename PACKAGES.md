@@ -86,6 +86,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 📊 Data Analysis
 | Tool          | Description                          |
 |---------------|--------------------------------------|
+| pip-basic-depends | Essential build dependencies for Python packages |
 | python-pandas | Powerful data manipulation/analysis library |
 
 ### 🔍 Reconnaissance & Scanning

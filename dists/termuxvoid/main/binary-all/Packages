@@ -1292,6 +1292,31 @@ SHA1: ceface51e6cd42302665d74b09f73ec6d22bcab4
 SHA256: b96a2165ae5bbc9c8913d59ca4f2f5fd15e0155d3379e3fb4916387df4ac7a01
 SHA512: 1ce17f5c624026e68521da84efbad2a5d63fe6dc9519619d4985b63c672087dea7b23da16f4477f69c37a57388a923c19e38001980a2af7c07980c44cc88e5fd
 
+Package: pip-basic-depends
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils-is-llvm, rust, libxml2, libxslt
+Section: devel
+Priority: optional
+Homepage: https://alienkrishn.infy.uk
+Description: Essential build dependencies for Python packages
+ Provides all necessary build tools and libraries required for compiling
+ Python packages with pip. This includes:
+ - Compilation tools (build-essential, cmake, ninja)
+ - Math libraries (libopenblas)
+ - Android-specific libraries (libandroid-execinfo)
+ - Binary utilities (patchelf, binutils-is-llvm)
+ - Rust compiler for Rust-based Python extensions
+ - Git for source code retrieval
+ Ensures successful wheel building and package installation without errors.
+Filename: dists/termuxvoid/main/binary-all/pip-basic-depends.deb
+Size: 1712
+MD5Sum: f4933d4dc1bd74c5790d1fec08ff21be
+SHA1: 65ef68df8a6d55116b66a07f6b0b4aecb476a940
+SHA256: fd86c9a24368b21ca9b352d25abd963bdb53bcd6f8911c49532bde0f41f051f7
+SHA512: 53f28be6ad2a7d820aec9bfaae50dd9fee2f63960b76df74d4ad4fcc0f0fd738d9373ea3355b3ffff7039c3b45071ae18e00400eac20337dedda1410f3701efb
+
 Package: powerdos
 Version: 1.0.1
 Architecture: all
