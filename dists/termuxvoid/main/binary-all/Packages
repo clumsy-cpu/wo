@@ -1570,25 +1570,32 @@ SHA256: 6209b63fd9b2f07ddb115f0f5d322105e1521898ce282c5780890eefa9c4022a
 SHA512: a1f8727921c2d2856ebaf7694ec83d738144eec14ffe7573e5705a0c7a9bea70972128ecf02c1d677ed3cfdf60ca3b3c93fd5603fb1c7c50e6812d193f97d14f
 
 Package: sqlmap
-Version: 1.9.8.5
+Version: 1.9.9
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, python
-Section: security
+Depends: python, python-pip
+Section: web
 Priority: optional
-Homepage: http://sqlmap.org/
-Description: Automatic SQL injection tool
- Detects and exploits SQL injection vulnerabilities with:
- - Database fingerprinting
- - Data extraction
- - Password cracking
- - Automatic takeover of DB servers
+Homepage: https://sqlmap.org/
+Description: Automatic SQL Injection and Database Takeover Tool
+ sqlmap is an open source penetration testing tool that automates the process
+ of detecting and exploiting SQL injection flaws and taking over of database
+ servers. It comes with a powerful detection engine, many niche features for
+ the ultimate penetration tester, and a broad range of switches including
+ database fingerprinting, data fetching, accessing underlying file system,
+ and executing commands on the operating system via out-of-band connections.
+ Features:
+ - Full support for multiple database systems
+ - Six SQL injection techniques
+ - Database and OS fingerprinting
+ - Data extraction and file system access
+ - Command execution and out-of-band connections
 Filename: dists/termuxvoid/main/binary-all/sqlmap.deb
-Size: 1200
-MD5Sum: 5dc227ddfad2f71907fcb3e1153ab8ca
-SHA1: 98597d070f4189ed5c3e2f012006e31eeefe04a5
-SHA256: 8863853fc4f20e547b77766a18b7a0151fe2f47f0228e5eb84a61a45f68f662c
-SHA512: 5b204d1bac5785226526b0336aa45a325094c0f7f66af43f1b386f8b76181aa9289d2d16b7484f6e580f63631fc5619db4efede90b36cbdb4a0dd8738963875a
+Size: 1588
+MD5Sum: 28bf2f0831f3d27c330e0c756e2e8eb4
+SHA1: a750c4763acba67abc5a2e2ddc0b7b736062a545
+SHA256: 2b3068e3f2df73117379dfe539e5d9e80505fa4437c196d36f0429edcae3daec
+SHA512: 5b72c6c59a1620469f88c0d66df136799adcc0b5f8d49aae006abedd90cb47f45012b548bb8009452b46e5da6be865c0d26cbe7cbfb8b49daadd07fa455cd868
 
 Package: sqlscan
 Version: 1
