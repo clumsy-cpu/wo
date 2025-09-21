@@ -27,18 +27,22 @@ SHA256: f25fdec2c8186d619da811c0375f6d7eefeddc95ede87160cd33412a9a3aa7dc
 SHA512: a7e7f059ec2d2b837a57fa65703e74e5937368320cccdff632d7b2bde418b0bac249bfd43f1dfc430376cc2908bbadde3e61aa0b16be069f7533587536b2bae8
 
 Package: alienkrishn
+Version: 1.0.5
 Architecture: all
-Version: 2.0.4
-Homepage: https://t.me/nullxvoid
-Depends: termux-tools, curl
 Maintainer: Alienkrishn [Anon4You]
-Description: TermudVoid Package manager
+Depends: curl
+Section: utils
+Priority: optional
+Homepage: https://termuxvoid.github.io/
+Description: TermuxVoid package manager and system helper
+ Official package manager for TermuxVoid repository with utilities
+ for package management, system updates, and maintenance tasks.
 Filename: dists/termuxvoid/main/binary-all/alienkrishn.deb
-Size: 3356
-MD5Sum: 9d80c46a1f88b308453e0ada6fd64e75
-SHA1: b9265309442cac4c058016db4f24d34a405cb460
-SHA256: 45cd5d99a204a1b465791239a4f489c411e650382af906ed9b778291771409a7
-SHA512: 4837f2c09e8857fcf7665211283b8cbb3afefc9d6a339bf8d46d6842e12c1fa4e6f3233cebc85c2f23004d1314c0496f47ba929749529ec7dd6d50964c736c5e
+Size: 3436
+MD5Sum: d43756081704210af971c2e029bd6e07
+SHA1: ff64290265faf4e94abeb486dd48092add54c10e
+SHA256: 2af7b067dd86a9d9179576abee8b176a10f6c7bdd2ba10b12c808cb11523c5df
+SHA512: 2cf83613ba17e83ac6f03ccbc31313941a04611677ae58e8dc21a16cf96cab5f161da52c77a9ddb1936733fc024f230b11045200f5df4dd85a0409007a8f68b3
 
 Package: amass
 Version: 5.0.0
