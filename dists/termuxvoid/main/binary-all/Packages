@@ -817,23 +817,29 @@ SHA256: 8f39d5ce6be43c86c85cbc4b6c25810ba23786268fe7ef1fc47eadd56b9b06a4
 SHA512: 77b3f2b74d94dc8031f60616eb4c46b149710b7a4cb2bc2329bc22d145bd6c87ef90ee2704949636255bee27760ab404801cef169ce4b70c2c59cb08f5c0fdd9
 
 Package: httpx
-Version: 1.6.10
+Version: 1.7.1
 Architecture: all
-Maintainer: Alienkrishn [Anon4You] 
-Depends: golang, git
-Section: security
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: web
 Priority: optional
-Homepage: https://github.com/projectdiscovery/httpx
-Description: Fast and versatile HTTP toolkit
- httpx is a fast, multi-purpose HTTP toolkit that allows running multiple
- probes using the retryablehttp library. Features include URL extraction,
- web screenshotting, and template-based scanning.
+Homepage: https://docs.projectdiscovery.io/tools/httpx
+Description: Fast and Multi-Purpose HTTP Toolkit by ProjectDiscovery
+ httpx is a lightning-fast HTTP client that allows running multiple probes
+ using retryablehttp library. It is designed for security professionals
+ to efficiently analyze web assets with various checks and validations.
+ Features:
+ - Multiple protocol support (HTTP/HTTPS)
+ - Customizable probes and filters
+ - Fast and reliable HTTP client
+ - Title and technology detection
+ - Integration with ProjectDiscovery workflow
 Filename: dists/termuxvoid/main/binary-all/httpx.deb
-Size: 1576
-MD5Sum: 15027c03523cf78d97aeee1385e6e0f7
-SHA1: 2a9a9458fefd2487bbba93a8e95457db21fc74ac
-SHA256: ba853367ae4042046b9698c47ed1b93e3cee66462e6f537333adc5e9662b96d8
-SHA512: ae5628da7b5d9f53dfc39933ace7e2cf6d25564abc4efc8d015ed411c54537d43e6fffbecb491245610989fdc21a4bc13ae69e433bbf1f25d3e76e2cc8ad9d8d
+Size: 1708
+MD5Sum: 96e76f55d0b0e674da175405719c3be2
+SHA1: 9b83e712fd6dc242019791966ee61c3f841a8d80
+SHA256: bb94d3496c95c0a4e797c618920c1a3e6bec55e139c231c43b7262a51f7dd9e5
+SHA512: b2d63698ffa3a254f4a98d4f53f64acd43a0930bee86196453aefa209e0bdef4ad11541b7676d6b93f01e7b31ce3ee9f474d19bf1bdb00b300d9f5c690bf016c
 
 Package: hunner-framework
 Version: 1.0
@@ -1165,18 +1171,30 @@ SHA256: b46993fa326120b751d7d921bb88c0013b9b369c97fb9b2445be36b7d369ea0a
 SHA512: 22d2fd735bbf5e8f7f40bcf77eaaefeda46253c87a5007b74b080028f87d3df2b9f9266c6154caa8dfaa0873efd41ec217f83d317964624997bb44083f771377
 
 Package: nuclei
-Version: 3.4.2
+Version: 3.4.10
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Homepage: https://github.com/projectdiscovery/nuclei
 Depends: git, golang
-Description: Nuclei is a fast, customizable vulnerability scanner powered by the global security community
+Section: web
+Priority: optional
+Homepage: https://docs.projectdiscovery.io/tools/nuclei
+Description: Advanced Vulnerability Scanner by ProjectDiscovery
+ Nuclei is a fast, template-based vulnerability scanner designed for
+ security professionals and bug bounty hunters. It uses zero false-positive
+ templates to identify security misconfigurations and vulnerabilities
+ across modern tech stacks with unparalleled accuracy and speed.
+ Features:
+ - YAML-based template system for custom detection
+ - Massive community-driven template library
+ - Parallel scanning for high-speed operations
+ - Support for multiple protocols (HTTP, DNS, TCP, etc.)
+ - Integration with ProjectDiscovery's ecosystem
 Filename: dists/termuxvoid/main/binary-all/nuclei.deb
-Size: 1472
-MD5Sum: 7fc3054b33d1303243c8abd96c47cda6
-SHA1: 8939475452fa5966043fd2b467e7151d3de933ba
-SHA256: ee340ac3e721efde9a219904606e429271b147c3b7bc9d62bc26de82af4d5841
-SHA512: 00bd7005f7b20061518a19ffe11a400682690029c0f0d4c5ac410a1a80e1f98086edc16d9442b9130edaa869ef1d799a10db000e502b481e7ff9b37eaa5889ea
+Size: 1764
+MD5Sum: 799e8c14f360a86299de74ff923e1665
+SHA1: ee39d74d4f34587207d4e4ef0608027a14b6dd48
+SHA256: eabb2eab5d3740356402889c1c9bf916475ef988a4c85efde9a21927909be319
+SHA512: 9e8829f5d982fffb8f6af2cdf7812a0b83cdac66aa9bde6a9e86e4f784d536b16b3117837583303edfb1fd05112d5c6944a110804fce1b0f746c5306078c9ca2
 
 Package: openbullet
 Version: 1.0.2
@@ -1661,23 +1679,29 @@ SHA256: a93d3ae38b78d02965d4924c2a917f2f362634bd14b67633815e942633001acb
 SHA512: 02ae01d044040918c5bef88d52367011f02ce756f986e605480a54b898a52907093f6f8773a3de62ab7ce5ca1a1758ec315a979a9d5b15afec13e9641f53495d
 
 Package: subfinder
-Version: 2.7.0
+Version: 2.8.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: golang, git
-Section: security
+Depends: git, golang
+Section: recon
 Priority: optional
-Homepage: https://github.com/projectdiscovery/subfinder
-Description: Fast passive subdomain enumeration tool
- SubFinder is a subdomain discovery tool that discovers valid subdomains
- for websites by using passive online sources. It has a simple modular
- architecture and is optimized for speed and comprehensive results.
+Homepage: https://docs.projectdiscovery.io/tools/subfinder
+Description: Advanced Subdomain Discovery Tool by ProjectDiscovery
+ Subfinder is a powerful subdomain discovery tool designed for penetration
+ testers and bug bounty hunters. It uses passive sources, APIs, and
+ bruteforcing techniques to gather maximum subdomains with minimal effort.
+ Features:
+ - 50+ passive data sources integration
+ - API key support for enhanced results
+ - Modular architecture for easy extensibility
+ - Fast and efficient recursive brute-forcing
+ - Seamless integration with ProjectDiscovery ecosystem
 Filename: dists/termuxvoid/main/binary-all/subfinder.deb
-Size: 1584
-MD5Sum: d8fa51610bdbb12d563ec2cc953c7bcc
-SHA1: 13ab90e261e69e007573082ff7ae442176797f0d
-SHA256: a3c03d05b07a0bed01b900a47331dfa708b0c28e6cbcd14b4a4af44228110d1d
-SHA512: 778cf648660e311990898d42a8d2a009bb6fc19f4014e8c344779533e8de8e784782e1679d058b9d1f8b05d7b32266318b7a8c8d4691249e3f1b10cef78ea8a1
+Size: 1736
+MD5Sum: 63b67997830c2ab2c03368ba1cb817e5
+SHA1: 5442f4c300df1b3be4afe887f4e7d503da8a4bc6
+SHA256: 76bafb22abb4602c0e565634c423200bf8ad9d7e98dbba29b64e3c02f27ea1bb
+SHA512: 7d67629c1c8de3e02b81bee0d74f9a8dcdd4206e3a44634ad2f54e7122de93615f7d2d84c71fc27d80154f5bcbe2175c8fe7103a9082860bf452b63ab5dae394
 
 Package: subjack
 Version: 2.2
