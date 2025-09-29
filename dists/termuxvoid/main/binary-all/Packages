@@ -658,6 +658,25 @@ SHA1: f3e0cc1dcfedd9d87419f8dc45733e30a093dfad
 SHA256: d12f54059031b021bd82eb0c25078cd725c15363caa560b27952fa9ab123a916
 SHA512: 828cec6a54353d2f7b122c44dcea672df543774c19018cb2e63dc12bc400ad65834cdc1e1d2c2945ecf98bdbb3350eb8d105a1413a7f358a4595186f64225f30
 
+Package: ghauri
+Version: 1.4.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://github.com/r0oth3x49/ghauri
+Description: Advanced Cross-Platform SQL Injection Scanner
+ Ghauri is an advanced SQL injection scanner and exploitation tool
+ that automates the process of detecting and exploiting SQL injection
+ vulnerabilities with advanced detection techniques and bypass methods.
+Filename: dists/termuxvoid/main/binary-all/ghauri.deb
+Size: 1308
+MD5Sum: e80df4e7b1d6ab57f98d085b877de40b
+SHA1: 2778e528982d46f0b7ff9aace1888ce3cc0989db
+SHA256: 2848e865b7639035c9f433366634775b7a69f513574c7d5dd0778bf79da336ff
+SHA512: 0e9dd0a4b67851328a4e5cf795b946f8ed741c126e29fd02e0caa8e1cb90c2ad8fdf7b0d2db30419a82c2e9cc74a1037be30b2a58e587f0700dbf8c805071ed7
+
 Package: ghidra
 Version: 11.4.1
 Architecture: all

@@ -1,3 +1,4 @@
+```markdown
 # Termux Void Repo Packages
 
 ## 📋 Overview
@@ -183,6 +184,7 @@ This repository provides specialized security and penetration testing tools for 
 | cloudflare-gui | Graphical interface for Cloudflare tunnels (cloudflared) |
 | commix      | Automated All-in-One OS Command Injection and Exploitation Tool |
 | evilginx    | Advanced phishing framework |
+| ghauri      | Advanced SQL injection scanner |
 | gophish     | Open-source phishing toolkit |
 | hatcloud    | Bypass CloudFlare security with IP/domain reconnaissance |
 | ngrok       | Secure tunneling to expose localhost (HTTPS/TCP) |
@@ -198,3 +200,4 @@ This repository provides specialized security and penetration testing tools for 
 
 ## ⚠️ Disclaimer
 For educational and security research purposes only.
+```
