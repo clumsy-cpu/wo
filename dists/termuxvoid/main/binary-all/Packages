@@ -1125,6 +1125,25 @@ SHA1: 13da390f5e7dff90f8be33f11f9524013bf698d2
 SHA256: 06595bc12e85723596f9c1e027bed7a765211b95dbb5348a583a609a5e7e9c6b
 SHA512: d0f88ed660bade0ce4d614f77b4f27bb73073d69ab13a7a955225acab272a37f1c0eda7299b407faeb84fb66f76e1c3cb922e98c392236e0f80ecd3c05dc81dd
 
+Package: medusa
+Version: 2.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: net
+Priority: optional
+Homepage: http://h.foofus.net/?page_id=51
+Description: Fast, Parallel Network Login Auditor
+ Medusa is a speedy, parallel, and modular login brute-forcer for
+ network services. Supporting numerous protocols including HTTP, FTP,
+ SSH, SMB, and many more for comprehensive security testing.
+Filename: dists/termuxvoid/main/binary-all/medusa.deb
+Size: 1488
+MD5Sum: adfd1e9510428d454be92bba151aa558
+SHA1: 39b8feb270e13ebeebdac83740dce0d368366bc3
+SHA256: 21ca90587421f7a5587b634f90d5f889f864b7a83917ca5e3ab81dfe68ec5d3b
+SHA512: 05983598931e51efe406a0b602e14bd450faf82816048cc684a7a3355eb7d63490bffd4c0a0bf3f23f39399c258d52a962bfa475e016295e946bb1b67b77e535
+
 Package: metasploit-framework
 Version: 6.4.79
 Architecture: all
@@ -1159,18 +1178,18 @@ SHA256: 1939636340e8ee5655d4fa5570ca7f9e41eb5de5809fab829d34e4ee5825c7f4
 SHA512: 27916c92a37ec09b3104a6c33af1e96a819905085aef076ccbbf6f26b66b78a7e91e0d9dcbdb6eba4493614b08947c5c81add8164fb8565e2c1352001c1def12
 
 Package: nethunter-cli
-Version: 2025.2
+Version: 2025.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: proot, tar, axel
 Homepage: https://www.kali.org/
 Description: NetHunter Rootless Edition
 Filename: dists/termuxvoid/main/binary-all/nethunter-cli.deb
-Size: 1996
-MD5Sum: c031bfd6bc26ef8b867692c1432e47fc
-SHA1: aa9a029e0ab9a452d05ee824e0f17dde11c23faf
-SHA256: 610dab2d71f318be7907ebbc12e55514c81eb0879618dca4075241a6c80d9c91
-SHA512: 2ecf2643eb4f94e43d3e36baf91d6930878ae0bce95d2fe60d63bb8051c05e853895c908b62896d183d431e3b250900a0db4aec30f75e1ea04277fc4b16944db
+Size: 2052
+MD5Sum: 3d5fe819ae0c170b7693381657e129aa
+SHA1: 3728f300d172bde4311381d682c8e71af7b50119
+SHA256: e087e62eb15ed71d84194340dbb576f1cf51c54253438c7dee4973de312375c4
+SHA512: 786a8acdd9a203e48fdd946180deb3224691bd73bd991cda7c74acf0ff1900740a6168242920ce86f3a00f1ba4ca4a396a61cb25915bfd8f2f09d27c24d7fcc4
 
 Package: ngrok
 Version: 3.4.1
