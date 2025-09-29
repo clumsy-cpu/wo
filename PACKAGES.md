@@ -1,4 +1,3 @@
-```markdown
 # Termux Void Repo Packages
 
 ## 📋 Overview
@@ -79,6 +78,7 @@ This repository provides specialized security and penetration testing tools for 
 | hashid     | Advanced hash identifier |
 | john       | John the Ripper password cracker |
 | kerbrute   | Kerberos brute force and enumeration tool |
+| medusa     | Parallel login brute force tool |
 | openbullet  | A tool for running openbullet configurations |
 | pdfcracker | PDF password recovery tool |
 | thc-hydra  | Network login cracker |
@@ -200,4 +200,3 @@ This repository provides specialized security and penetration testing tools for 
 
 ## ⚠️ Disclaimer
 For educational and security research purposes only.
-```
