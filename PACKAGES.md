@@ -44,6 +44,7 @@ This repository provides specialized security and penetration testing tools for 
 | redhawk    | OSINT gathering framework |
 | sherlock   | Find social media accounts by username |
 | silverinstaeye   | Instagram information gathering tool |
+| theharvester | OSINT email and subdomain gathering tool |
 | webinfo    | Website metadata collector |
 
 ### 🦠 Malware Analysis
@@ -192,6 +193,7 @@ This repository provides specialized security and penetration testing tools for 
 | sqlmap      | Automated SQL injection tool |
 | sqlscan     | SQL database vulnerability scanner |
 | websploit   | Web exploitation framework |
+| wpscan      | WordPress vulnerability scanner |
 | zaproxy     | OWASP ZAP web security scanner |
 
 ## 🔄 Updates & Support
