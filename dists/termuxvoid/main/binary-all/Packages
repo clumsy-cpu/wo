@@ -1950,6 +1950,25 @@ SHA1: 1f97336f2d243c4fb0fe32ad71258efee7d146bb
 SHA256: 18cabc39eaa34e21d6faa0dc7db5368b1f514fafe8ed426f16a7a7fdd57c0369
 SHA512: 6bc94af33a755f15d690f1712fbf713237a5fd589e4e778aca4af54ea21133b1607f6dd8ef50fa6c6fe008289f4461b159fb523b573442680233304be9d5ef7f
 
+Package: theharvester
+Version: 4.8.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: recon
+Priority: optional
+Homepage: https://github.com/laramies/theHarvester
+Description: E-mail, Subdomain, and Name Harvester
+ theHarvester is a tool for gathering e-mails, subdomains, hosts,
+ employee names, open ports and banners from different public sources
+ like search engines, PGP key servers, and SHODAN database.
+Filename: dists/termuxvoid/main/binary-all/theharvester.deb
+Size: 1656
+MD5Sum: 0c24f699a0aa4da7f3c94e9f01904aab
+SHA1: ddf39c8bf740db313ab7e09e9747b5933e62f4ff
+SHA256: dd8154b1b5f0bc2967e5a2b5cdf62874308877131ba02c4021391581001c52ea
+SHA512: 8370ab7ea5fb0e9210b65d73a1761d42fe9a18273d598497c2fd53912aea2d98739e17368b8525740c0ba4faa13843d515c57cbd494c69a024d9036899c9bf42
+
 Package: thezoo
 Version: 0.60
 Architecture: all
@@ -2134,6 +2153,25 @@ MD5Sum: 2fc7527f5b680e4cb2d3371bbcbbcd73
 SHA1: 5e89624c7b7379a5a86e109c53439e95ad16a5de
 SHA256: ac67fe743dde100b51bfb3b10b6e5aeda6eb136dc787ce659948362ca8f85cec
 SHA512: 3abf72d3b682bb8764f297a0a7b42e5aa2c7c2729632039a15d1df0242f5d006daa9e76494b1f880fab8e510c5dcc1cf66a698926b4b1f1bb3d7efddf0e3d19c
+
+Package: wpscan
+Version: 3.8.28
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: web
+Priority: optional
+Homepage: https://wpscan.com/
+Description: WordPress Security Scanner
+ WPScan is a black box WordPress security scanner used to test
+ the security of WordPress websites by checking for vulnerabilities,
+ weak passwords, and misconfigurations.
+Filename: dists/termuxvoid/main/binary-all/wpscan.deb
+Size: 1448
+MD5Sum: 8f733609f374cc04dbfeace24522155b
+SHA1: a040d2ebe4f899d8280b95e2c1a274a0df37cc9e
+SHA256: 8cd89eafa04517ebbc7fb2f7717523817667b81c6fe80303ae7ad283200a5c32
+SHA512: 60454bf67df02b3d5d4e1177d34843119c611925de5829e93dc011a368cf22815d2cc380b2975faa60987a16b8be0967c3c0a3d290352b46f344e14b16768f4f
 
 Package: xbomber
 Version: 1.0.0
