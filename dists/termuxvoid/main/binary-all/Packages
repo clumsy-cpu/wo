@@ -898,7 +898,7 @@ SHA256: d8e17bf4a43b81291d15101387b75fefad4d77bb1eea1222f38c98b569cec3b9
 SHA512: 7af0c3018381c65b341ca546bf8532cf7b92c8fd35f89d9b41995f12ef447eec98ee53c90610bdd4f199517fb0b15bf13663d47344c2508eedf4811ad5784bcd
 
 Package: instaghost
-Version: 1.0.0
+Version: 1.0.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, python
@@ -909,11 +909,11 @@ Description: Professional Instagram OSINT Tool
  Simple and efficient Instagram data gathering tool for security research.
  Provides profile analysis and information extraction capabilities.
 Filename: dists/termuxvoid/main/binary-all/instaghost.deb
-Size: 1320
-MD5Sum: 2ee488e59ac9ee5edd19793704c7acb3
-SHA1: cac1b8666fa6d3de01fae2eb146c9b89374ce12d
-SHA256: 8b538012f316622e55cad750dd390a624233572b7ecd97914de1ba2ea131bcbc
-SHA512: 7c176229bc4cf82bf972dd2fc531904a4c8d412e43be66562ed99a7b0a7f4ef72968321f1caae1b7d755dce76d0c6887d93990713cf1d01ce3e690f3803b5852
+Size: 1324
+MD5Sum: a003db64fc8a21e0a594c74fd07f4ca3
+SHA1: aee8814f1dc9eb7f123f29e65b180c4ba39c980e
+SHA256: 3c8978dedffc0e68760f6c65ff576efa28b92918dbe6aaa767c98523d17a1fb9
+SHA512: 2b39ba12ed58a659302d1171e067ab36ff401ed4ce40f4aa42d03c929eeb247f73e32f6fed2662c25327f7f6dec9b76ae04360ff44d42a9ae7b339d27f95e20f
 
 Package: instajack
 Version: 1.0
