@@ -64,6 +64,7 @@ This repository provides specialized security and penetration testing tools for 
 |----------------|--------------------------------------|
 | nethunter-cli  | Kali NetHunter command-line interface |
 | parrot         | Lightweight security OS |
+| playit         | Global Proxy for Server Hosting Without Port Forwarding |
 | spider         | Mass Telegram account reporting |
 | term-helper    | Linux command cheatsheet |
 | webserver      | Localhost internet exposure tool |
