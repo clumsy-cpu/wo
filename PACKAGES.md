@@ -152,6 +152,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool           | Description                          |
 |----------------|--------------------------------------|
 | alienkrishn    | Termux Void helper |
+| antisplit      | APK Split Package Combiner |
 | enctool        | Script obfuscation utility |
 | ip-changer     | Automated IP rotation tool |
 | ruby-nokogiri  | Powerful HTML/XML parser for Ruby     |
