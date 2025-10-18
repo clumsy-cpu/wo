@@ -1271,25 +1271,6 @@ SHA1: ee39d74d4f34587207d4e4ef0608027a14b6dd48
 SHA256: eabb2eab5d3740356402889c1c9bf916475ef988a4c85efde9a21927909be319
 SHA512: 9e8829f5d982fffb8f6af2cdf7812a0b83cdac66aa9bde6a9e86e4f784d536b16b3117837583303edfb1fd05112d5c6944a110804fce1b0f746c5306078c9ca2
 
-Package: ollama
-Version: 0.12.latest
-Architecture: all
-Maintainer: Alienkrishn [Anon4You]
-Depends: git, golang
-Section: ai
-Priority: optional
-Homepage: https://ollama.com/
-Description: Get up and running with large language models
- Ollama allows you to run open-source large language models locally
- on your device. Supports models like Llama, Mistral, CodeLlama, and
- other locally-run AI models for private, offline AI interactions.
-Filename: dists/termuxvoid/main/binary-all/ollama.deb
-Size: 1500
-MD5Sum: 4f073eef4b8f571526059e123454034b
-SHA1: eaddb0b2f176c60aa8b22a87d7125bc76a164019
-SHA256: 51db277534513868206323681d75ece9909d4c721fad318a65a97077143847d9
-SHA512: 4fe683c1873719188bda32e5c5d0c888aab9496ca80be2b8690d39b9ad71833f83ccdf00b3564da56c8fabc374526ff7705e17133d5ad4bd94db920786a2fd2a
-
 Package: openbullet
 Version: 1.0.2
 Architecture: all

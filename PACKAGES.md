@@ -175,7 +175,6 @@ This repository provides specialized security and penetration testing tools for 
 ### 🤖 AI & Productivity
 | Tool                   | Description                          |
 |------------------------|--------------------------------------|
-| ollama                 | Get up and running with large language models |
 | termux-ai              | AI assistant for Termux terminal |
 | termux-media-downloader| Advanced media downloader with resume support |
 
