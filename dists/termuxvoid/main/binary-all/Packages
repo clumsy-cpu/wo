@@ -1612,18 +1612,22 @@ SHA256: ede1ed085d26d62ea83a2febcd4c2352854711e79cf4db32cf3cad3acd863ac0
 SHA512: 9d6510a76e50a1eff1c7240cd3cd891d49a9940c8506a4b384a87537eca3b7d3c1036e58343b388fb1389ed4dc8ede03a35d9b12ee8e44b3cfae54fa501887d5
 
 Package: sherlock
-Version: 0.15.0
+Version: 0.16.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Homepage: https://sherlockproject.xyz
 Depends: python, python-pip, python-numpy, python-pandas
+Section: social
+Priority: optional
+Homepage: https://sherlockproject.xyz
 Description: Hunt down social media accounts by username
+ Sherlock is a tool for finding usernames across social networks.
+ Useful for OSINT investigations and social media reconnaissance.
 Filename: dists/termuxvoid/main/binary-all/sherlock.deb
-Size: 856
-MD5Sum: cdf3abc3d259ee641eb78e4e2678cf50
-SHA1: 37b5d7646d7de29bc534ccd7a02ca87f26d62d21
-SHA256: 07e1b8f07925efd3d2222e5cde9eb0580c4448c409500f85f01a6bba6e456f09
-SHA512: d43860bfcdf83b9e04caa2e712034be180d9d14710683a58e21b8d390ea2753f36f2e033c2de3e928c6580691bb0d275f7f52de82256cc9330a495a69bc9551e
+Size: 948
+MD5Sum: 5bc5a9bb7ca9fe3eb7fbca59b12218fb
+SHA1: 2143cc04533b682ab9114b7107ee11e887df2175
+SHA256: 48d402787053f967c06d5c23cacd54ba5bed7a51b3286e593ed87c9b930f32b7
+SHA512: 17cc66daf12facea00d5c2d76b57063153c2e5936b3e4bb3557639606b69cd67d5ad616ad1db70d4d37abb8b7372279ef925d1278ec8ceecdce4e2fefb21c17f
 
 Package: shorturl
 Version: 1.0.0
@@ -1967,18 +1971,23 @@ SHA256: 04af918054b38d746ddc545ce6766f16767d5cb6df2d5d0e6383454887218973
 SHA512: b06d0b80de1a5bd1a6c90b2b32f298182d6dda4294259266a29a09ec65e6bb3c19061543ea0bbab750ccd9a973d2631deeff32bcdfb4d80cf25e14309ebbd3ca
 
 Package: thc-hydra
-Version: 9.6
+Version: 9.7
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Homepage: https://github.com/vanhauser-thc/thc-hydra 
 Depends: git, make, clang, openssl, libssh
-Description: Hydra a fast and flexible brute-force password-cracking tool
+Section: net
+Priority: optional
+Homepage: https://github.com/vanhauser-thc/thc-hydra
+Description: Parallelized Login Cracker Supporting Numerous Protocols
+ THC-Hydra is a fast and flexible login password cracker that
+ supports many protocols including HTTP, FTP, SSH, SMB, RDP, and more.
+ Designed for security researchers and penetration testers.
 Filename: dists/termuxvoid/main/binary-all/thc-hydra.deb
-Size: 1108
-MD5Sum: 5782d2b37365fd6d76f9149a6bbb231f
-SHA1: b1d6d5e6861eb1dafb1078190b1ee2e1c3fecdf9
-SHA256: 0eb2dcc0546c72cec706c1629a4138b8f0da272c4fba2fe9db5bf54460df33ae
-SHA512: 7031eb61d02fd7dcd6e1bad28d15572b28fcb2ada3c7c92be396f0287e284e1a479668ce5f1dc2328571724147b740622af5fe5918ce500f9f04051be2b5fda8
+Size: 1612
+MD5Sum: e9cc626de5d2aa97632c03d071e6a0c3
+SHA1: b1d23820e5977e638482fb3a97291d63636dfcb4
+SHA256: 680cb70c0f2ab817049121755b349a930ef06315da14fdb29669869d17e3cee6
+SHA512: a7d7a72fb38169e7b6b89975f8d0354befd8dfa1253f987ffb0b341b2767e663b14fb922c60195953510d6697c7fc0d11c2abc230d87d5114e26e749533c346f
 
 Package: the-theif
 Version: 1.2
