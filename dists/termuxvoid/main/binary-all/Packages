@@ -770,18 +770,23 @@ SHA256: add0c2d5b2d878438c5fd17c920e062e25c882fb8dc1b6077835f2b46a1a7a81
 SHA512: 58a3bfd22123fe5036139a621c46d59bced70fb59b1d388941a740c7a1f7160e8a363497c404128d8d7f916ab5197e4f9209eb238feb5d8a9620cd87da2cae41
 
 Package: hashcat
-Version: 6.2.6
+Version: 7.1.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
+Depends: libc++, libiconv, opencl-vendor-driver, wget, unzip, rust, python, perl
+Section: security
+Priority: optional
 Homepage: https://hashcat.net/hashcat/
-Depends: opencl-vendor-driver, libiconv, wget, build-essential, clang, unzip
 Description: World's fastest and most advanced password recovery utility
+ World's fastest and most advanced password recovery utility.
+ Supports multiple attack modes and hundreds of optimized hashing
+ algorithms for penetration testing and security auditing.
 Filename: dists/termuxvoid/main/binary-all/hashcat.deb
-Size: 1832
-MD5Sum: c174c397606047a28c1c50b082409862
-SHA1: cb37f8fc57bc3d7bb7004b34c7935cef9b567c74
-SHA256: 84c2ca6e2989a23f5f68ce827baf23855508059ab7497996d4b7b7e8a24d6b39
-SHA512: 544d855759971f7b1d95001d9d927a7c34c83f23ccc95965f714ce3a9358984ba91c5bf257c7732d23f4bebe74212d8ee95108dfd28948df1ea0046c3c4b60e3
+Size: 2016
+MD5Sum: f7d2ec60633a8332a8180465e861a986
+SHA1: c9af19a4065c03bb9a7921bcfc280ed2577aaa3b
+SHA256: 658625798d2da488d8c5780078a8baaf79a042addaa57392feb7705ee39b1faf
+SHA512: 4593bb250c3a080df5cd7d38eef7c78a7d9aa46f0bc1cfb1baf70e419328d89350f752dac9236bfcdcc1ffd4472bf39f29d9377305b448371fa5bec392888d1c
 
 Package: hashid
 Version: 3.1.4
