@@ -1955,7 +1955,7 @@ SHA256: e7b67bd6a603760f09012c909b4ddf1291b0cf50a774c71cddbbf8798d684948
 SHA512: 42aaa43e7e2f5c61351c569e3e1fde527880259334cd59add66cc938b34af84b8885bc7c673381e75e21790216f9f8b3b9e960a452c07feea3340d932811b15e
 
 Package: termux-penv
-Version: 2.0.0
+Version: 2.0.0-2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Homepage: https://github.com/Anon4You/termux-penv.git
@@ -1963,11 +1963,11 @@ Installed-Size: 103
 Depends: wget, proot, figlet
 Description: Termux Penv - Simplify Chroot Environments in Termux
 Filename: dists/termuxvoid/main/binary-all/termux-penv.deb
-Size: 5284
-MD5Sum: 6b6599816bd77f7d97ddd949b08e6430
-SHA1: e61925b1451d8629b37254547f11dffddc64803a
-SHA256: f3b061b60577b06f20f95ab66707c41aa6636a4f4f706a4b408d49260ea1ee7d
-SHA512: e6e1e12b6bee7ce6af2275a76df7d9090de825b734ba578c849aa62f5af9a7f4d314e382a0f925c6c3fdbe1e0971087c5b522d50d9d994bb2d9f4129b9511bdc
+Size: 5296
+MD5Sum: dc18cd385b68e88c77fcfc77bf5df20b
+SHA1: 3f5bba53064d984da19362baa213bb54f675d23a
+SHA256: e82d8d92e0475e0c008cb5e21cf7cc86aaa09290325a7003c4e4bad964d220a3
+SHA512: e5c0457bad0f6b9815832c629b4724e3be2fb0ec0f1f05ef85ebc546bc45913894076c2f160b4c74923d00de12f20b4ad24ec3c0c442624bdd91462e82af693f
 
 Package: termuxvoid-theme
 Version: 3.3
