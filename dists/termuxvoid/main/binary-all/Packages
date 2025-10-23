@@ -442,6 +442,24 @@ SHA1: 4a2ba54c57709d90282c537f0819635cf9eb9b1f
 SHA256: 91d4715bcfe84f2ad9389483a4e9af4e9631819f639514df337fcb08abc01bde
 SHA512: e91ef048dcec89e33ffd40f9444b067087a583161da0616801a0e10ee3b0106c9015e3ec57aa8bf1515f81a6a2ff1a6951fe998aa8bb82655cfec22d8202f9ff
 
+Package: cronitor-cli
+Version: 31.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, tar
+Section: utils
+Priority: optional
+Homepage: https://github.com/cronitorio/cronitor-cli
+Description: Command Line Interface for Cronitor Monitoring
+ CronitorCLI provides command-line tools for managing and monitoring
+ cron jobs, scheduled tasks, and background processes.
+Filename: dists/termuxvoid/main/binary-all/cronitor-cli.deb
+Size: 1472
+MD5Sum: b5890702d473f74338b7c9c3e1102c2f
+SHA1: c9ea33aa0f89ca9a7b1214673f8fd49f8e9fb348
+SHA256: 1d4acf1a585cc84bf7b08522afea5c39cebd384e4b65e2ba00ae04b73f2aebd3
+SHA512: 01c55e5776ac688de75a7fadc4220757e9ef5df681dbea1594ab946190dd36783f0cb5b7fdf42dbffb330657539751e416231b8097081acac7b93b1666952a72
+
 Package: cupp
 Version: 3.3.0
 Architecture: all
