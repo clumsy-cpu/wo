@@ -1315,6 +1315,24 @@ SHA1: f48de028701bf133f745fa1ef344966de7878362
 SHA256: 068ca79cd4ada151563a337546920bee933b04572269a215c6ca686ef12b2119
 SHA512: de18101d820b8a1be6ad9b19a5f551b820fc3ada36ec82450d4fe098cbebd3f8717f37c164b1b48d28ee83ab33cb7ba9b389f4359175bac3949a2b0e5c919daf
 
+Package: openbullet2
+Version: 0.3.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0, libsqlite, axel, p7zip
+Section: net
+Priority: optional
+Homepage: https://openbullet.dev/
+Description: Web Application Security Testing Suite
+ OpenBullet2 is a comprehensive web application security testing
+ platform for configurable pipelines and automated testing workflows.
+Filename: dists/termuxvoid/main/binary-all/openbullet2.deb
+Size: 1528
+MD5Sum: 2d84d36366bec26299b3e5fbdb75e65f
+SHA1: 527774355883eb81c02bc26c950bb071b56b2d9c
+SHA256: 4f9c2d7811bb6d24c27dce46e2d26cec09857fa1cd66574e957a8e5749992ade
+SHA512: f9a57635882da952609d101b65b67df837defbd967941074a1b0cbf7df5c9197a619d591f8adbe26cdd272b5b587ee2f960f435dfcab5e363609e790c1fbd9f6
+
 Package: pandora
 Version: 3.2.0
 Architecture: all
