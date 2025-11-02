@@ -41,6 +41,7 @@ This repository provides specialized security and penetration testing tools for 
 | iplookup   | IP geolocation lookup utility |
 | locateme   | Device location tracking tool |
 | phoneinfo  | Phone number intelligence tool |
+| publiceye  | Comprehensive OSINT tool for multiple data lookups |
 | redhawk    | OSINT gathering framework |
 | sherlock   | Find social media accounts by username |
 | silverinstaeye   | Instagram information gathering tool |

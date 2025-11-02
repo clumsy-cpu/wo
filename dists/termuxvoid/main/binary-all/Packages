@@ -1489,6 +1489,26 @@ SHA1: ff9af20d74e670e3f6d475559a53521af17cf927
 SHA256: 99f73fce98d721ce4103060bc0cf3e830fd2d6fa46249aab30ef8ec2f7d94491
 SHA512: 9a88f29dbdc78b2c830f22fe463821c399ed5b1cf2a75f594858b7cd54dc533083d047c44c520bdf707b53379abea7e427c41e5442cf111aa5b6ec0e612633ea
 
+Package: publiceye
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, jq, gum
+Section: recon
+Priority: optional
+Homepage: https://github.com/Anon4You/publiceye
+Description: Comprehensive OSINT Tool for Information Lookup
+ PublicEye is a comprehensive OSINT tool that provides various
+ information lookup services including phone numbers, email addresses,
+ IP addresses, company domains, timezone data, and holiday information
+ using AbstractAPI services.
+Filename: dists/termuxvoid/main/binary-all/publiceye.deb
+Size: 3580
+MD5Sum: b339ab612eac8e99146d8b67b301a210
+SHA1: e985a9d748abe8c0c5bd0a0569aaf35499b51767
+SHA256: 2db36bdfc72da271de000b99e5cb97f2ba1216339ff7b29ee2663ea4d1b5e2a8
+SHA512: b78541cce96c03668202080cacf08e8cd9351d2f4386dcc47daa9cf556b6431abe1cfb14b68bb9dc2bd439c847c1883885f8bdcd719fede80cf69e9a18cf23a1
+
 Package: python-pandas
 Version: 2.2.3
 Architecture: all
