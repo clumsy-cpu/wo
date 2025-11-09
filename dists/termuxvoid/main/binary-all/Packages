@@ -13,18 +13,23 @@ SHA256: 48765e8c9a30ce7e06ac9621af4d4a5a73d37552a13fe1d12876cdacf8689f07
 SHA512: 6de514c680bd5bf0fe831e685be0a7da7d429cb3190ae29949c2efcade7440420a88d4ad89a18f915b96d1f3eb3f728cffb530aabdc9259a7b197f83f79125da
 
 Package: afrog
-Version: 3.1.5
+Version: 3.2.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Homepage: https://github.com/zan8in/afrog/
-Depends: git, golang
-Description: A Security Tool for Bug Bounty, Pentest and Red Teaming.
+Depends: golang
+Section: web
+Priority: optional
+Homepage: https://github.com/zan8in/afrog
+Description: Fast Vulnerability Scanner with PoC Support
+ afrog is a fast vulnerability scanner that supports custom PoCs
+ and multiple security checks. Designed for comprehensive web
+ application security testing and penetration testing.
 Filename: dists/termuxvoid/main/binary-all/afrog.deb
-Size: 1064
-MD5Sum: 021459c8dd908118ddb77bb0214131d1
-SHA1: bceadc04d7b60d10eda9dabef9c6e6b8b25a3654
-SHA256: f25fdec2c8186d619da811c0375f6d7eefeddc95ede87160cd33412a9a3aa7dc
-SHA512: a7e7f059ec2d2b837a57fa65703e74e5937368320cccdff632d7b2bde418b0bac249bfd43f1dfc430376cc2908bbadde3e61aa0b16be069f7533587536b2bae8
+Size: 1360
+MD5Sum: 158f51a3c230d60f23f2576983d88c27
+SHA1: b0af89c684d512182599bd7cf699674cbdbe225c
+SHA256: cca5922dfbf090ba37dc84692b0f459cbc5758842aea9d72e9291f3d5ece8773
+SHA512: 2d7b8d803def7a9fb94cc73e0077dd093aad9ec80c590530af2e6b01cc68a2c528c616050081f9e7bde6ee5d7cee8a39dac977d726c3a6c42a1c833278421924
 
 Package: alienkrishn
 Version: 2.0.5
