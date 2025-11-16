@@ -120,10 +120,10 @@ SHA256: ac3b23a8dc3bd29d74c9a7af6cd17637da6f70023930a3b02bc8e3dd736b9efb
 SHA512: 7f5ed7cbdd55d7a04916d2941d03f49e72f045951f1f6a0678e8c3aee430b764a9a4a4d9edae0e79919ead5e2681b3c99b0e95079b063fbb95cf66e530358a87
 
 Package: antisplit
-Version: 1.0
+Version: 1.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, apkeditor, apksigner
+Depends: git, apkeditor, apksigner, figlet
 Section: utils
 Priority: optional
 Homepage: https://github.com/termuxvoid/AntiSplit
@@ -132,11 +132,11 @@ Description: APK Split Package Combiner and Modifier
  into a single APK file and apply various modifications.
  Useful for repackaging and modifying Android applications.
 Filename: dists/termuxvoid/main/binary-all/antisplit.deb
-Size: 1368
-MD5Sum: 71ce94e3900347ee28c0f3a27eb8a221
-SHA1: efd056467205d403f7663d55c4ee4ceb697417f5
-SHA256: dd675a46783bd113f57fdef26119eff723500f2fd973f2eb212a8535a0cd5d2b
-SHA512: ac643b8ab5f6d2ce830b86f5d00f20cb09e0147cd937139fee70ded8701b0e8f9f1a26cbaf903ce59eae79e2a297be58e962bc52a089937a0313238b6b30c6d4
+Size: 1376
+MD5Sum: 722acf00962a637651605baae74aeb73
+SHA1: 5807eac8f29357555ca18e514996ae3e9db59388
+SHA256: b6fc3b0bb0c8852ffde44a715fb895a032fb3ee401f1fe1373bda28432bd521e
+SHA512: 6f5d12061450d5646beee4a6537cd88f192f37bad24ef47ad153d46f26cfc86baddb7020106831721bc83d2bc1ae9a382666e32427d332cad5b2e86436abd862
 
 Package: apkeditor
 Version: 1.4.5
