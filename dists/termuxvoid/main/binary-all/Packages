@@ -172,6 +172,26 @@ SHA1: 3672b1ad6a4229fb8a805bdd207d34651bfd4f22
 SHA256: 88639346307cfb4c2316c075a19f0d1bb683856c88590b32d0fbe04d711b15d0
 SHA512: 0a76499144872900bf93f42913c9f1913f7ec27f42f5425c5a3b508fc4afeb050af99e33ebd97d36a75eca42eedd66c20245f59301dbeeda3907441e6cd2b5a8
 
+Package: apksearch
+Version: 1.3.5
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://abhithemodder.github.io/apksearch/
+Description: APK Search Tool for Multiple APK Websites
+ apksearch is a Python library designed to search for APK files on
+ different APK websites, such as APKPure and APKMirror. It allows
+ users to find APKs, check for available versions, and retrieve
+ download links.
+Filename: dists/termuxvoid/main/binary-all/apksearch.deb
+Size: 1200
+MD5Sum: 403df261699e813675e5590aeaca5267
+SHA1: e816c150dcc0b58f55cf19a8428baa0dc0db708a
+SHA256: 65c7be8a550c51f795e03cf5f9289a5811d586f12f4ff409d7f5fbfca0f5bf3e
+SHA512: bbf3809cbe203db22ed487d6bbeae4b6465bf83ec64622cafb5a3f71f6754b3fff7ad1b38917313424c5a07bfbfcc0f9e74016e31d111e9757cf1021fba983c8
+
 Package: apktool
 Version: 2.12.1
 Architecture: all

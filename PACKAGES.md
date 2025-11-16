@@ -128,6 +128,7 @@ This repository provides specialized security and penetration testing tools for 
 | androvirus | Collection of Android test viruses |
 | apkeditor  | APK modification tool |
 | apkpatcher | Advanced APK Modification Tool |
+| apksearch  | APK Search Tool for Multiple APK Websites |
 | apktool    | APK reverse engineering framework |
 | appshark   | Static analysis tool for Android apps |
 | blutter    | Flutter app vulnerability analyzer |
