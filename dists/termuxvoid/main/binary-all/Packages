@@ -50,21 +50,23 @@ SHA256: 585170056fa54e2ed80152bf118dcc7262b55a5ba67609e9fb2d61182fa79047
 SHA512: 2a023a5be7a71fbfe0831cde308feb19815b43670e4b5481201ffe15418e4a1e2aa1bd7960d203a2ec380588c734b7ec4362c95be823ceaae821d2e161ba291d
 
 Package: amass
-Version: 5.0.0
+Version: 5.0.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: axel, tar
+Depends: curl, tar
 Section: recon
 Priority: optional
-Homepage: https://github.com/owasp-amass/amass
-Description: OWASP Amass - In-depth Attack Surface Mapping
- Comprehensive network reconnaissance tool
+Homepage: https://owasp.org/www-project-amass/
+Description: In-depth Attack Surface Mapping and Asset Discovery
+ Amass performs network mapping of attack surfaces and external
+ asset discovery using open source information gathering and
+ active reconnaissance techniques.
 Filename: dists/termuxvoid/main/binary-all/amass.deb
-Size: 1292
-MD5Sum: 475c0f902c251ca613e9fa9bcc1e0568
-SHA1: d852c83adaf098ce02eb71b60a75e2f69f02aa64
-SHA256: f07cd97a4fab88b0ffbbb50e54fff041ba312cff0c1a20852739b812e3b17d30
-SHA512: b388b221cf07f3c052d356ef06cdc35a3d7efa815d3956c4b2e6c36909affabd112915a56df333671c966764712e005333420e90391240b4d16e8fda573917e6
+Size: 1476
+MD5Sum: 9eb7c7ad54e7c624d7533bbf2010a943
+SHA1: e97fd01e820dacbd3810a53268f6312bfe16169f
+SHA256: 6abb51af52b3033efc8df4949804e2b44b7b9fcdf4dd796be86a9f9c77a1116a
+SHA512: 216e9b9ee1e649470cd7486d217045c1495b031849ac4a18278dfd5e78200b1a5eaa8c252f1094aba2adeb563bcf497d0d9d277216f13657ce011a03c7d9dd38
 
 Package: androdos
 Version: 1.0.0
@@ -903,7 +905,7 @@ SHA256: 8f39d5ce6be43c86c85cbc4b6c25810ba23786268fe7ef1fc47eadd56b9b06a4
 SHA512: 77b3f2b74d94dc8031f60616eb4c46b149710b7a4cb2bc2329bc22d145bd6c87ef90ee2704949636255bee27760ab404801cef169ce4b70c2c59cb08f5c0fdd9
 
 Package: httpx
-Version: 1.7.1
+Version: 1.7.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -922,10 +924,10 @@ Description: Fast and Multi-Purpose HTTP Toolkit by ProjectDiscovery
  - Integration with ProjectDiscovery workflow
 Filename: dists/termuxvoid/main/binary-all/httpx.deb
 Size: 1708
-MD5Sum: 96e76f55d0b0e674da175405719c3be2
-SHA1: 9b83e712fd6dc242019791966ee61c3f841a8d80
-SHA256: bb94d3496c95c0a4e797c618920c1a3e6bec55e139c231c43b7262a51f7dd9e5
-SHA512: b2d63698ffa3a254f4a98d4f53f64acd43a0930bee86196453aefa209e0bdef4ad11541b7676d6b93f01e7b31ce3ee9f474d19bf1bdb00b300d9f5c690bf016c
+MD5Sum: 36cbee693bc855002a82f573e30a3a44
+SHA1: f6604dff1c26c39b794c3b5a7f9cf07e8e50e956
+SHA256: 1acc7a559221649fc6f2146afa280837eb0d0af54e384a220bf2743061b76246
+SHA512: e9c18f85007077a12a832dfb571ba5e436fe53e5550d246b8bc00d7286c8fc805acbf4ff80e741d362b984e2f3510d91cda5c331d13790bdb24c1eac6c72ed49
 
 Package: hunner-framework
 Version: 1.0
@@ -1055,7 +1057,7 @@ SHA256: 7e29f6329210464c759f44e3a451c75c69d10a1b3e2443b0b81901b63e813204
 SHA512: 062f6ac612ce49ff50bda8b18ac78f3678168c820da37f56e8acaf040840b268a765d2462cb6397d65c0faa8e8de36a68821f44c66d3a157fa59ac227bda61cb
 
 Package: katana
-Version: 1.1.2
+Version: 1.2.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You] 
 Depends: golang, git
@@ -1067,11 +1069,11 @@ Description: A next-generation crawling and spidering framework
  It's designed for both security researchers and penetration testers
  for comprehensive web reconnaissance and asset discovery.
 Filename: dists/termuxvoid/main/binary-all/katana.deb
-Size: 1560
-MD5Sum: 96ddc6d59d6677dfaa39eba8fbec10d6
-SHA1: 607d60001e49ae5c6fba93157cc0a87fca46128b
-SHA256: e37fef1440ea59af8f62793718a3d8744dfeb341066dc0b74a0f15c077139b23
-SHA512: 33bcddd83872a46d36a5fbb52889558f848445d48c7e8af1524bf520a627119adb227fd17e7393e784a3f59b30ec8c0556c60eb8a566cbf4302f9d4533fc7b98
+Size: 1564
+MD5Sum: b63826bbe336f81b41a3eb41e3d4b4fe
+SHA1: 9f72f8ca85c01c1c886c8cc9082f27c53b1e4d08
+SHA256: ebc4e4de34263be4bf2680b578f3b2abdb31d097e00e077c096aba2e5e145428
+SHA512: 259049ab41c16c42f2800d3fbb2305d3101531e5ddfdfc4dca9affd0d989cbf8bbd1dca52e1edb8d5ff94aa2a94024688512de8eefbd271437bfda6189a04cba
 
 Package: kerbrute
 Version: 1.0.3
@@ -1226,7 +1228,7 @@ SHA256: 4d1e82e8d4c09537712e929ceec435f5cb09447dc744e2f41ec50b278481d3ea
 SHA512: cd3d807170223f62aef3ca1689ff10b69d802235ff92a66293686b90bb05d25a01254a9612cd7c0a5f09d4c78ea8a90118468fb3481d58b44273326c3cc862f2
 
 Package: naabu
-Version: 2.3.4
+Version: 2.3.7
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: golang, git, libpcap
@@ -1239,10 +1241,10 @@ Description: Fast port scanning tool with SYN/CONNECT modes
  Supports DNS/HTTP probes and integration with other tools.
 Filename: dists/termuxvoid/main/binary-all/naabu.deb
 Size: 1604
-MD5Sum: a5e40be77ca45820475b7e9e015e1a3e
-SHA1: f094bceced25984d42cb59385d240fea04edaad1
-SHA256: 1939636340e8ee5655d4fa5570ca7f9e41eb5de5809fab829d34e4ee5825c7f4
-SHA512: 27916c92a37ec09b3104a6c33af1e96a819905085aef076ccbbf6f26b66b78a7e91e0d9dcbdb6eba4493614b08947c5c81add8164fb8565e2c1352001c1def12
+MD5Sum: 1ca2a6346935d6ac4a1d60ef98c8a6b5
+SHA1: ecdacc621823b81f8404afd8107b8eab2ed35941
+SHA256: eba231ec0b38e839feccf4170ddde7e6d5bbaa03c2cb7a5675c22f75fd83db4b
+SHA512: 5b4a661421eef77e2a66be32cdc71fd7af90cc22f92b5671a6a17938a138475ab5cd0d58b6da11a7dc4c7b8331fae2138b756a17c9f271bf55807ee69be88fe6
 
 Package: nethunter-cli
 Version: 2025.3
@@ -1294,7 +1296,7 @@ SHA256: b46993fa326120b751d7d921bb88c0013b9b369c97fb9b2445be36b7d369ea0a
 SHA512: 22d2fd735bbf5e8f7f40bcf77eaaefeda46253c87a5007b74b080028f87d3df2b9f9266c6154caa8dfaa0873efd41ec217f83d317964624997bb44083f771377
 
 Package: nuclei
-Version: 3.4.10
+Version: 3.5.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -1313,11 +1315,11 @@ Description: Advanced Vulnerability Scanner by ProjectDiscovery
  - Support for multiple protocols (HTTP, DNS, TCP, etc.)
  - Integration with ProjectDiscovery's ecosystem
 Filename: dists/termuxvoid/main/binary-all/nuclei.deb
-Size: 1764
-MD5Sum: 799e8c14f360a86299de74ff923e1665
-SHA1: ee39d74d4f34587207d4e4ef0608027a14b6dd48
-SHA256: eabb2eab5d3740356402889c1c9bf916475ef988a4c85efde9a21927909be319
-SHA512: 9e8829f5d982fffb8f6af2cdf7812a0b83cdac66aa9bde6a9e86e4f784d536b16b3117837583303edfb1fd05112d5c6944a110804fce1b0f746c5306078c9ca2
+Size: 1760
+MD5Sum: 20c4b1c9f15d5ec4274c07f1729408ba
+SHA1: 034306d73aaf7a746664a5d660b1feb2430e4c69
+SHA256: e6a3c0fd025bbe9a9b51123d0c4616495b404b64194dfda603e887eb2ad04aba
+SHA512: 8bec29a4b9444f44e12d1d3a4e2280b745829662ef1a11c8853296ec52e6d2696edccf22ca9a1f8dcf9153a4c7e6e31eeaeeb445009d23e431e47c55e4869158
 
 Package: openbullet
 Version: 1.0.2
@@ -1864,7 +1866,7 @@ SHA256: a93d3ae38b78d02965d4924c2a917f2f362634bd14b67633815e942633001acb
 SHA512: 02ae01d044040918c5bef88d52367011f02ce756f986e605480a54b898a52907093f6f8773a3de62ab7ce5ca1a1758ec315a979a9d5b15afec13e9641f53495d
 
 Package: subfinder
-Version: 2.8.0
+Version: 2.10.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -1882,11 +1884,11 @@ Description: Advanced Subdomain Discovery Tool by ProjectDiscovery
  - Fast and efficient recursive brute-forcing
  - Seamless integration with ProjectDiscovery ecosystem
 Filename: dists/termuxvoid/main/binary-all/subfinder.deb
-Size: 1736
-MD5Sum: 63b67997830c2ab2c03368ba1cb817e5
-SHA1: 5442f4c300df1b3be4afe887f4e7d503da8a4bc6
-SHA256: 76bafb22abb4602c0e565634c423200bf8ad9d7e98dbba29b64e3c02f27ea1bb
-SHA512: 7d67629c1c8de3e02b81bee0d74f9a8dcdd4206e3a44634ad2f54e7122de93615f7d2d84c71fc27d80154f5bcbe2175c8fe7103a9082860bf452b63ab5dae394
+Size: 1740
+MD5Sum: 6c8bd38c1ed445ffa3ee04cc85a77266
+SHA1: 641f208c331145ac3341a995e64bcfcf8eec295d
+SHA256: 415437dcff155f55650fb0fbefd54c388764c523bebbdfd710f58863f23f3709
+SHA512: 13b441539a2fac9334b92dcbfcff6fa6a6eca59732ad2f14d416754e93250b67bf4147773ccee81aaa236cf381fe64d64298af54f83a13e85854f8e5c38b4059
 
 Package: subjack
 Version: 2.2
