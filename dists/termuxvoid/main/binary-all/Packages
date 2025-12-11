@@ -2179,6 +2179,25 @@ SHA1: f9c4f1d4e94d8a684a1e94805e3b7ab5c78f5f8d
 SHA256: b208c91b3c5466acb85ce6c9b5c72c24c5e022b22edeee91dc52ca4476fce3b0
 SHA512: 6456764b7c5b8d822cf228385a643f94c31354370558e01954349d3511613cb3b566beea15f3bb4d81d33a48e8908dacc2d17c0c02851b9e1f7e9aee56273b44
 
+Package: vulnx
+Version: 1.9
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://github.com/anouarbensaad/vulnx
+Description: Intelligent Vulnerability Scanner for CMS
+ vulnx is an intelligent auto shell injector that detects
+ vulnerabilities in multiple Content Management Systems.
+ Supports various CMS platforms and automated exploitation.
+Filename: dists/termuxvoid/main/binary-all/vulnx.deb
+Size: 1400
+MD5Sum: 3265c1f88f4436f3033c18e2af4468e7
+SHA1: c3fd6b39ba055f1004ed9b02d09c77417c66efd9
+SHA256: f3efbf18a3c6b6bbd5abdd185346a5d5beb4f6b22fcc7d1dc707dc3549fb20b0
+SHA512: dc2bf146603a83c2acb61738d47061c181876fc1d525474c0bdc258b9823ce7ba1617e9e6072753a9e9748fc76f4a18c76f2a9135483fe46592aaf42d1a9cdcb
+
 Package: wafw00f
 Version: 2.3.1
 Architecture: all
