@@ -136,6 +136,7 @@ This repository provides specialized security and penetration testing tools for 
 | ghidra     | NSA Reverse Engineering Framework    |
 | keysigner  | Keystore Management and APK Signing Tool |
 | phonesploit-pro | All-in-one Android exploitation tool |
+| pkiller    | Automated PairIP License Removal Tool for Android APKs |
 | ransomux   | Ransomware making tool |
 | rkpairip   | APK patching tool |
 

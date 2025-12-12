@@ -1482,6 +1482,25 @@ SHA1: 65ef68df8a6d55116b66a07f6b0b4aecb476a940
 SHA256: fd86c9a24368b21ca9b352d25abd963bdb53bcd6f8911c49532bde0f41f051f7
 SHA512: 53f28be6ad2a7d820aec9bfaae50dd9fee2f63960b76df74d4ad4fcc0f0fd738d9373ea3355b3ffff7039c3b45071ae18e00400eac20337dedda1410f3701efb
 
+Package: pkiller
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, asciibanner, apkeditor, apksigner
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/PKiller
+Description: Automated PairIP License Removal Tool for Android APKs
+ PKiller is an automated tool designed to remove PairIP license
+ protection from Android APK files. Streamlines the process of
+ bypassing PairIP security for security research and analysis.
+Filename: dists/termuxvoid/main/binary-all/pkiller.deb
+Size: 1376
+MD5Sum: 2c1b4ccdece3671e0060b594affc886f
+SHA1: 301b5e6fb3770cc10edbdad807f5024609663e68
+SHA256: 5af060a642c8147ad88b7984a7d55bf822a424588911a04ad3d11bffd20043c8
+SHA512: 6beb438159788d004c812f0c44705d08d118e3b352b8a914b5fa7cd9be0060150c036f3ed5e31c86b67bf0d4c584bf5bdba8c39899cb555a398113d6709299b0
+
 Package: playit
 Version: 0.16.3
 Architecture: all
