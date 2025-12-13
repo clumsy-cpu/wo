@@ -291,20 +291,23 @@ SHA256: 790d442d729993826e23788af1cf98fcc613886e1ba6fab65218fa89bafc3eb3
 SHA512: cf96da090787007541f4ce68fd45cbabdbdb0bcb7c328cb595ab7ab55ef2fc0ca089978bb3b77a7a665e6531fbfd7bea3486193638f6f38a037cd42c4ef751f8
 
 Package: blutter
-Version: 1.0.0
+Version: 1.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, python, python-pip, cmake, ninja, build-essential, pkg-config, libicu, capstone, fmt, radare2
-Suggest:apktool,apkeditor
+Section: utils
+Priority: optional
 Homepage: https://github.com/dedshit/blutter-termux
-Installed-Size: 2
-Description: Flutter Mobile Application Reverse Engineering Tool (Termux)
+Description: Flutter/Dart Binary Analysis and Reverse Engineering
+ blutter is a tool for analyzing and reverse engineering Flutter/Dart
+ binaries. Provides capabilities for extracting information and
+ analyzing compiled Flutter applications.
 Filename: dists/termuxvoid/main/binary-all/blutter.deb
-Size: 1612
-MD5Sum: ef70589420f429ec8d857589cfe544c8
-SHA1: d9841e69b2591c4c0a1a0f9ae8b6c3ab278313d5
-SHA256: bec0237c7af0052d09016bf24ac72c9c417ffa7eb35915555fc31acefe93a158
-SHA512: 4af5491226b229fd275d8f75929a61f7ba684d3181793301b78a27a66810c504b303a401a4397bc591a3f908e55f32492791eef062779d4a68ed64da2f13d50e
+Size: 1400
+MD5Sum: b85f8d6a3933de147a27a23c8670f7d5
+SHA1: 2c43e789eb4b1b3bb142358945c96079f03a30d4
+SHA256: 495188a8db14b90faceb6873f07901219af75ed76fffe5f3caefb9d98b72da61
+SHA512: 5476104bee44811076a8c7d1d5636a5d43ebbce9131ff83e16b4a102d20e8092e55a2bbc0221fe414e00dabad26c58735300275a9de782669d2a20efc3f14b13
 
 Package: brutespray
 Version: 2.4.0
