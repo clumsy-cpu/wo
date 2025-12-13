@@ -135,6 +135,7 @@ This repository provides specialized security and penetration testing tools for 
 | blutter    | Flutter app vulnerability analyzer |
 | ghidra     | NSA Reverse Engineering Framework    |
 | keysigner  | Keystore Management and APK Signing Tool |
+| mtcr-apply | MTCR Patch Application Tool for Android APKs |
 | phonesploit-pro | All-in-one Android exploitation tool |
 | pkiller    | Automated PairIP License Removal Tool for Android APKs |
 | ransomux   | Ransomware making tool |
