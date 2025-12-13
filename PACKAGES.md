@@ -133,6 +133,7 @@ This repository provides specialized security and penetration testing tools for 
 | apktool    | APK reverse engineering framework |
 | appshark   | Static analysis tool for Android apps |
 | blutter    | Flutter app vulnerability analyzer |
+| dpt-shell  | Android Dex protection shell implementation |
 | ghidra     | NSA Reverse Engineering Framework    |
 | keysigner  | Keystore Management and APK Signing Tool |
 | mtcr-apply | MTCR Patch Application Tool for Android APKs |
