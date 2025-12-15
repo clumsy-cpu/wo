@@ -141,7 +141,7 @@ SHA256: b6fc3b0bb0c8852ffde44a715fb895a032fb3ee401f1fe1373bda28432bd521e
 SHA512: 6f5d12061450d5646beee4a6537cd88f192f37bad24ef47ad153d46f26cfc86baddb7020106831721bc83d2bc1ae9a382666e32427d332cad5b2e86436abd862
 
 Package: apkeditor
-Version: 1.4.5
+Version: 1.4.6
 Architecture: all
 Maintainer: Alienkrishn [Anon4You] 
 Depends: openjdk-21, wget
@@ -152,11 +152,11 @@ Description: Lightweight APK modification tool
  Edit APKs directly via JAR executable.
  Supports decompiling, resource editing, and APK rebuilding.
 Filename: dists/termuxvoid/main/binary-all/apkeditor.deb
-Size: 1364
-MD5Sum: ae27c8c35be6c4807a347f1e1346e598
-SHA1: ac5555660c62cfa9f998446c8ba1cbe617ba0f3d
-SHA256: b2c7f0716dd4618b4366478981af3ee81fbe6800d766ccf49c30dc41011d877d
-SHA512: b24b87be8dc9dabe75dd557a946166381199e1727e4eababdcc0ee28b83f10ea05d61fe6082d5f2026a502692ee5a693f2780349ea5c22534b858784dbd25a15
+Size: 1360
+MD5Sum: 93c8c604e396a2e3a5dd15c04add956e
+SHA1: 0cf3c4deede1efec8dbd5e2db283d5d23512a337
+SHA256: 75b38556d75b99d0a5c9c9a78327e1d5660225ac5edce7e64460062afd6b95a8
+SHA512: f10f57b89fad7c1b057d58f02df4d94ea2b6199b2e359bb6a2ce1275389fecd4a7f69a0c2420cfaaecb41fa5c727351c42c640c3db6e020cd3f63aa18663bf9a
 
 Package: apkpatcher
 Version: 1.0
@@ -571,16 +571,13 @@ Depends: curl, openjdk-21
 Section: utils
 Priority: optional
 Homepage: https://github.com/luoyesiqiu/dpt-shell
-Description: DPT Shell - Dex Protection Tool Shell
- dpt-shell is a tool for working with DEX protection and
- Android application analysis. Provides shell functionality
- for dex manipulation and protection analysis.
+Description: DPT Shell - Dex Protection Tool Shell dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
 Filename: dists/termuxvoid/main/binary-all/dpt-shell.deb
-Size: 1432
-MD5Sum: d3f6743e01a3d92e6b2889b747ebb306
-SHA1: 3fc8ac676aa38cda807680daca67c7f4807b4b5d
-SHA256: f189c528c183895a9bea64b1c943ad3c873c421e67db318494dde6e4f2e46e70
-SHA512: 93eb441804d79269ad69159e750937d1e8f2e027c79bf6a3203250a89ab9c5b86c1b920c28af823e2bad0f4bdd5c48914db87d07b3b32262e298592c1330c568
+Size: 1412
+MD5Sum: 82486eadbe0ce6075ed123bdea28c49b
+SHA1: bc0f5d7aea1ff3cf8c750f25af47d20c35e36b00
+SHA256: b4dbd88d1673b6e337a345cf5147873d6c715cd770433a0b1e057f4c68c9419b
+SHA512: 1e80814819fe35ffb0285b18ec3320313a54455d55d7b4eb1091cc4b9759288b9a064b22cbcb0d559136342df067931c997b368ae13fe1f6187b018b4c68d3f2
 
 Package: drshell
 Version: 1.0.1
