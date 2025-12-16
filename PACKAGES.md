@@ -135,6 +135,7 @@ This repository provides specialized security and penetration testing tools for 
 | blutter    | Flutter app vulnerability analyzer |
 | dpt-shell  | Android Dex protection shell implementation |
 | ghidra     | NSA Reverse Engineering Framework    |
+| hbctool    | Hermes Bytecode Disassembler and Assembler |
 | keysigner  | Keystore Management and APK Signing Tool |
 | mtcr-apply | MTCR Patch Application Tool for Android APKs |
 | phonesploit-pro | All-in-one Android exploitation tool |
