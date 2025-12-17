@@ -892,23 +892,23 @@ SHA256: ca35e50c0f5d0af6f0baa3a24320c8738bbe4c1adafaa3e76d5b52c49dad7e0b
 SHA512: a8847c3b4658064e87eadd95f9e935e71ddc626c605c1b934385d26fefd52ebfdd8f9d67b54ff71cdcb7487eda7cbc7ef6c73d0d5ade0666088842cac943c3ad
 
 Package: hbctool
-Version: 0.1.5
+Version: 0.1.5-96
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: python, python-pip
+Depends: python, python-pip, curl
 Section: utils
 Priority: optional
-Homepage: https://github.com/bongtrop/hbctool
+Homepage: https://github.com/Kirlif/HBC-Tool
 Description: Hermes Bytecode Disassembler and Assembler
  A command-line interface for disassembling and assembling the
  Hermes Bytecode. Provides tools for working with Hermes bytecode
  files used in React Native applications and JavaScript engines.
 Filename: dists/termuxvoid/main/binary-all/hbctool.deb
-Size: 1172
-MD5Sum: fe3576d033196fbae39f7f1d877d26fc
-SHA1: 95a6e98a0e6e356c9bd9aa9124293b3a5b825402
-SHA256: 2b2d5cd282417346cf5bdc6d850557908da4ed9ea2ded9ee4f716cdaaf162330
-SHA512: 4de7844edbd78ed50ba1e62e53c01dc4533d9f10685af8241cb28994ba08327f276aa2ea4ba98047dc29483e16bcd26c53c21c57b5dc6fa32b46d8abf1990320
+Size: 1284
+MD5Sum: 31dd7d769be6e752141f99dddb678f44
+SHA1: 67e1728dc45e2dd0616086f67ad920462ee5f494
+SHA256: 824ebf80a4090dbe38864805341da6c98c27cd57b209fecc25f90cc8247dca80
+SHA512: 90f5a6e099c89ed018eae873f08fce63d43bf23e7e03590f5269e6f132466a4a9460c7fc9374b7daa82a0d964fe750bfb48bc900eb4d7a64b52612f4f33da32a
 
 Package: holehe
 Version: 1.61
