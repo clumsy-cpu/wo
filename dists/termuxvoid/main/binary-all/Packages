@@ -1717,10 +1717,10 @@ SHA256: 789fd7c49e74dc5385035331c4e35f4c676f9db26c9685ddd9d18579fc9fbe5b
 SHA512: 48a73fdea18e2a455157917acea7cb4fbb3f0181e784433d7a2f4fe309873366a4eaa0545f106652a4534e5cd6e47b6231c91f48ee14d66d8e098cd994d7d1a9
 
 Package: ruby-nokogiri
-Version: 1.18.9
+Version: 1.18.10
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: ruby, pkg-config, libxml2, libxslt
+Depends: ruby, pkg-config, libxml2, libxslt, gumbo-parser, gumbo-parser-static
 Section: libs
 Priority: optional
 Homepage: https://nokogiri.org/
@@ -1728,11 +1728,11 @@ Description: Ruby gem for HTML/XML parsing (system libraries version)
  Nokogiri is an HTML/XML parser for Ruby that uses system libraries.
  This package ensures proper installation with Termux's libraries.
 Filename: dists/termuxvoid/main/binary-all/ruby-nokogiri.deb
-Size: 1184
-MD5Sum: 50a598310df73e526c0c861171acaf98
-SHA1: 5ee27e6fa6841fd9b7ad5da1fe129106c1cc19c1
-SHA256: c88c1600b2a6f629ac7c8bf2bb40efa46ce2230b203c6942b18987e5500ef8d3
-SHA512: 1d77f167dd3a096af106dde5ae70574e2dae53475fdeac467e216103cbf2feb7e8bd3ba936e087529401feb01561795d0e264670de58b9ea4b828b761d877fa2
+Size: 9808
+MD5Sum: 84584b0c434e88684fd8e5720193764e
+SHA1: 50b78f159dbf2b8737ef86d93b18f0f65c20bcdc
+SHA256: 927eebd0dd9de3e4d439e80f83b9b3d8709497a4513dc5c17bdbc5337112169c
+SHA512: 8d8ec93bbc594cb3a062b8cb1681043ed3d6363f2d75b8861e2d29ddd5701b6e3f34d5d51014a6892a0cd35c06b4b2d1eab74503453849d655eda1a342b3d80b
 
 Package: setoolkit
 Version: 8.0.3+git20241021-0kali1
