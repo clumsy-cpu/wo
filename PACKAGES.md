@@ -138,6 +138,7 @@ This repository provides specialized security and penetration testing tools for 
 | hbctool    | Hermes Bytecode Disassembler and Assembler |
 | keysigner  | Keystore Management and APK Signing Tool |
 | mtcr-apply | MTCR Patch Application Tool for Android APKs |
+| pairip     | Tool to remove latest PairIP protection from Android applications |
 | phonesploit-pro | All-in-one Android exploitation tool |
 | pkiller    | Automated PairIP License Removal Tool for Android APKs |
 | ransomux   | Ransomware making tool |
