@@ -448,7 +448,7 @@ SHA256: e6c5edda214810170e863657295da68f5db7e1c71aa421aad82bf93a8f7b83fd
 SHA512: 52dc27cce9a61938e83107d1963825b04b97ae235e2468513ba51d3cd4c0512e99ceafed00f43efdf8ba834ab1db8186c285e3a3eaee970901eb001774034e54
 
 Package: commix
-Version: 4.1.dev101
+Version: 4.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: python, python-pip, git
@@ -466,11 +466,11 @@ Description: Automated All-in-One OS Command Injection and Exploitation Tool
  - Wizard mode for beginners
  - Regular expression-based payloads
 Filename: dists/termuxvoid/main/binary-all/commix.deb
-Size: 1596
-MD5Sum: 7fe5b77e0ba58831c6961bd78e195241
-SHA1: 4a2ba54c57709d90282c537f0819635cf9eb9b1f
-SHA256: 91d4715bcfe84f2ad9389483a4e9af4e9631819f639514df337fcb08abc01bde
-SHA512: e91ef048dcec89e33ffd40f9444b067087a583161da0616801a0e10ee3b0106c9015e3ec57aa8bf1515f81a6a2ff1a6951fe998aa8bb82655cfec22d8202f9ff
+Size: 1592
+MD5Sum: 99803046a12763f3cba3ea42863b96d9
+SHA1: 03c4cc5a24bfd61aae63beb53cf8fa6e4a44ce54
+SHA256: 73105c595812f2e3239db2b2b8acbb450211c688f2b6fffb1a7d49ec3770ba77
+SHA512: 108abe52f8239e0dd5a937569032a3d97839995275a94ee532462ff55e599b23b30ab2fd29e6a39c92b11f3adc2ea0a97467c82fa8cad1ceaf529db0257cef0d
 
 Package: cronitor-cli
 Version: 31.6
@@ -1904,7 +1904,7 @@ SHA256: 6209b63fd9b2f07ddb115f0f5d322105e1521898ce282c5780890eefa9c4022a
 SHA512: a1f8727921c2d2856ebaf7694ec83d738144eec14ffe7573e5705a0c7a9bea70972128ecf02c1d677ed3cfdf60ca3b3c93fd5603fb1c7c50e6812d193f97d14f
 
 Package: sqlmap
-Version: 1.9.9
+Version: 1.9.12
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: python, python-pip
@@ -1925,11 +1925,11 @@ Description: Automatic SQL Injection and Database Takeover Tool
  - Data extraction and file system access
  - Command execution and out-of-band connections
 Filename: dists/termuxvoid/main/binary-all/sqlmap.deb
-Size: 1588
-MD5Sum: 28bf2f0831f3d27c330e0c756e2e8eb4
-SHA1: a750c4763acba67abc5a2e2ddc0b7b736062a545
-SHA256: 2b3068e3f2df73117379dfe539e5d9e80505fa4437c196d36f0429edcae3daec
-SHA512: 5b72c6c59a1620469f88c0d66df136799adcc0b5f8d49aae006abedd90cb47f45012b548bb8009452b46e5da6be865c0d26cbe7cbfb8b49daadd07fa455cd868
+Size: 1592
+MD5Sum: 76e33ccc8e00394805b104aa20ea03c4
+SHA1: b4cb89cccb8cdef61e80b8e92a45bd2691b4fa06
+SHA256: 3d895d26f5c429f484a343d045929083445886e7cc81e98501897a5e8fef8c7b
+SHA512: 15223e05ae5ac319dadb360a327130728a27639dc970768c5c8599c6290abfa4ecbc1b44ce03e5cc6129b2679b5209b201c4efba08e464f72976cd84c2f855e8
 
 Package: sqlscan
 Version: 1
