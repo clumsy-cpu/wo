@@ -66,7 +66,7 @@ This repository provides specialized security and penetration testing tools for 
 | cronitor-cli   | CLI tools for managing and monitoring cron jobs and scheduled tasks |
 | nethunter-cli  | Kali NetHunter command-line interface |
 | openbullet2    | Web Application Security Testing Suite |
-| parrot         | Lightweight security OS |
+| parrot-cli         | Lightweight security OS |
 | playit         | Global Proxy for Server Hosting Without Port Forwarding |
 | spider         | Mass Telegram account reporting |
 | term-helper    | Linux command cheatsheet |

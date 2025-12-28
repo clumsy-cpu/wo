@@ -641,7 +641,7 @@ Description: Generate unicode evil domains for IDN homograph attacks
  - Multiple TLD support
  - IDN homograph attack simulation
 Filename: dists/termuxvoid/main/binary-all/evilurl.deb
-Size: 1364
+Size: 0
 MD5Sum: 1d984987a4c62329c6fa02641e3f35e7
 SHA1: 2a6492a4c5fc4eb743abac4eae19de10b16ce763
 SHA256: ed206122fe502feb354d4f4ab83bd821f7bd48c2d9197788c479706c27230538
@@ -1470,25 +1470,31 @@ Description: Parameter discovery suite for web applications
  - URL parameter extraction
  - Massive scale scanning
 Filename: dists/termuxvoid/main/binary-all/paramspider.deb
-Size: 1256
+Size: 0
 MD5Sum: 9e3f89bab63fa9406f40970c46fd33da
 SHA1: a4b2becc1b364b08bfc00366707fdc6166fc3cff
 SHA256: dbe568ecc81363e6a4ae53047a837347020b71beeb8cea472768287ef3072606
 SHA512: 60500095bee8accd9daaa0700c73007673c4509c92f000a40fb97e677c19588cc62e5e4410c77b0d4d4b2fb9ea6d4f787d07df3ee20b6105412ab604cdbb2dd4
 
-Package: parrot
+Package: parrot-cli
 Version: 6.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: proot,tar,wget 
+Depends: proot, tar, axel
+Section: net
+Priority: optional
 Homepage: https://www.parrotsec.org/
-Description: Parrot Security 6.3 (lorikeet) in Termux
-Filename: dists/termuxvoid/main/binary-all/parrot.deb
-Size: 1596
-MD5Sum: 64d704a659d804a34336fec3117858c1
-SHA1: 1130367195d2ce093d513091a5e80fafc9848b8f
-SHA256: 3c2d4f29b5a8b448d32497b714c2f39c9acd861e35c5e9d42ab3a4d3ad0556de
-SHA512: 30368e240030bdd8ef29ee60194e335ff5a1e6e5e2f824574620c1c66dc13d18986074632f98fe36ab7b8c604c0ea32b67c6cc021d9e43096ca9c18bf855832c
+Description: Parrot Security OS 6.3 (Lorikeet) for Termux
+ Provides Parrot Security OS 6.3 environment within Termux using
+ PRoot containerization. Includes comprehensive security tools,
+ penetration testing utilities, and forensic analysis packages
+ without requiring device root access.
+Filename: dists/termuxvoid/main/binary-all/parrot-cli.deb
+Size: 2008
+MD5Sum: 713586e08dfc67bbf10b4b352022a3f7
+SHA1: 7cab24c57716ed62e7fa369b576c9bc70f2a79d2
+SHA256: cfd5d904b2b07489ea7a6d5c01e8d18428ddac8064ad5bae84997cee1f4e34af
+SHA512: ee9dcb6318a1d053af0cb613f140a6ea9792250942c3c3feb27c85532543eb90225817445c8a5a5a8350427432eae3ab1a3c3b1942db902d657ff7c9acbb3364
 
 Package: pdfcracker
 Version: 1.0
