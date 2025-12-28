@@ -1304,18 +1304,23 @@ SHA256: eba231ec0b38e839feccf4170ddde7e6d5bbaa03c2cb7a5675c22f75fd83db4b
 SHA512: 5b4a661421eef77e2a66be32cdc71fd7af90cc22f92b5671a6a17938a138475ab5cd0d58b6da11a7dc4c7b8331fae2138b756a17c9f271bf55807ee69be88fe6
 
 Package: nethunter-cli
-Version: 2025.3
+Version: 2025.4
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: proot, tar, axel
+Section: net
+Priority: optional
 Homepage: https://www.kali.org/
-Description: NetHunter Rootless Edition
+Description: Kali NetHunter Rootless Edition CLI
+ NetHunter CLI provides command-line access to Kali NetHunter tools
+ and packages without requiring root access. Enables penetration
+ testing and security tools through PRoot environment integration.
 Filename: dists/termuxvoid/main/binary-all/nethunter-cli.deb
-Size: 2052
-MD5Sum: 3d5fe819ae0c170b7693381657e129aa
-SHA1: 3728f300d172bde4311381d682c8e71af7b50119
-SHA256: e087e62eb15ed71d84194340dbb576f1cf51c54253438c7dee4973de312375c4
-SHA512: 786a8acdd9a203e48fdd946180deb3224691bd73bd991cda7c74acf0ff1900740a6168242920ce86f3a00f1ba4ca4a396a61cb25915bfd8f2f09d27c24d7fcc4
+Size: 2180
+MD5Sum: 72d3708c587c3f4af48e805980fd34ee
+SHA1: 2812187dd7e4706daec7a79589330317057cd0a9
+SHA256: 7c785a163cc4d49ebdeec93e738eebc975e05d780cd896591e12eb2da0d8b11b
+SHA512: 87b67d54d2eb68633f1d5da11413dd1810fd546f4644c9a7ff79bcca5960f8d1d9d5aa7dcf44bd853ddd217cc4088b983d27205586243747acf254d5b1e5cd38
 
 Package: ngrok
 Version: 3.4.1
