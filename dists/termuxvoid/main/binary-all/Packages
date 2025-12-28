@@ -641,7 +641,7 @@ Description: Generate unicode evil domains for IDN homograph attacks
  - Multiple TLD support
  - IDN homograph attack simulation
 Filename: dists/termuxvoid/main/binary-all/evilurl.deb
-Size: 0
+Size: 1364
 MD5Sum: 1d984987a4c62329c6fa02641e3f35e7
 SHA1: 2a6492a4c5fc4eb743abac4eae19de10b16ce763
 SHA256: ed206122fe502feb354d4f4ab83bd821f7bd48c2d9197788c479706c27230538
@@ -1470,7 +1470,7 @@ Description: Parameter discovery suite for web applications
  - URL parameter extraction
  - Massive scale scanning
 Filename: dists/termuxvoid/main/binary-all/paramspider.deb
-Size: 0
+Size: 1256
 MD5Sum: 9e3f89bab63fa9406f40970c46fd33da
 SHA1: a4b2becc1b364b08bfc00366707fdc6166fc3cff
 SHA256: dbe568ecc81363e6a4ae53047a837347020b71beeb8cea472768287ef3072606
@@ -2131,7 +2131,7 @@ SHA256: e7b67bd6a603760f09012c909b4ddf1291b0cf50a774c71cddbbf8798d684948
 SHA512: 42aaa43e7e2f5c61351c569e3e1fde527880259334cd59add66cc938b34af84b8885bc7c673381e75e21790216f9f8b3b9e960a452c07feea3340d932811b15e
 
 Package: termux-penv
-Version: 2.0.0-2
+Version: 2.0.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Homepage: https://github.com/Anon4You/termux-penv.git
@@ -2139,11 +2139,11 @@ Installed-Size: 103
 Depends: wget, proot, figlet
 Description: Termux Penv - Simplify Chroot Environments in Termux
 Filename: dists/termuxvoid/main/binary-all/termux-penv.deb
-Size: 5296
-MD5Sum: dc18cd385b68e88c77fcfc77bf5df20b
-SHA1: 3f5bba53064d984da19362baa213bb54f675d23a
-SHA256: e82d8d92e0475e0c008cb5e21cf7cc86aaa09290325a7003c4e4bad964d220a3
-SHA512: e5c0457bad0f6b9815832c629b4724e3be2fb0ec0f1f05ef85ebc546bc45913894076c2f160b4c74923d00de12f20b4ad24ec3c0c442624bdd91462e82af693f
+Size: 5764
+MD5Sum: 1836356b5d30a72fffa4be500f5f4e86
+SHA1: cbdf8c44f4c51287a68c7bfa794dc441474e0231
+SHA256: 7b07bce2c34d5c752b42bb0755f16dda2942ce4cdf62b290e1f04450677c889b
+SHA512: 23f1076301e6b8751e971228a4348cc573e2444078402a1be878d20b58dae04326959884b654541b7ce4c8d3d57e8a3dd2e3f28b545de45cc08efd41e540285c
 
 Package: termuxvoid-theme
 Version: 3.3
