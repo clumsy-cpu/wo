@@ -1900,6 +1900,25 @@ SHA1: 7d1963f6f8a00a252f9312bb06d530cbf6c20f74
 SHA256: a3a9dd73802654b5384c65d71c6a8ce973b1103dbe03a320b9e36abd2749afc8
 SHA512: 3465477695d74511f974dbe4ab09532ad6eb8da68ed0e67c4fa32b948bc8a43e083ffe4b92c6018680940402c9ff4f0d68bf138c2c8a943d2dad82423e6a47a2
 
+Package: sploitscan
+Version: 0.14.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, pip-basic-depends
+Section: web
+Priority: optional
+Homepage: https://github.com/xaitax/SploitScan
+Description: Exploit Intelligence Gathering and Analysis Tool
+ SploitScan automates the process of searching and analyzing
+ exploit information from various sources. Provides comprehensive
+ vulnerability intelligence and exploit database integration.
+Filename: dists/termuxvoid/main/binary-all/sploitscan.deb
+Size: 1200
+MD5Sum: 4a070e903c1d34b281aa850c5b046ec5
+SHA1: c368077ffbe0e2a3e840082338ec8b38bc6f563f
+SHA256: b15b3aaf55a30a9e2899fa69091e35de46a9b1b265cd2237bfb7e01714c061ca
+SHA512: 72f371f1f7f7a4956550e1d2156101aaedafa68ad707ae2eadd01b09181070626193f9a244b6ed46431c128c26ed593de089ae5c122a48c2714318db1269382d
+
 Package: spurt
 Version: 1.9.0
 Architecture: all
