@@ -1995,6 +1995,26 @@ SHA1: d101f9cb52b5bbc4284e0eef3cc294b89fa6165c
 SHA256: a93d3ae38b78d02965d4924c2a917f2f362634bd14b67633815e942633001acb
 SHA512: 02ae01d044040918c5bef88d52367011f02ce756f986e605480a54b898a52907093f6f8773a3de62ab7ce5ca1a1758ec315a979a9d5b15afec13e9641f53495d
 
+Package: subcat
+Version: 1.4.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: recon
+Priority: optional
+Homepage: https://github.com/duty1g/subcat
+Description: Lightning-fast Passive Subdomain Discovery Tool
+ subcat is a high-performance passive subdomain enumeration tool
+ designed for security professionals and bug bounty hunters.
+ Provides rapid discovery and categorization of subdomains using
+ multiple data sources and intelligence gathering techniques.
+Filename: dists/termuxvoid/main/binary-all/subcat.deb
+Size: 1220
+MD5Sum: d375edc61647c67a412ef75be432bda9
+SHA1: cb0449ec39f3f6e4a6db35abc209508eabe296d8
+SHA256: f950a4e9e9b86386473f5b662f37d36cbef1dd0a1cfb4a4fdd027dfbe648c402
+SHA512: 5535bdea12a1e0cc25ca2920e2b2b0b3771b00c52018e30518b7128a9f060ae99d51209fa7ca5d55a2d132bd3af30ff318f7595b0b26a2dfe256c546c47f9fcc
+
 Package: subfinder
 Version: 2.10.1
 Architecture: all

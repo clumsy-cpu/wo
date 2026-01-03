@@ -115,6 +115,7 @@ This repository provides specialized security and penetration testing tools for 
 | nuclei        | Fast vulnerability scanner (5000+ templates) |
 | pandora       | Automated web vulnerability scanner  |
 | pywhat        | Identify anything - text analysis tool |
+| subcat        | Lightning-fast Passive Subdomain Discovery Tool |
 | subfinder     | Subdomain discovery tool             |
 | subjack       | Subdomain Takeover tool written in Go |
 | subzy         | Subdomain takeover vulnerability scanner |
