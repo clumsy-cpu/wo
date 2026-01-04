@@ -1512,6 +1512,25 @@ SHA1: 312cab6e48b8e7c5e17a3d4cae00eec342dcf737
 SHA256: b31bd6606a09b5e5d402f93b3f83eeda19e07479675c893590fc6208bb446822
 SHA512: d5b16638def7961007d10bd68c2c47ff2e0172887ac577e74e871206be86b8d20c5ec5b831fe43a993a438fae32fd21c809214f61676169490e113cbe902976c
 
+Package: phishmailer
+Version: 2.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python
+Section: web
+Priority: optional
+Homepage: https://github.com/BiZken/PhishMailer
+Description: Professional Phishing Email Generation Tool
+ PhishMailer enables rapid generation of professional phishing emails
+ for security testing and awareness training. Provides templates and
+ automation for creating realistic email security test campaigns.
+Filename: dists/termuxvoid/main/binary-all/phishmailer.deb
+Size: 1324
+MD5Sum: 03f67632de1b40f465cd308f40541116
+SHA1: 54544fa17c0a651a86e4b4b066b6336be07df73f
+SHA256: db78960c5405c5f41e44be34254eb7ff4c28a2106e11f38f903bf06831b252b9
+SHA512: e20e98f2a9706480b617eb3ecb5a58a6511267951962a35b79aae5d9018b4f19b570527e628371b49da6e311bb5857da44ba64830717cff2cd99b47585d514f4
+
 Package: phoneinfo
 Version: 1.0.1
 Maintainer: Alienkrishn [Anon4You]

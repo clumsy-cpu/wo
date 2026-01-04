@@ -153,6 +153,7 @@ This repository provides specialized security and penetration testing tools for 
 | evilurl       | Generate unicode evil domains for IDN homograph attacks |
 | infect     | Android APK backdoor injector with Meterpreter support |
 | instajack  | Instagram account toolkit |
+| phishmailer | Professional Phishing Email Generation Tool |
 | setoolkit  | Social-Engineer Toolkit |
 | snatcher   | Camera capture phishing tool |
 | storm-breaker | Social Engineering Toolkit |
