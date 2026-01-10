@@ -1265,6 +1265,26 @@ SHA1: d963304662414648667cefc5279ee08fa98a70c0
 SHA256: 41fc9baa07928f6d7382cb6f6011119163a1af31ad80c60d844fa2cff1033141
 SHA512: 0bc6475bda8913d64318af528a0e6be76500df44aac95b26641f5c749a98ea583f31db4d2b5f6c6c14538a3f80d7b212f3c0fc49a760f8da4b2dc66ffdea58d3
 
+Package: morfshell
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, tte, eza, starship, fish, bat
+Section: shell
+Priority: optional
+Homepage: https://github.com/termuxvoid/MorphShell
+Description: Sleek Termux Shell Environment with Dynamic Themes
+ MorphShell provides a sophisticated Termux shell experience with
+ intelligent prompts, syntax highlighting, and dynamic animated
+ banners that change each session. Features enhanced terminal
+ aesthetics and productivity tools for shell customization.
+Filename: dists/termuxvoid/main/binary-all/morfshell.deb
+Size: 1560
+MD5Sum: 527434a1d9b27590b95d08fccf7e214d
+SHA1: b0e59a8133815b458bfe8d55a0fd326ac7b4643b
+SHA256: da38e9dde0009f51c83f0c08c498ebe38272332db3f71263cee166859d092bf6
+SHA512: 5f79838aa9cae7c4fea760e772a98073e51143527d097f9490a2a47c895c3cb1119cd622f0d744e1f3e32321a8d600cc5f15748cb7d22e8bc1e5a44a36efab95
+
 Package: mtcr-apply
 Version: 1.0
 Architecture: all
@@ -2294,6 +2314,25 @@ MD5Sum: ac92deaa21d7eae67063269ec6dce0ef
 SHA1: fc84b03fb44e9586f385078813db9a205afe0491
 SHA256: a601358486e2a9d3c2c0297d1909b097c1eb3a559b76ab277533c07213f00d40
 SHA512: 5c33fd8d5fd52a33f377f9a1e605fecfe85c062906d65fbbbdea63c173d5f3105e459ae47301979103bb5f14e901a6b3b9d71fd897ba68dea7ac4cbc226ca8dc
+
+Package: tte
+Version: 0.14.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://pypi.org/project/terminaltexteffects/
+Description: Terminal Text Effects and Animation Library
+ terminaltexteffects provides animated text effects and visual
+ enhancements for terminal applications. Includes various animation
+ types and customization options for command-line interface styling.
+Filename: dists/termuxvoid/main/binary-all/tte.deb
+Size: 1192
+MD5Sum: 3a6d005e15fb826f1a401d1c89471f49
+SHA1: 08cc0be33735ef3ee9e265294a8d8578ab9934d0
+SHA256: c353f4c4d5a201fc7d63e7e0ca3614b8f75421421cf4cfa26f3e370c2c06c57a
+SHA512: 2846bb2cdce0dcad048e1c554be04739a7233a74321285b4ee102ad6fc95ebd8255b2c9badf5c2486952767c3b93e400a64e8e56cd3ddb59dd41b9274cfb663c
 
 Package: vedic
 Version: 2.0.6

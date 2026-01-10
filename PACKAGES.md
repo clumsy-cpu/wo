@@ -168,10 +168,12 @@ This repository provides specialized security and penetration testing tools for 
 | antisplit      | APK Split Package Combiner |
 | enctool        | Script obfuscation utility |
 | ip-changer     | Automated IP rotation tool |
+| morfshell      | Sleek Termux Shell Environment with Dynamic Themes |
 | ruby-nokogiri  | Powerful HTML/XML parser for Ruby     |
 | shellcrypt     | Professional code obfuscation tool for Bash and Python |
 | termux-desktop | Termux desktop environment |
 | termux-penv    | Chroot container for Termux |
+| tte            | Terminal Text Effects and Animation Library |
 
 ### 🎨 Text & Utilities
 | Tool           | Short Description                     |
