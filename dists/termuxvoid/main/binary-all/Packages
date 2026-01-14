@@ -563,6 +563,25 @@ SHA1: 18fb4fb4b81ab514c1b028a4a59f785f3fc78c15
 SHA256: d46cf0df61d4955f6729cd2e68022e3701b52052f8eb34d1ff65b5706d1b9473
 SHA512: 7ee0e7bbe35421ae379f12b18fcea1979acb03ed0c48657c65770957a56f77e83760dff3424ba84480a8424bcdd97f79c5185b6dc76150711c78e18324f636a6
 
+Package: dorks-eye
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-pip, pip-basic-depends, python-cryptography, libffi, libiconv
+Section: recon
+Priority: optional
+Homepage: https://github.com/BullsEye0/dorks-eye
+Description: Google Hacking Dork Scraping and Searching Tool
+ Dorks Eye collects potentially vulnerable web pages and applications
+ using search engine dorks. Supports 5 search engines for comprehensive
+ reconnaissance and vulnerability discovery through Google hacking.
+Filename: dists/termuxvoid/main/binary-all/dorks-eye.deb
+Size: 1508
+MD5Sum: 76990a89d9c79c7afd7c302690f559d8
+SHA1: 58aa6d560e2be08693a57368c8fae5377a654026
+SHA256: 36b09da047c2e3fb868e3e5c756c26de04efb112843aa32b31b355e2f824085a
+SHA512: 49c9dbbbfd7f8ca51b606cdfa5d6e2d80b975675a37cb41486682f3ca6907177dd780555d23f14b744a872ed78dc23116fd677666250b77184ee1428de255570
+
 Package: dpt-shell
 Version: 2.7.1
 Architecture: all
