@@ -60,11 +60,13 @@ This repository provides specialized security and penetration testing tools for 
 | android-sdk   | Complete Android development toolkit (ADB, Fastboot, etc) |
 | flutter | Google's UI toolkit for building native apps |
 | vedic | World's first Sanskrit programming language |
+| zen-c         | High-level Systems Programming Language compiling to C |
 
 ### 🖥️ Miscellaneous
 | Tool           | Description                          |
 |----------------|--------------------------------------|
 | cronitor-cli   | CLI tools for managing and monitoring cron jobs and scheduled tasks |
+| ffmpegp        | Python utility for simplified ffprobe and ffmpeg media operations |
 | nethunter-cli  | Kali NetHunter command-line interface |
 | nvchad         | Neovim configuration framework |
 | openbullet2    | Web Application Security Testing Suite |

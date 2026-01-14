@@ -687,6 +687,25 @@ SHA1: 2c29d3ed7d5551a8649f70049bcc8fabbea219fe
 SHA256: c29b2f1ff26fe39b0fbc377d1cb25c607b7b91ef64b5854dd6d6174fb7f78b49
 SHA512: 3e3dcfe21d84f040128a54885fdc028a172af7e1bff6a4a27cb6cc315ac8fe890ad26e0caab2067b2d04b2f406583bb6517baa658e5889fe29b71c5d08ee41b5
 
+Package: ffmpegp
+Version: 1.30
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip, jq, ffmpeg
+Section: utils
+Priority: optional
+Homepage: https://github.com/ankushbhagats/ffmpegp
+Description: Python Utility for FFmpeg and FFprobe Operations
+ ffmpegp simplifies working with media files using FFprobe and FFmpeg.
+ Provides easy extraction of media details, format conversions, and
+ advanced JSON path querying with a convenient Python interface.
+Filename: dists/termuxvoid/main/binary-all/ffmpegp.deb
+Size: 1200
+MD5Sum: a3f18452bd9015729350d7b5b3f57588
+SHA1: af40a1e717f2fb46367c4e8c8443821ca45f6a7e
+SHA256: 9707d582ab329cccb13122c2b65744faaaeff7cca64f8de5a19109b02069c4be
+SHA512: ef7a4a35c465a9bc19bd9d7864ea67f614ea639116cd3d31aea6cb219545cb4dedfcf0f1552a8bb6b755aea2e933b76c7d9d17518eebe6580d36e7a3af733e62
+
 Package: ffuf
 Version: 2.1.0
 Architecture: all
@@ -2640,6 +2659,26 @@ MD5Sum: 0bea335abbc01487dea659f26ab486f2
 SHA1: eb32f0dd1e4e0b89f7f81bb7595b3a0bf678ef71
 SHA256: 06362980d6b98e51917c35f83f8e5c68f7ea32434d0424ee3f31889f38ec9ec1
 SHA512: 9b29bad30df6b383a3ef523f9489c259905ec97070c8561ee4716c33e9c1559b5a408fdc720fa9e81df37f8a42d609934af7b968891b2e08e42343d313cfa8ca
+
+Package: zen-c
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, make, clang, llvm
+Section: devel
+Priority: optional
+Homepage: https://github.com/z-libs/Zen-C
+Description: High-level Systems Programming Language compiling to C
+ Zen-C is a modern systems programming language that compiles to
+ human-readable GNU C/C11. Provides type inference, pattern matching,
+ generics, traits, async/await, and manual memory management with
+ RAII while maintaining 100% C ABI compatibility.
+Filename: dists/termuxvoid/main/binary-all/zen-c.deb
+Size: 1448
+MD5Sum: 2850b0afec76e6e8c4bab29e32129d24
+SHA1: 6e6d26b12403496ef764fa261c04058868ffca85
+SHA256: 795c49c7f9e6eab1c02a852321a57618cb4fe6cf4941408133f480e9080105f5
+SHA512: 6529f475028b71a8c956a5d880447f4d43a308b2af6b7199dd709921cc49c813d11189bc40decd8d13b3511b9a06c1e9d915a3a2b97cdf7d1232067bfe99e4e5
 
 Package: zipcracker
 Version: 1.0
