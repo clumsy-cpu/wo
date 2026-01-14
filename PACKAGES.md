@@ -34,6 +34,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool       | Description                          |
 |------------|--------------------------------------|
 | byakugan   | Advanced live location tracker |
+| dorks-eye  | Google Hacking Dork Scraping and Searching Tool |
 | holehe        | Check email accounts across 120+ sites |
 | hound      | Lightweight info gathering with GPS |
 | instaghost | Simple and professional Instagram data gathering |
