@@ -65,6 +65,7 @@ This repository provides specialized security and penetration testing tools for 
 |----------------|--------------------------------------|
 | cronitor-cli   | CLI tools for managing and monitoring cron jobs and scheduled tasks |
 | nethunter-cli  | Kali NetHunter command-line interface |
+| nvchad         | Neovim configuration framework |
 | openbullet2    | Web Application Security Testing Suite |
 | parrot         | Lightweight security OS |
 | playit         | Global Proxy for Server Hosting Without Port Forwarding |
