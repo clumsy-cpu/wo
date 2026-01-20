@@ -83,7 +83,7 @@ SHA256: 51e84baf09d610ef29ebe83d7f9aca9127b931f5b70562b729d2f12d89081732
 SHA512: 697cdf3bd16345f8177c63fdb08f124328d1af65bee59a50c1f17d5b757b14e9baceca51739f4611e076fde6b6acba59d96ef580dff059aebf5bc05e5bafe337
 
 Package: android-sdk
-Version: 36.1.0
+Version: 36.0.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: openjdk-21, p7zip, axel
@@ -101,11 +101,11 @@ Description: Android SDK built using musl libc, supporting multiple architecture
   - Build tools
   - System images
 Filename: dists/termuxvoid/main/binary-all/android-sdk.deb
-Size: 1652
-MD5Sum: 75a9cc1827b7c6ce76dfa1d6fa4bafa0
-SHA1: 80fc1b8b5489c3d043d8117534633138055b2d07
-SHA256: 7a9523d637459439621283582e174caef31329918d64bf5a9fa7f5d01b4ac48b
-SHA512: 6f7b2cda5cbd385e895a78f1e57962db0f215f26fe7e761d66680d2b2be78d5f8fcd6993aa2a780d1a91df5bcb5e6cb2bf09a2716fd88e2668be8d1b5f31f6c7
+Size: 1684
+MD5Sum: ab7a17978cfe784f95ddea270aab74f4
+SHA1: 758ac6d53bfe9935494bb1060d7bfcab239976a0
+SHA256: 0f52c8f4c5b0c77c7736da776615c6a83771b5a590e31c9c624202c76d66ba7d
+SHA512: 0b399d70447e500757111573ace64e6bb5b2df3b48cf0bb2a7c709d07e4c523bbfe59587670b01237b0aae4076bc131482008e9862004b0a1fecc7570d0c810b
 
 Package: androvirus
 Version: 3.0
