@@ -2213,19 +2213,24 @@ SHA1: 4fac62dffbbaee158801cc20dcc9ed1012a611c7
 SHA256: eadbf331a7b4b37730ffe3c071c61599f6ae39882c61651a52851de9817cc8a5
 SHA512: 94ff3724bb2622d5d2688c977d6562b9a059f501df6e82a57333cb92aa37382317e606a509e81a9a5fb7a58538f5253cd31762d07720b812f53e92769411f7fc
 
-Package: termux-ai 
-Version: 2.0
+Package: termux-ai
+Version: 3.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: curl, jq, bc 
-Homepage: https://github.com/Anon4You/Termux-Ai 
-Description: Your AI companion in Termux
+Depends: curl, gum, tgpt
+Section: ai
+Priority: optional
+Homepage: https://github.com/Anon4You/Termux-Ai
+Description: Interactive AI Assistant for Termux
+ Your AI companion in Termux with support for 10+ AI providers,
+ 50+ image generation models, and interactive command-line interface.
+ Provides comprehensive AI capabilities directly within Termux terminal.
 Filename: dists/termuxvoid/main/binary-all/termux-ai.deb
-Size: 1176
-MD5Sum: 0bbe40fb61d50ed50a7c741d93fb2a8b
-SHA1: b98497f202173f37630fa0788f9f70eb51b2c771
-SHA256: 8c6874f05647db238a188301cdc75da6e659f9412f4585e13d3c8c45ac4012ce
-SHA512: 314e2eb835231d287a5cf36b0958b69a0ffb8a8d253c5deb4102490c03b503e08fc3d79b2da67b45ab8ecd5e667518aba9caa4b2e72091366d8df6131c9459e6
+Size: 6280
+MD5Sum: b346dc3845bce7666cae2dcf074a1286
+SHA1: 3b2024cd26a35600b3701596134a97f283dd90d0
+SHA256: 0fa9d39400786c6d0c7e05bd575c3a6b91c921109f9028d77aa41b28d0369789
+SHA512: cd386771d21e4c44c2d8a9e2f6ec8a0026e44ef7f7f237eae115b0c0e5be98ec897b8de3c34feefcfe4b8df18eb71c0e0e63b7265fe2c6c47da303885569df9f
 
 Package: termux-desktop-wallpapers
 Version: 1.0
