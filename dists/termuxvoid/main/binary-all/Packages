@@ -1504,7 +1504,7 @@ SHA256: 4f9c2d7811bb6d24c27dce46e2d26cec09857fa1cd66574e957a8e5749992ade
 SHA512: f9a57635882da952609d101b65b67df837defbd967941074a1b0cbf7df5c9197a619d591f8adbe26cdd272b5b587ee2f960f435dfcab5e363609e790c1fbd9f6
 
 Package: pairip
-Version: 1.2.0
+Version: 1.3.9
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: openjdk-21
@@ -1516,11 +1516,11 @@ Description: PairIP Protection Removal Tool
  Used to remove latest PairIP protection from Android applications
  for security research and reverse engineering purposes.
 Filename: dists/termuxvoid/main/binary-all/pairip.deb
-Size: 2085476
-MD5Sum: e75f8865c5a1a1ad045c8272ba7f3a12
-SHA1: 00987bc2a41ce28b2561c8d440383d50b18d555e
-SHA256: 22bc95dd08f9524d5402dd88532d53d88e5b799050bcbf3ed6fa18076efba997
-SHA512: edfdd016864188394bfa85c67ab6a1af709faa9b22cab569128049040ba51c564e44252ec9198a1b5acc69b723078c1ba25040abab2e0c3c32931fc0e90b72ce
+Size: 2087848
+MD5Sum: f143579502343532c0994f46681e99d2
+SHA1: f1124aabb0f1d905e2a523ee5aed0692d11b0e1a
+SHA256: 9093cdf61e61b2a1b09f32c4587d66e176453dfddb6c68a1c64e0f6facfb28f3
+SHA512: efc7e210fca29912c91861436d828a920c04faa10a8930ac790a8471161a41623e2ae07a8c5bbe3b8ac22213497f74ac4430589566b9146e8001d6530464edc4
 
 Package: pandora
 Version: 3.2.0
