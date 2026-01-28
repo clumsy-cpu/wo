@@ -145,7 +145,7 @@ SHA256: b6fc3b0bb0c8852ffde44a715fb895a032fb3ee401f1fe1373bda28432bd521e
 SHA512: 6f5d12061450d5646beee4a6537cd88f192f37bad24ef47ad153d46f26cfc86baddb7020106831721bc83d2bc1ae9a382666e32427d332cad5b2e86436abd862
 
 Package: apkeditor
-Version: 1.4.6
+Version: 1.4.7
 Architecture: all
 Maintainer: Alienkrishn [Anon4You] 
 Depends: openjdk-21, wget
@@ -157,10 +157,10 @@ Description: Lightweight APK modification tool
  Supports decompiling, resource editing, and APK rebuilding.
 Filename: dists/termuxvoid/main/binary-all/apkeditor.deb
 Size: 1360
-MD5Sum: 93c8c604e396a2e3a5dd15c04add956e
-SHA1: 0cf3c4deede1efec8dbd5e2db283d5d23512a337
-SHA256: 75b38556d75b99d0a5c9c9a78327e1d5660225ac5edce7e64460062afd6b95a8
-SHA512: f10f57b89fad7c1b057d58f02df4d94ea2b6199b2e359bb6a2ce1275389fecd4a7f69a0c2420cfaaecb41fa5c727351c42c640c3db6e020cd3f63aa18663bf9a
+MD5Sum: 3cd061d0b5c38023e7e7c3bdef69fe59
+SHA1: 8b1bf6d25f67c2c2d92a4f30e3f0c892e6f3f281
+SHA256: b57b0bcbd7f4ad8abfc558b1a0b750aa3b45ab64f37db1d1d6e80065b4e186c5
+SHA512: c8a5671ca9e71837f747603b934c8de7e77c35358838009a4bd4ccbeb67eac92926c16b23c115ba6ca7d9ba60c3578c99fa83f4c7e8d16c3556688fada4293cf
 
 Package: apkpatcher
 Version: 1.0
@@ -1828,7 +1828,7 @@ SHA256: 7ceab76c89a0655fd5537b1a003460d6d4eaab0a8f7e17ccaed6dbe4d200994f
 SHA512: a20999c0df5c59b2f5447b5c95b0a2dd4ce4627638b6a4d1b26a5d8349a387485391eccaee2a4d30ea7860c9ec52d86a554328d8236a3882d73712d88b10c642
 
 Package: rkpairip
-Version: 4.5
+Version: 4.7
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, python, openjdk-17, apksigner
@@ -1840,11 +1840,11 @@ Description: Remove Pairip Protection and Rebuild APKs
  recover strings, and rebuild APKs. Designed for Android security
  research and reverse engineering.
 Filename: dists/termuxvoid/main/binary-all/rkpairip.deb
-Size: 1176
-MD5Sum: ff7d890ac088c3e85b1673c5adf0f53e
-SHA1: 0036634eba3fae55df57338a2c44edab29f7bfc6
-SHA256: 789fd7c49e74dc5385035331c4e35f4c676f9db26c9685ddd9d18579fc9fbe5b
-SHA512: 48a73fdea18e2a455157917acea7cb4fbb3f0181e784433d7a2f4fe309873366a4eaa0545f106652a4534e5cd6e47b6231c91f48ee14d66d8e098cd994d7d1a9
+Size: 1180
+MD5Sum: dca886e3cb9ab5a9c3d3b3322a8925ad
+SHA1: eee3718706dba2d2ad7973ce6a0cab201d2c9fb9
+SHA256: 3079a1bf2b745f84c46ed56c721a0c9be2e45098bcafebe106cbea3a2a5eb9a2
+SHA512: 27bfd12f0be3bfecad1867a849498c0dabe13b692926a9297ad36cd6f2165fba1728a5a3864e2a8e3e1a92175b2a97e7074cb4e794cea65ba21eb0377ce02821
 
 Package: ruby-nokogiri
 Version: 1.19.0
