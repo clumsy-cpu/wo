@@ -803,7 +803,7 @@ SHA256: 2848e865b7639035c9f433366634775b7a69f513574c7d5dd0778bf79da336ff
 SHA512: 0e9dd0a4b67851328a4e5cf795b946f8ed741c126e29fd02e0caa8e1cb90c2ad8fdf7b0d2db30419a82c2e9cc74a1037be30b2a58e587f0700dbf8c805071ed7
 
 Package: ghidra
-Version: 11.4.1
+Version: 12.0.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: openjdk-21, unzip, python,wget
@@ -813,11 +813,11 @@ Homepage: https://ghidra-sre.org/
 Description: NSA Reverse Engineering Framework
  Advanced disassembly toolkit with GUI/CLI modes.
 Filename: dists/termuxvoid/main/binary-all/ghidra.deb
-Size: 131604
-MD5Sum: 06bf154db7c0e632c4df477e50ffab9f
-SHA1: 8412b3eb760ab80088856d163aa8d93309cc32d1
-SHA256: c0f1598a93309e64a69d8b0408a89d5b10264caf7dcfe5a870f22c51236a7e8c
-SHA512: 6993ce20115001eabcd444acdd4e0b31e21d5c48c30638f85ae6f65eb550b707a48b6087bb3e6c46f26efb9b02fcfda47edf56600b8d1ed9321def71ca54cd6b
+Size: 131616
+MD5Sum: 9d45c5515fda66cc30da0472e08f0ea4
+SHA1: fe7b4441adfbb4a8d2b7c703267d835403f7ab3f
+SHA256: 87dce9317f6e36a7291dbd9803bbfa671bc30c18cb843f00ac4100b00940556d
+SHA512: 8322a1a50f4c21941edbce4a29417245732692848ca9146c1c777359523189645657262366549e6c50f482af6e216b747a7e59855739c67d4b9faf093e9a2d68
 
 Package: ghosttrack
 Version: 1.0
