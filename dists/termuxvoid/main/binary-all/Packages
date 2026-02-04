@@ -732,7 +732,7 @@ SHA256: 260e2afa83487c2b9f7a97a343cb898ae50e19e57d36dea7fadfe22970b95a63
 SHA512: fd7e251ab33123910c78ab189031e92dfe22371013c8d213618bfe1f72088daae08d375ca9b216043777a78ae1d7a7382a0d27cb2756fb1f1bb954f26ca56d8f
 
 Package: flutter
-Version: 3.38.5
+Version: 3.38.9
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Pre-Depends: x11-repo
@@ -747,11 +747,11 @@ Description: Google's UI toolkit for building native apps
  - Material/Cupertino widgets
  - Android/iOS/Linux support
 Filename: dists/termuxvoid/main/binary-all/flutter.deb
-Size: 1616
-MD5Sum: 557f07d81cf852743341350a1be78364
-SHA1: ec6c5e365014325fe9f2f8820fa0b2080d1fc7ca
-SHA256: 0ca8a5d6c065fec84190f721b142e311ed82071fa57002fa6da15f59e7dadc9b
-SHA512: 0b515df5e109f4e736a069d5e00a9a60d128cca3ca6fdca81458dd422d293cba9be58c3255a33005496a18f25cae77466585d4a55cbc39959d31e2f72bc57213
+Size: 1620
+MD5Sum: 23df74d1802d856bfca95556546d3d94
+SHA1: 0b63d8321dd576d373a9f766f1cd2dc88ee33805
+SHA256: a972dc043eb29456e9e1fc7e95216ca2bb66ab8d9621ca4fd30c85687c7c4bea
+SHA512: d9d8deb14204deafc50e828a5974692c2e1569fdf332d513c1758f5dc7ba45730c9f0dd5fa5b3d74935757fa2ba0bd1b1092b27efd8e647f8481229aa9dfb418
 
 Package: fscan
 Version: 1.8.4
