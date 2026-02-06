@@ -90,7 +90,7 @@ Depends: openjdk-21, p7zip, axel
 Suggests: cmake, ninja-build
 Section: development
 Priority: optional
-Homepage: https://github.com/Anon4You/android-sdk
+Homepage: https://developer.android.com
 Description: Android SDK built using musl libc, supporting multiple architectures.
  Provides Android NDK 29.0.14206865 and CMake 4.1.2.
  Includes:
@@ -101,11 +101,11 @@ Description: Android SDK built using musl libc, supporting multiple architecture
   - Build tools
   - System images
 Filename: dists/termuxvoid/main/binary-all/android-sdk.deb
-Size: 1652
-MD5Sum: a9bd79ff96af2b3811b01806bb1a6033
-SHA1: b8052925679530218f5044ae8334b39cece9d3fe
-SHA256: 5b8130bc910c4fea654f4f4934e14679388774dab3b1d4556fbf7ea1a44f104c
-SHA512: e8457c7558d461ec6aa3d1957fc16fceeacec899c17ec7debca0c260ccea077ef911aeda35bc6b1a257332c6557fea8b7550fed97437b0c0f4f6b5e8bcc2971d
+Size: 1668
+MD5Sum: ca6208ef678c9d7a98c2a1af85470fa5
+SHA1: c4d2bc684a06e147eaa02489bdac6b5f34e9b6b6
+SHA256: 346e40fe8d5d5994b597ddece22067c6c26e00a05f011cf06215e86550f800b3
+SHA512: 06601eee216794ca03b28ff5bfc9e545123539b3571bfd03dab86b177a529994810accbed0bb5e94c595d5df89c6d82260fd10746c9282a8639b6293bcb048d7
 
 Package: androvirus
 Version: 3.0
@@ -587,7 +587,7 @@ SHA256: 36b09da047c2e3fb868e3e5c756c26de04efb112843aa32b31b355e2f824085a
 SHA512: 49c9dbbbfd7f8ca51b606cdfa5d6e2d80b975675a37cb41486682f3ca6907177dd780555d23f14b744a872ed78dc23116fd677666250b77184ee1428de255570
 
 Package: dpt-shell
-Version: 2.7.1
+Version: 2.8.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21
@@ -596,11 +596,11 @@ Priority: optional
 Homepage: https://github.com/luoyesiqiu/dpt-shell
 Description: DPT Shell - Dex Protection Tool Shell dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
 Filename: dists/termuxvoid/main/binary-all/dpt-shell.deb
-Size: 1420
-MD5Sum: faee64edf1de56ab1f6e92ff45b339e2
-SHA1: be38ba097a457c9977c16ec422835f0b2583cbe2
-SHA256: 7a66e884762bd3d5097147a1c57c8b87fddd60b78f39f43717701fc6312d9bce
-SHA512: 9f2c28fdf78f1fafd5bcdd47d9e0ad058a6cdd79cb38a5c668975af40a7ed0ef0d0785a5812aa85ff295ab54f986c690dd22751841b7202190a1d837bf0cfeec
+Size: 1424
+MD5Sum: d5ecf3442b5b7d75ded11f7fdbe6de31
+SHA1: ed33407e9c192023e2668da937d19335b5fc6cb5
+SHA256: 53ce14503cdf1dfc7fdccc8359c3c24bab553a629f7b2351bb62c5ab05b2da62
+SHA512: 2c3e28c111ab1f5549c1e2c6b43ae8f2d0d15ad5e215d27eda27eefd99b1bbcebf00bd5a699df98db441e5d3d0e188b56aeb0bd7840db71fa3a9d7c04b2f481c
 
 Package: drshell
 Version: 1.0.1
