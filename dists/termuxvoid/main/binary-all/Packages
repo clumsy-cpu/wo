@@ -1307,6 +1307,26 @@ SHA1: d963304662414648667cefc5279ee08fa98a70c0
 SHA256: 41fc9baa07928f6d7382cb6f6011119163a1af31ad80c60d844fa2cff1033141
 SHA512: 0bc6475bda8913d64318af528a0e6be76500df44aac95b26641f5c749a98ea583f31db4d2b5f6c6c14538a3f80d7b212f3c0fc49a760f8da4b2dc66ffdea58d3
 
+Package: mkwebapp
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, file, termux-tools
+Homepage: https://github.com/Anon4You/mkwebapp
+Description: Tool to create Termux .deb packages for websites
+ mkwebapp allows users to easily package a website URL into a
+ standard Termux .deb package. It generates the necessary launcher
+ script, .desktop file, and attempts to fetch an icon, creating a
+ seamless integration for Termux:X11 desktop environments.
+Filename: dists/termuxvoid/main/binary-all/mkwebapp.deb
+Size: 3176
+MD5Sum: b8e35a6edfef070b53cbf96644e90c5f
+SHA1: b1bbb1dc824a303417eb5e52277d92c8e7d33dc8
+SHA256: 568077409134d6c29ff9d8631bd6a2066583ecfb04e09545d2298600b28d1e9a
+SHA512: fbd299c057f1d344b98602f8465ecdc66bd5a47b6fe0980a22eae43e68d6eb29817129828059b430a0bb0992cf3975252cb18604ee0c9c047e747e933b209707
+
 Package: morphshell
 Version: 2.0
 Architecture: all

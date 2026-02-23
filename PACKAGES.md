@@ -67,6 +67,7 @@ This repository provides specialized security and penetration testing tools for 
 |----------------|--------------------------------------|
 | cronitor-cli   | CLI tools for managing and monitoring cron jobs and scheduled tasks |
 | ffmpegp        | Python utility for simplified ffprobe and ffmpeg media operations |
+| mkwebapp       | Tool to create Termux .deb packages for websites |
 | nethunter-cli  | Kali NetHunter command-line interface |
 | nvchad         | Neovim configuration framework |
 | openbullet2    | Web Application Security Testing Suite |
@@ -173,7 +174,7 @@ This repository provides specialized security and penetration testing tools for 
 | antisplit      | APK Split Package Combiner |
 | enctool        | Script obfuscation utility |
 | ip-changer     | Automated IP rotation tool |
-| morphshell      | Sleek Termux Shell Environment with Dynamic Themes |
+| morfshell      | Sleek Termux Shell Environment with Dynamic Themes |
 | ruby-nokogiri  | Powerful HTML/XML parser for Ruby     |
 | shellcrypt     | Professional code obfuscation tool for Bash and Python |
 | termux-desktop | Termux desktop environment |
