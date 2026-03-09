@@ -2689,7 +2689,7 @@ SHA256: 0c9ef0bfebd8278b9f064b74a3c74d38ac521eb1edba995b9867157ab54d901c
 SHA512: f937dfbd6b289e88264b34073716ea55e660c875f330922b5ad074ce6ef840ec9c300cf141477a9f31caed05e11deaddcb746a6ee10066324ef07bb54e921164
 
 Package: zaproxy
-Version: 2.17.0
+Version: 2026.03.02
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: openjdk-21, python, tar
@@ -2703,11 +2703,11 @@ Description: OWASP Zed Attack Proxy
  - Browser integration
  - Plugins support
 Filename: dists/termuxvoid/main/binary-all/zaproxy.deb
-Size: 55736
-MD5Sum: 20083afe5e4888eadf1a2d72ff0b9306
-SHA1: 2fb3e0f2e9fe9247bf76f3b01a41834be118fb4e
-SHA256: 52b0a5ed911bccb6f16648d3e1b2e22ca031959efff632aa4c708fda02cc848e
-SHA512: 131c41230ee65f8db9276f4479093c1cae3cdd1edef35dda945db5c8220031b1b5e541b6433397c784936a2f849745bd62d352535b9489a59822a9f42d2e2e0c
+Size: 55784
+MD5Sum: 6f8f70c47942850388a45afa89e2bc42
+SHA1: eec8918a7e4faea9e494b544d161d8b0fa014270
+SHA256: f1532af21988990b849bf47d5bc6f7eb22bae4af292ffee1a4e13b231d5bf245
+SHA512: b9eea03b09877ff1c88bf72059005e81a3378fc07f56cd5582f8a3c16f4d8cae939a0d24d80b05b185d8c2cd679a4e495ff917ba760f47d5b9516e210dfa0cef
 
 Package: zen-c
 Version: 1.0
