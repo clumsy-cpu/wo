@@ -355,21 +355,21 @@ SHA256: 48cd1223fd8b5e397e16b930cddd9f0e615404ca248823802eefba632e7d725c
 SHA512: b858b7e950921df11e700ab2c4e85a5b84a6a463750d15c41831b040a0e70d6477155becf93eadb0dcf0446fe676cdea707f4feb805106e61c47d911bacb249a
 
 Package: burpsuite-pro
-Version: 2024.12.1
+Version: 2026.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21, openjdk-21-x
 Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (professional edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite-pro.deb
-Size: 3680
-MD5Sum: 8302cd12febac8f43e1b13f45e3e6967
-SHA1: d8ed0ac73496f3031de9b27d3f00a7cb2ab1b3be
-SHA256: fc3106fc2d30f5b6058017df74157649d01bfc60de6d0e7c64c5d75a3ee0a8fa
-SHA512: d06ff865f1806bc0851f5e443db12c933cc3c9c22c2c07f9619c177627fc8de56b2986e29d52736f6a1e26f1458dd6dd8263c3fe0999f548feff6fb321a95ab5
+Size: 3792
+MD5Sum: 5b6b4c98081b9e470047ed57459b4aa5
+SHA1: 47d7891cddf4f6d7b0a8b759449afc2e054cc32d
+SHA256: 4acd7d17290edf64d844263de7ca88f89394399deb7c13cad9362c32856f3b50
+SHA512: b13fdfbf9470238d5b355b6d41d91e6403ba864805bc97d6659f85603d83841eef4b92069c30b4711babc6df006c3daa555d9848064d41ae99d1af448d3b60e6
 
 Package: burpsuite
-Version: 2026.2.3
+Version: 2026.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21, openjdk-21-x
@@ -377,10 +377,10 @@ Homepage: https://portswigger.net/burp/
 Description: An integrated platform for performing security testing of web applications (community edition)
 Filename: dists/termuxvoid/main/binary-all/burpsuite.deb
 Size: 36376
-MD5Sum: 7e311cc91d0152d937faf6aba4d9282c
-SHA1: d3040e43e372f964854e83b46b4e82ab705b5cf6
-SHA256: 84e4f69d14706e4a01d10b414b1b45d0926929ab4649d65b1f3d41ae769c8e49
-SHA512: 28459328d4015ca7eb19958e2442a674685f35b9dd26493601184a4dde81fd66a14eec3e6c57643b84eb940a0bf2d6749d5b4bb52d9df425d941c05ef03c1164
+MD5Sum: 374d8539d861850dad6d060cfb136d7a
+SHA1: 7740297f24db7683d9b631c028910ca07434fb84
+SHA256: 263f3f15ad738e4712bac187bb7188107432b8d4b8d0cdc47846a594b3afa1e6
+SHA512: acc5eec9398dbc8f471420c6efb4d855ebafd19d13747ddd4c9d041d4e151835ac7208f0b42eeca1ae54566c7e4f0b9985ea1689679eee1db817eab786002df9
 
 Package: byakugan
 Version: 1.0.5
