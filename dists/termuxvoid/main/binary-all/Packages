@@ -1269,6 +1269,25 @@ SHA1: b6fa72c0b4154ed83b99dcbd3d138eb11515695a
 SHA256: e2c7d0abb740fdaf2612ccb14c006943fc010b7e9efb43201c6527b9408fce14
 SHA512: d3299184dff4ef14482b41e207ed8fd69e795f6df60891f802e9826f4681cbbb4d2a9f71f54a0b033fd404c199c7a416aad8cde35da8876110dc7b25852cf155
 
+Package: linkwizard
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://t.me/nullxvoid
+Description: Powerful profile link finder for Termux
+ Searches DuckDuckGo for a term, filters results to domains in domains.txt,
+ and common profile paths. Extracts profile links and generates a stylish
+ HTML report. Domain list can be managed with 'linkwizard domains ...'.
+Filename: dists/termuxvoid/main/binary-all/linkwizard.deb
+Size: 38288
+MD5Sum: 00050e36cc040b8c4da5de8cc56748c5
+SHA1: c79f0a9c32adfe19a8ef06a5771ada94168fbaa8
+SHA256: 045f2eb741724dc9c6eb31c0f721d8890279675cea912491ec1065cb4bd22607
+SHA512: 6c2161f18c2eeadb104399bf5a2a7881d9507f2aaa3e65ff53d7fcc80d580be98e7cff8498a24b2520a261235bc0025b707b7741da40c08bda1a2af0d3536e60
+
 Package: local2onion
 Version: 1.0
 Architecture: all
@@ -1744,26 +1763,26 @@ Package: pip-basic-depends
 Version: 1.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, python, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils-is-llvm, rust, libxml2, libxslt
+Depends: git, python, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils, rust, libxml2, libxslt
 Section: devel
 Priority: optional
-Homepage: https://alienkrishn.infy.uk
+Homepage: https://alienkrishn.page.gd
 Description: Essential build dependencies for Python packages
  Provides all necessary build tools and libraries required for compiling
  Python packages with pip. This includes:
  - Compilation tools (build-essential, cmake, ninja)
  - Math libraries (libopenblas)
  - Android-specific libraries (libandroid-execinfo)
- - Binary utilities (patchelf, binutils-is-llvm)
+ - Binary utilities (patchelf, binutils)
  - Rust compiler for Rust-based Python extensions
  - Git for source code retrieval
  Ensures successful wheel building and package installation without errors.
 Filename: dists/termuxvoid/main/binary-all/pip-basic-depends.deb
-Size: 1712
-MD5Sum: f4933d4dc1bd74c5790d1fec08ff21be
-SHA1: 65ef68df8a6d55116b66a07f6b0b4aecb476a940
-SHA256: fd86c9a24368b21ca9b352d25abd963bdb53bcd6f8911c49532bde0f41f051f7
-SHA512: 53f28be6ad2a7d820aec9bfaae50dd9fee2f63960b76df74d4ad4fcc0f0fd738d9373ea3355b3ffff7039c3b45071ae18e00400eac20337dedda1410f3701efb
+Size: 1708
+MD5Sum: ad9098336340f05812a8c01a53946e85
+SHA1: 7cc611c8ec46f0adc772c9ca9f16ecae788c165c
+SHA256: 249f37b93f97cd9fdd0be08d3d5ca7b9a90eef4bda8a001f7fa5e28b39fdaaf1
+SHA512: 031a18d1a1c55d24daaa50c43a1555347acfd0a6b41649d42e285dff3edaea6976a05866bbdcdcc1221d65b03190198116a98c7eed802e6cf4d4a07d6b38a6fe
 
 Package: pkiller
 Version: 1.0
