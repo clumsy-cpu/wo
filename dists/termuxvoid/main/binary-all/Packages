@@ -2757,22 +2757,22 @@ SHA256: 8cd89eafa04517ebbc7fb2f7717523817667b81c6fe80303ae7ad283200a5c32
 SHA512: 60454bf67df02b3d5d4e1177d34843119c611925de5829e93dc011a368cf22815d2cc380b2975faa60987a16b8be0967c3c0a3d290352b46f344e14b16768f4f
 
 Package: xbomber
-Version: 1.0.0
+Version: 2.0.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: python, curl
+Depends: git, python, curl
 Section: utils
 Priority: optional
 Homepage: https://github.com/Anon4You/XBomber
-Description: SMS bomber script
- Bulk SMS sending utility featuring:
- - Multiple API integration
+Description: A High-Performance SMS Bombing Tool for Educational Testing
+   XBomber is a lightweight Python script designed to test the resilience of SMS gateways by sending a high volume of messages.
+   It is optimized for the Termux environment on Android, providing a portable solution for security researchers and penetration testers.
 Filename: dists/termuxvoid/main/binary-all/xbomber.deb
-Size: 37364
-MD5Sum: 94d7a2e08bbec58f610ba4482ff5465f
-SHA1: d55f9ec9ec5d5fa39b9815e4782f26629e2aa922
-SHA256: 73032ad940e7ac0b8ccad9753ee0902dce0510e1f8a326267ef95a4b2cb742bd
-SHA512: 526c6e9e97337f5d9ac3f34c92259a8107d70c729189e7ea4bccbb5b993e493fbd085d878ffcdb25e406e3cd1f7dd0fff48be49dbc176f2eb1e0d43c7c0ac2f4
+Size: 1516
+MD5Sum: 9994335b6fd45aaa6c7b968416deaaef
+SHA1: 9eba146c3106ea7653c281c2e036e0bc4ac11675
+SHA256: 6b344bc4fae5528e2130bcece3d9937aeee80b570a3400c48eabd071d76367d5
+SHA512: 877d96d08163d05946078694ec7e7a5e8a75365a91a8dcc3e58538c1eda4b83cf207ce867d56f0cd2873a7cbf94fe9a77ccf110b7df3e53f284815a03614a532
 
 Package: xsstrike
 Version: 3.1.6
