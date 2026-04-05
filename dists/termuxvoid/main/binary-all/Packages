@@ -182,6 +182,25 @@ SHA1: 8b1bf6d25f67c2c2d92a4f30e3f0c892e6f3f281
 SHA256: b57b0bcbd7f4ad8abfc558b1a0b750aa3b45ab64f37db1d1d6e80065b4e186c5
 SHA512: c8a5671ca9e71837f747603b934c8de7e77c35358838009a4bd4ccbeb67eac92926c16b23c115ba6ca7d9ba60c3578c99fa83f4c7e8d16c3556688fada4293cf
 
+Package: apkgen-cli
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: android-sdk, termux-tools, gum
+Section: utils
+Priority: optional
+Homepage: https://github.com/termuxvoid/apkgen-cli
+Description: CLI tool to quickly generate Android APKs from a template
+ apkgen-cli is a Termux command-line utility that automates APK
+ generation using a template system, simplifying Android app creation
+ for developers and security researchers.
+Filename: dists/termuxvoid/main/binary-all/apkgen-cli.deb
+Size: 3532
+MD5Sum: 030badc9e3581d5ef52416f39f1d1f31
+SHA1: bb7af6afd0c274c5888001ded904249345618cfc
+SHA256: 91d8dc945bf97a80bcbd96a72c05bcb17004aeba9f0a6d0031cc7158c784b356
+SHA512: 2ce20b20ffc635b772f10b59aa4bb0b4b3f60a47065bdd578dce2352c98703b3f5ebc5f6294fd3f5a94faa05d79ffd14db8c07c459e8d3999345c18118fe175e
+
 Package: apkpatcher
 Version: 1.0
 Architecture: all

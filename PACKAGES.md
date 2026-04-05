@@ -43,6 +43,7 @@ This repository provides specialized security and penetration testing tools for 
 | instaghost | Simple and professional Instagram data gathering |
 | ipinfo     | Comprehensive IP address intelligence |
 | iplookup   | IP geolocation lookup utility |
+| linkwizard | Powerful profile link finder for Termux |
 | locateme   | Device location tracking tool |
 | numinfo    | Phone number intelligence and lookup tool |
 | phoneinfo  | Phone number intelligence tool |
@@ -64,6 +65,7 @@ This repository provides specialized security and penetration testing tools for 
 |---------------|--------------------------------------|
 | android-sdk   | Complete Android development toolkit (ADB, Fastboot, etc) |
 | andrax        | Android Penetration Testing OS (rootless) |
+| apkgen-cli    | A CLI tool to quickly generate Android APKs |
 | flutter | Google's UI toolkit for building native apps |
 | vedic | World's first Sanskrit programming language |
 | zen-c         | High-level Systems Programming Language compiling to C |
