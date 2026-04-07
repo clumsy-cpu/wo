@@ -85,6 +85,7 @@ This repository provides specialized security and penetration testing tools for 
 | spider         | Mass Telegram account reporting |
 | sploitscan     | Advanced vulnerability and exploit information utility |
 | term-helper    | Linux command cheatsheet |
+| wacli          | Command-line tool for WhatsApp chat management |
 | webserver      | Localhost internet exposure tool |
 
 ### 🔐 Password Tools
