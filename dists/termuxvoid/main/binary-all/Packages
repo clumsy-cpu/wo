@@ -1024,7 +1024,7 @@ SHA256: 8f39d5ce6be43c86c85cbc4b6c25810ba23786268fe7ef1fc47eadd56b9b06a4
 SHA512: 77b3f2b74d94dc8031f60616eb4c46b149710b7a4cb2bc2329bc22d145bd6c87ef90ee2704949636255bee27760ab404801cef169ce4b70c2c59cb08f5c0fdd9
 
 Package: httpx
-Version: 1.7.2
+Version: 1.9.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -1042,11 +1042,11 @@ Description: Fast and Multi-Purpose HTTP Toolkit by ProjectDiscovery
  - Title and technology detection
  - Integration with ProjectDiscovery workflow
 Filename: dists/termuxvoid/main/binary-all/httpx.deb
-Size: 1708
-MD5Sum: 36cbee693bc855002a82f573e30a3a44
-SHA1: f6604dff1c26c39b794c3b5a7f9cf07e8e50e956
-SHA256: 1acc7a559221649fc6f2146afa280837eb0d0af54e384a220bf2743061b76246
-SHA512: e9c18f85007077a12a832dfb571ba5e436fe53e5550d246b8bc00d7286c8fc805acbf4ff80e741d362b984e2f3510d91cda5c331d13790bdb24c1eac6c72ed49
+Size: 1704
+MD5Sum: 0095230d7c21e72832065535f5a30a7c
+SHA1: 9c1e29a69e25f2a72a3166e29960d370be34f15d
+SHA256: b17b562e42b865e8bde1c82d4221babc80113c7cc3abed642726189a940dc628
+SHA512: 13acd524b8863a8c7ef2db2a75a535524e191789965fbb1ca939b7a8fb4c8f736a6140e8e42c37b5988d1064273af269c3b3d8b4fd2993da6ff41334fcf756b1
 
 Package: hunner-framework
 Version: 1.0
@@ -1213,7 +1213,7 @@ SHA256: 61e59ed650f2a610207c46578418ef0ed781a465e8b94799650af475d9844cb7
 SHA512: 74ded90af770c3a7a8ce6c1448966592638c637c0f851677dbc5f118921bbc8aab0383290d7df02e601f51c66f1596337e72165612827489a3f2bc0b63d48029
 
 Package: katana
-Version: 1.2.2
+Version: 1.5.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You] 
 Depends: golang, git
@@ -1225,11 +1225,11 @@ Description: A next-generation crawling and spidering framework
  It's designed for both security researchers and penetration testers
  for comprehensive web reconnaissance and asset discovery.
 Filename: dists/termuxvoid/main/binary-all/katana.deb
-Size: 1564
-MD5Sum: b63826bbe336f81b41a3eb41e3d4b4fe
-SHA1: 9f72f8ca85c01c1c886c8cc9082f27c53b1e4d08
-SHA256: ebc4e4de34263be4bf2680b578f3b2abdb31d097e00e077c096aba2e5e145428
-SHA512: 259049ab41c16c42f2800d3fbb2305d3101531e5ddfdfc4dca9affd0d989cbf8bbd1dca52e1edb8d5ff94aa2a94024688512de8eefbd271437bfda6189a04cba
+Size: 1568
+MD5Sum: 7f36e10c0ac7a8939689faecbda98afa
+SHA1: c4b7a933f5fd3a6b45d56e07ff13fd06d8d883e3
+SHA256: 21349c695e244d7e7713c24b0b6c1e1e04ac63250309e32f103de9265252c008
+SHA512: 2bacab4378f17c3c85b10c37e1e84f15fa06fca7de5c3ebd865b2a55012dd24a022619c402f0d6824f90769dedfe4310758f79f7caf1f63d7d332bac622cfef3
 
 Package: kerbrute
 Version: 1.0.3
@@ -1462,7 +1462,7 @@ SHA256: f42e7799f17c1e87f0240ea8f81e4f67f4d264b45eae8f251a89b93b76a12e81
 SHA512: 88cdb589e14ce52d35a74cdaeb76b4358c01d362bc5f3393451324d34bdaddb8cea319773a4bb8a089c301eef6feb082ef98537d8c584209791980d86511b2d8
 
 Package: naabu
-Version: 2.3.7
+Version: 2.5.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: golang, git, libpcap
@@ -1474,11 +1474,11 @@ Description: Fast port scanning tool with SYN/CONNECT modes
  valid ports for hosts in a fast and reliable manner with SYN/CONNECT scans.
  Supports DNS/HTTP probes and integration with other tools.
 Filename: dists/termuxvoid/main/binary-all/naabu.deb
-Size: 1604
-MD5Sum: 1ca2a6346935d6ac4a1d60ef98c8a6b5
-SHA1: ecdacc621823b81f8404afd8107b8eab2ed35941
-SHA256: eba231ec0b38e839feccf4170ddde7e6d5bbaa03c2cb7a5675c22f75fd83db4b
-SHA512: 5b4a661421eef77e2a66be32cdc71fd7af90cc22f92b5671a6a17938a138475ab5cd0d58b6da11a7dc4c7b8331fae2138b756a17c9f271bf55807ee69be88fe6
+Size: 1608
+MD5Sum: 36f28342e735bcdb66be0e82ea22ec11
+SHA1: d7fd00ce0b033c55176dd3e70af283a494a336d5
+SHA256: b5ca24338de8120a72d8e5179a038833b6fa735f2bec39924e00d8a76046c15f
+SHA512: 0ce98f8b9e86b2b5f1260d52b629045edfa55290605464a80e82d40129d3a64b8a7eefed07789b98ef2b15865ba1a47ccc3751dedc43ac1a4a99d9652e5527d1
 
 Package: nethunter-cli
 Version: 2025.4
@@ -1535,7 +1535,7 @@ SHA256: b46993fa326120b751d7d921bb88c0013b9b369c97fb9b2445be36b7d369ea0a
 SHA512: 22d2fd735bbf5e8f7f40bcf77eaaefeda46253c87a5007b74b080028f87d3df2b9f9266c6154caa8dfaa0873efd41ec217f83d317964624997bb44083f771377
 
 Package: nuclei
-Version: 3.5.1
+Version: 3.7.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -1554,11 +1554,11 @@ Description: Advanced Vulnerability Scanner by ProjectDiscovery
  - Support for multiple protocols (HTTP, DNS, TCP, etc.)
  - Integration with ProjectDiscovery's ecosystem
 Filename: dists/termuxvoid/main/binary-all/nuclei.deb
-Size: 1760
-MD5Sum: 20c4b1c9f15d5ec4274c07f1729408ba
-SHA1: 034306d73aaf7a746664a5d660b1feb2430e4c69
-SHA256: e6a3c0fd025bbe9a9b51123d0c4616495b404b64194dfda603e887eb2ad04aba
-SHA512: 8bec29a4b9444f44e12d1d3a4e2280b745829662ef1a11c8853296ec52e6d2696edccf22ca9a1f8dcf9153a4c7e6e31eeaeeb445009d23e431e47c55e4869158
+Size: 1756
+MD5Sum: 36bf56bd7c6de7119057649c85a73192
+SHA1: 1180a33712d5433abdd2ac15238c723f80987266
+SHA256: 30022c229667f7427419109bcfd8a6724b855ae17467f29d29e928e636be7c0b
+SHA512: 2511799338639f8b296c44e3ee23dbf25e249f6365ab5bd14e964af91ca2977b0f24a04b09d7196cc749d264e5b97cbd8406db4e043b1dc65199abc17dc1e6a4
 
 Package: numinfo
 Version: 1.0
@@ -2269,7 +2269,7 @@ SHA256: f950a4e9e9b86386473f5b662f37d36cbef1dd0a1cfb4a4fdd027dfbe648c402
 SHA512: 5535bdea12a1e0cc25ca2920e2b2b0b3771b00c52018e30518b7128a9f060ae99d51209fa7ca5d55a2d132bd3af30ff318f7595b0b26a2dfe256c546c47f9fcc
 
 Package: subfinder
-Version: 2.10.1
+Version: 2.13.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang
@@ -2288,13 +2288,13 @@ Description: Advanced Subdomain Discovery Tool by ProjectDiscovery
  - Seamless integration with ProjectDiscovery ecosystem
 Filename: dists/termuxvoid/main/binary-all/subfinder.deb
 Size: 1740
-MD5Sum: 6c8bd38c1ed445ffa3ee04cc85a77266
-SHA1: 641f208c331145ac3341a995e64bcfcf8eec295d
-SHA256: 415437dcff155f55650fb0fbefd54c388764c523bebbdfd710f58863f23f3709
-SHA512: 13b441539a2fac9334b92dcbfcff6fa6a6eca59732ad2f14d416754e93250b67bf4147773ccee81aaa236cf381fe64d64298af54f83a13e85854f8e5c38b4059
+MD5Sum: 56de1649769c2629e5c1b0bebe151d17
+SHA1: b82151c080a9f04b856481f32b936bf4fe5e9fbe
+SHA256: 99d36b9b5eabd0091c7524f0963f857fa117d8f45961427b900330ea482a6a14
+SHA512: 3b97447f3d46a5252eeaada23db775b69b87608eca36900c7965cb9c26e018994e1c1ed88b670ba2c345823fae769ee86b939e4b44dfdc4b033c114d8963a908
 
 Package: subjack
-Version: 2.2
+Version: 3.0.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: golang, git
@@ -2308,11 +2308,11 @@ Description: Subdomain Takeover tool written in Go
  - Concurrent scanning
  - Custom configuration support
 Filename: dists/termuxvoid/main/binary-all/subjack.deb
-Size: 1436
-MD5Sum: 5d4aa52d8b710ecb11f45db43ca2e308
-SHA1: 8f3453604521365be96ea5f73c3e9a544a66f7b0
-SHA256: 435c8f02568e897762b790983968dba13e566eb755703666707dc2a48c0dac65
-SHA512: 9d6b461af8a2141a076a9ee99ed355255df5827e8c991df4defe1872f9eaee8388a032128a3606ececc2118ce19b7e7c1b1c5b9b5522d418bb904e9c300d8cda
+Size: 1448
+MD5Sum: e08ee4b21a188b464ff57aa25e11e161
+SHA1: 674c69d166c953355f4fa713938897dad5b6642f
+SHA256: be04ecad1adb6f65c24b899520bfef72c2c97ab1cae0cdd3d30c940aa194e62e
+SHA512: 044025e7c1467a2d537113a44c7c41e88643a71196fb9cc200e487e5f122f018d3fb2919f8ac7d2d1e22eeb4b319738e4cc0a55ef79f0f0d2bd3c19900296d8d
 
 Package: subzy
 Version: 1.2.1
