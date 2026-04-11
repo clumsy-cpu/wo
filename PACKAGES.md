@@ -87,6 +87,7 @@ This repository provides specialized security and penetration testing tools for 
 | term-helper    | Linux command cheatsheet |
 | wacli          | Command-line tool for WhatsApp chat management |
 | webserver      | Localhost internet exposure tool |
+| whatsapp-cli   | Standalone CLI for WhatsApp using multidevice protocol |
 
 ### 🔐 Password Tools
 | Tool       | Description                          |

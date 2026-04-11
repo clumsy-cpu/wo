@@ -2760,6 +2760,25 @@ SHA1: e0f125a16df673be3ab1c8b3043c9b85914cc25d
 SHA256: de76bdf37d479180672fcd115a67697a5a3d34caf613eec11876fd2f75bd98d2
 SHA512: d99e0898957c8380e4dfa45f5018d47d5d587992bd96f1e8800302be88f0ae561b235882563680b9f36e63c81fc9f67e9fa89c22db65e5fba5d2f1eb48c8f3ad
 
+Package: whatsapp-cli
+Version: 1.3.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: net
+Priority: optional
+Homepage: https://github.com/vicentereig/whatsapp-cli
+Description: Standalone CLI for WhatsApp using multidevice protocol
+ whatsapp-cli provides a command-line interface for WhatsApp,
+ outputting structured JSON for automation, AI integration,
+ data analysis, and custom applications.
+Filename: dists/termuxvoid/main/binary-all/whatsapp-cli.deb
+Size: 1364
+MD5Sum: 8c50a20419094dd45402432a41b24100
+SHA1: 1c8f85fcc7321846fa987eab4f8102be94c4c630
+SHA256: a4f470d1f78cbe0721a21d90862d5a3e4559c1c5e389ca1cc50fddda88df5dc4
+SHA512: 54f2751637b97ede29ebcf8712e3ee511867e862b25d5effbf32c6e635e2a1604619d5abc5ba152a8c3a9ad2ab39f401ff56b6c7fcb6f2b8addd43ae5e3a8f5f
+
 Package: wordlists
 Version: 1.1-0
 Architecture: all
