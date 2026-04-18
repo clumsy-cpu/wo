@@ -165,7 +165,7 @@ SHA256: 9f4bf29fd41082a1b2ed49b4e21a13f186742702854532a7037b8bf4adc3ab50
 SHA512: 1eb9a30bd49d247942366220982d09826073b76940e799ad77e0801538d2e01eb4c3cc161ecd5712be088f80b5fc783a38ee99f5775c6112930a061b6a6f6c57
 
 Package: apkeditor
-Version: 1.4.7
+Version: 1.4.8
 Architecture: all
 Maintainer: Alienkrishn [Anon4You] 
 Depends: openjdk-21, wget
@@ -176,11 +176,11 @@ Description: Lightweight APK modification tool
  Edit APKs directly via JAR executable.
  Supports decompiling, resource editing, and APK rebuilding.
 Filename: dists/termuxvoid/main/binary-all/apkeditor.deb
-Size: 1360
-MD5Sum: 3cd061d0b5c38023e7e7c3bdef69fe59
-SHA1: 8b1bf6d25f67c2c2d92a4f30e3f0c892e6f3f281
-SHA256: b57b0bcbd7f4ad8abfc558b1a0b750aa3b45ab64f37db1d1d6e80065b4e186c5
-SHA512: c8a5671ca9e71837f747603b934c8de7e77c35358838009a4bd4ccbeb67eac92926c16b23c115ba6ca7d9ba60c3578c99fa83f4c7e8d16c3556688fada4293cf
+Size: 1352
+MD5Sum: 24e9de4512f2bc3704251d1f89a990c9
+SHA1: c260e04f9a265df93e97fa71952f79ba4ce51325
+SHA256: 044d8ad2e93a9ebc2203d0f4a98595eb3800dd35b42304c56c81192ee935ba14
+SHA512: f01d94c90a71458da98e81e85e8bb75fd3f1478a475fa18e9a00f8185fcc396a19241cd37dc7c50147f79c4f9e13f7123023a41dd6b7917a62d6d3d097fc74f0
 
 Package: apkgen-cli
 Version: 1.0.0
