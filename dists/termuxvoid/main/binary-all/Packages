@@ -1580,10 +1580,10 @@ SHA256: 798e58b68f421c05348c87284ad4b706375d85fcb4254382a444ec60e2486795
 SHA512: 738cbe9eac3aa937b93d19817bbf6f6512a6cf40220fd4dfd9caf1c6c84e3695259f7ea76549491c17ecb84ba057a240ec56b70ae28528fd637fcf7fc49b147a
 
 Package: nvchad
-Version: 2.0
+Version: 3.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, neovim, ripgrep, lua-language-server, clang
+Depends: git, neovim, ripgrep, lua-language-server, clang, npm
 Section: editors
 Priority: optional
 Homepage: https://github.com/NvChad/NvChad
@@ -1592,11 +1592,11 @@ Description: Neovim Configuration Framework
  with IDE-like setup, themes, and plugins for enhanced development
  experience. Pre-configured for optimal performance and usability.
 Filename: dists/termuxvoid/main/binary-all/nvchad.deb
-Size: 1308
-MD5Sum: 055631a76c7afb27fcf02b9055f67a67
-SHA1: e74d71f06500b959a8ac817b311d976b5c387389
-SHA256: 654ea634a0effc3950fe5772c85d55048a80f57306548abd7b1c2acf7102d750
-SHA512: cd3de9b0b39720e243e44ea3164fc25374f67ef72dac2943124d4dd66173973ef6d56b8d0a10990c296e578f24e32912bbbb13992d11392797386f0b20a6c86b
+Size: 1332
+MD5Sum: 503f8dcb8e390231ddcb63114f3f9edf
+SHA1: b8cd4f38911880190746bc5c54db49428a648144
+SHA256: 3a30b93d039700f0041f03e6b51c1ea58a2f8f35af681b0933fc999bd1033534
+SHA512: 99b8fbc035f8710181ad4fa143dad0bbc3c9cbe318ea27f128a138e7760cbab30e8f25b695e3c46711e797590b1a36424f07d274a93e54b3f4261a377a816b03
 
 Package: openbullet
 Version: 1.0.2
