@@ -1288,6 +1288,25 @@ SHA1: b6fa72c0b4154ed83b99dcbd3d138eb11515695a
 SHA256: e2c7d0abb740fdaf2612ccb14c006943fc010b7e9efb43201c6527b9408fce14
 SHA512: d3299184dff4ef14482b41e207ed8fd69e795f6df60891f802e9826f4681cbbb4d2a9f71f54a0b033fd404c199c7a416aad8cde35da8876110dc7b25852cf155
 
+Package: lazyvim
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, fzf, fd, ripgrep, neovim, npm
+Section: editors
+Priority: optional
+Homepage: https://www.lazyvim.org/
+Description: Modern Neovim configuration framework
+ LazyVim provides a powerful, extensible Neovim setup with
+ pre‑configured plugins, keymaps, and IDE‑like features for
+ a streamlined development experience.
+Filename: dists/termuxvoid/main/binary-all/lazyvim.deb
+Size: 1508
+MD5Sum: 7821dbae176d3a24b4fecdd39b35c287
+SHA1: 2eb21df19930922f7ca80b21f74245710617d4e2
+SHA256: b1b032b25f9b224856e1549c3457f2f04308bb44eca603ad86dfc9566952e0a2
+SHA512: 87603f1a21adc1237aa7bf67b48e5b0b5734c70a780b4a22a7732270b058bc719b7e3450e489d8f955288f114ce33d231e0a87b41d7b768480da3e9998fb105c
+
 Package: linkwizard
 Version: 1.0
 Architecture: all
