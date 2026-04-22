@@ -76,10 +76,12 @@ This repository provides specialized security and penetration testing tools for 
 | cronitor-cli   | CLI tools for managing and monitoring cron jobs and scheduled tasks |
 | ffmpegp        | Python utility for simplified ffprobe and ffmpeg media operations |
 | ia-get         | Internet Archive Downloader Tool - Command-line utility for downloading files from the Internet Archive |
+| lazyvim        | Modern Neovim configuration framework |
 | mkwebapp       | Tool to create Termux .deb packages for websites |
 | nethunter-cli  | Kali NetHunter command-line interface |
 | nvchad         | Neovim configuration framework |
 | openbullet2    | Web Application Security Testing Suite |
+| openclaude     | Open‑source coding‑agent CLI for cloud and local LLMs |
 | parrot         | Lightweight security OS |
 | playit         | Global Proxy for Server Hosting Without Port Forwarding |
 | spider         | Mass Telegram account reporting |
