@@ -710,7 +710,7 @@ SHA256: ed206122fe502feb354d4f4ab83bd821f7bd48c2d9197788c479706c27230538
 SHA512: 66c4bbe174262d65f1f565dfd683d357e0c0e447d9262a9e840e51f432e7dc0cf9d0847bee7629749289f4f0094d3d13ecfe78f323bb2c964b250f8b0f2aa4e4
 
 Package: exiftool
-Version: 13.36
+Version: 13.57
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, perl
@@ -724,11 +724,11 @@ Description: Read, write and edit meta information in files
  - Metadata editing
  - Batch processing
 Filename: dists/termuxvoid/main/binary-all/exiftool.deb
-Size: 1368
-MD5Sum: 8c910fccd986667bb7dcc4f5a942ad18
-SHA1: 2c29d3ed7d5551a8649f70049bcc8fabbea219fe
-SHA256: c29b2f1ff26fe39b0fbc377d1cb25c607b7b91ef64b5854dd6d6174fb7f78b49
-SHA512: 3e3dcfe21d84f040128a54885fdc028a172af7e1bff6a4a27cb6cc315ac8fe890ad26e0caab2067b2d04b2f406583bb6517baa658e5889fe29b71c5d08ee41b5
+Size: 1372
+MD5Sum: 442daa1cd54530af8fc63454ba53d640
+SHA1: e1f9ba6456e104827204b0f20401c7124656df6e
+SHA256: 112f470cbf626470408ec4e4f64feaee51d93d984778f624019384782a629edd
+SHA512: d5d547f5a0b7194798095f920870ce4455c926ecbe3b6901accfe35dfcc6e89114abc73ce42e8a0338e77167ad743abe9154e0004b6cec408b42b931301b21a6
 
 Package: ffmpegp
 Version: 1.30
