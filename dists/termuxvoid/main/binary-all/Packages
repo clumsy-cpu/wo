@@ -586,6 +586,25 @@ SHA1: eeab408bb75afd489933b2da357e5ef04d2f5f58
 SHA256: 5688835625cbd85612d18df0992d6a346b64b0ddb93f196c647c4bd7c2f6ddab
 SHA512: 473948f061bf47d0e82083a5f605afca6b50b575d27eef57ab3ac46d05f73d61d161431c1033687547417d5e2667dea5787ba470145e6c3a5505a75536c00d01
 
+Package: d-tect
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python2
+Section: net
+Priority: optional
+Homepage: https://github.com/bibortone/D-Tech
+Description: D-TECT - Pentest the Modern Web
+ All-in-One penetration testing tool for information gathering
+ and vulnerability detection (sub‑domain scan, port scan,
+ XSS/SQLi detection, WordPress analysis, etc.)
+Filename: dists/termuxvoid/main/binary-all/d-tect.deb
+Size: 1224
+MD5Sum: 703bae115cc970c2fbcc2a4423f36d01
+SHA1: 49bc543ef584309c61afe01ca12ddb35e64a0193
+SHA256: 83ec26339a92b1bb6119c29551b3a473ea87f6c7c2a6be7c917d0c59ac1780f6
+SHA512: 15ea916e9b1319a82432022fbc8afbec991c78e04885056031ae03b7bf8fef2ead522d65ab945697e4be96cabb4ed7d64ea5b0865056f626d45114a28508c187
+
 Package: dalfox
 Version: 2.12.0
 Architecture: all
@@ -807,6 +826,27 @@ MD5Sum: cd301a96661eecf0ce54a6ef3fe6f49d
 SHA1: c04110f039f7770d827cf3ad5278277b2261d797
 SHA256: 260e2afa83487c2b9f7a97a343cb898ae50e19e57d36dea7fadfe22970b95a63
 SHA512: fd7e251ab33123910c78ab189031e92dfe22371013c8d213618bfe1f72088daae08d375ca9b216043777a78ae1d7a7382a0d27cb2756fb1f1bb954f26ca56d8f
+
+Package: findomain
+Version: 10.0.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, rust, make, cmake
+Section: net
+Priority: optional
+Homepage: https://github.com/Findomain/Findomain
+Description: The fastest and complete solution for domain recognition
+ Findomain is a high‑performance subdomain enumerator that uses
+ certificate transparency logs, DNS data, and multiple public APIs.
+ It includes subdomain monitoring, alerts via Discord/Slack/Telegram,
+ port scanning, HTTP checks, data import from other tools, and full
+ support for configuration files.
+Filename: dists/termuxvoid/main/binary-all/findomain.deb
+Size: 1260
+MD5Sum: e930e11a18a39fcf19c94024444dcd5f
+SHA1: 3559071a37409dd7c718c77256da507bb1733a30
+SHA256: 48ea0a9ffb75ff9a98abea581a09b2921ca0c10ddfd622d3ca379166b2998db4
+SHA512: 3f241034eff073bfa3a652bf16ac939303aa0a49dd7fbd48f7259136ef04cbd74da71e4ad447994f5281269f37a0b13e88a8648ae25a6bbb945fd1497795a04d
 
 Package: flutter
 Version: 3.41.7

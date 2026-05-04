@@ -128,6 +128,7 @@ This repository provides specialized security and penetration testing tools for 
 | [dalfox](https://github.com/hahwul/dalfox) | Parameter analysis and XSS scanning tool |
 | [dnsx](https://github.com/projectdiscovery/dnsx) | Fast DNS toolkit for reconnaissance |
 | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go |
+| [findomain](https://github.com/Findomain/Findomain) | Fastest and complete solution for domain recognition |
 | [fscan](https://github.com/shadow1ng/fscan/) | Comprehensive intranet scanning tool |
 | [ghosttrack](https://github.com/HunxByts/GhostTrack) | Advanced tracking and reconnaissance tool |
 | [gobuster](https://github.com/OJ/gobuster) | Directory/file & DNS busting tool written in Go |
@@ -229,6 +230,7 @@ This repository provides specialized security and penetration testing tools for 
 | [burpsuite-pro](https://portswigger.net/burp/) | Web security testing platform (professional edition) |
 | [cloudflare-gui](https://github.com/Keyaru-code/Cloudflare-GUI) | Stylish GUI for Cloudflare Tunnels |
 | [commix](https://commixproject.com/) | Automated All‑in‑One OS Command Injection and Exploitation Tool |
+| [d-tect](https://github.com/bibortone/D-Tech) | D‑TECT – Pentest the Modern Web |
 | [ghauri](https://github.com/r0oth3x49/ghauri) | Advanced Cross‑Platform SQL Injection Scanner |
 | [gophish](https://getgophish.com/) | Open‑Source Phishing Toolkit |
 | [hatcloud](https://github.com/HatBashBR/HatCloud) | CloudFlare detector and information gatherer |
