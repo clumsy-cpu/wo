@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://termuxvoid.github.io/">
-    <img alt="TermuxVoid" height="180" src="assets/termuxvoid_logo.png">
+    <img alt="TermuxVoid" height="180" src="img/termuxvoid_logo.png">
     <h1>TermuxVoid APT Repository</h1>
   </a>
   <p><b>🔓 100+ Ethical Hacking & Pentesting Packages — Beyond Official Repositories</b></p>
@@ -28,7 +28,7 @@ Whether you are a professional penetration tester or an ethical hacking enthusia
 
 > [!NOTE]
 > This repository contains tools that are often excluded from official sources due to complexity or licensing. All packages are compiled natively for Termux.<br>
-> We now also host **root packages**. See [root-repo.md](root-repo.md) for details.
+> We now also host **root packages**. See [root-repo.md](assets/root-repo.md) for details.
 
 
 ## 🚀 Quick Installation
@@ -136,7 +136,7 @@ Support the project to help us keep the packages updated and add more tools:
 - 🐛 **Report Bugs** responsibly via Issues.
 - 📢 **Share** with the security community.
 
-[View Complete Package List »](PACKAGES.md)
+[View Complete Package List »](assets/PACKAGES.md)
 
 <div align="center">
   <sub>Built with ❤️ for security researchers | Termux-optimized builds</sub>
