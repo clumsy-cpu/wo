@@ -108,7 +108,8 @@ We are constantly expanding. You can request new tools via:
 2. Contacting us on Telegram: **[TermuxVoid](https://t.me/termuxvoid)**
 </details>
 
-> **Note:** We now also host **root packages**. See [root-repo.md](root-repo.md) for details.
+> [!NOTE]
+> We now also host **root packages**. See [root-repo.md](root-repo.md) for details.
 
 ## 🌐 Support & Community
 
