@@ -1636,20 +1636,24 @@ SHA256: 7c785a163cc4d49ebdeec93e738eebc975e05d780cd896591e12eb2da0d8b11b
 SHA512: 87b67d54d2eb68633f1d5da11413dd1810fd546f4644c9a7ff79bcca5960f8d1d9d5aa7dcf44bd853ddd217cc4088b983d27205586243747acf254d5b1e5cd38
 
 Package: ngrok
-Version: 3.4.1
+Version: 3.39.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: wget, openssl
+Depends: wget, proot, openssl
 Section: net
 Priority: optional
 Homepage: https://ngrok.com
-Description: Tunneling tool Secure tunnels to localhost
+Description: Secure tunnels to localhost
+ ngrok is a cross-platform application that exposes local
+ development servers to the internet with secure tunnels.
+ Features include introspection, replay, and replay of
+ requests for webhook testing and debugging.
 Filename: dists/termuxvoid/main/binary-all/ngrok.deb
-Size: 1424
-MD5Sum: 285fee1330abdcba6918299a7f9e8d6e
-SHA1: 9894e44f435f9417c7f423396d97f999d2baab1c
-SHA256: 3a28a93e20452d507ea0643110b298b12dd31088db0630c40fddb77db65ca3e1
-SHA512: 5d82258ee4a76d4f8eee35bface2d39ebb4ef0f34b2c0a27b5c9bee71447bf8aa1e6f0b8eb8a61eba01e349da718e5d2fafb0d7d97df1f01f226cc372f8222ae
+Size: 1568
+MD5Sum: a4c3fded4385d3d23bc8ef215ed0185d
+SHA1: 357860fef9f576bdf31a72c6841e0b14fe243eb8
+SHA256: 11dc46089b0554de108e15b55f41af45fb39ea927f7aaca9bae7a8a858aed03c
+SHA512: ba2773c0d02916ff31165e99d71717f3c91586cf61ad07dff9151d70e48422759b924991248dde8761d3f8a2b5a36e9c4b7d05e42b9d26bef51d133db4757056
 
 Package: nikto
 Version: 2.5.0
