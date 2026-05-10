@@ -1070,6 +1070,26 @@ SHA1: 2f1ce055c5cd5fa35880f71bad24015033b62e44
 SHA256: ca35e50c0f5d0af6f0baa3a24320c8738bbe4c1adafaa3e76d5b52c49dad7e0b
 SHA512: a8847c3b4658064e87eadd95f9e935e71ddc626c605c1b934385d26fefd52ebfdd8f9d67b54ff71cdcb7487eda7cbc7ef6c73d0d5ade0666088842cac943c3ad
 
+Package: haxrat
+Version: 1.0.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, npm, apkeditor, apksigner
+Section: net
+Priority: optional
+Homepage: https://github.com/Anon4You/haxRat
+Description: Cloud-based remote Android management suite
+ HaxRat is a Node.js‑powered tool that provides remote management
+ and monitoring of Android devices. It supports features like
+ screenshot capture, live logging, microphone recording, GPS
+ tracking and APK building.
+Filename: dists/termuxvoid/main/binary-all/haxrat.deb
+Size: 1248
+MD5Sum: 40790b1e333a8c135738ab7be3313f52
+SHA1: 237076ef83f3af2a0ce4e1116240d756abb5b619
+SHA256: 3a15b44f2a87caa1c5655f4c583dd5fc3715dc3560f9a555e71a5beacbebbb6a
+SHA512: 91e68c71692a98cc4fa63de62ff5abf02bbf59217e03ecea2229ed0f314a8a70b53c7fb63cf37da7144d7176eea58c7b0f8a8f4954e0bd5a0c5e8e56c71025db
+
 Package: hbctool
 Version: 0.1.5-96
 Architecture: all
@@ -2656,7 +2676,7 @@ SHA256: 04af918054b38d746ddc545ce6766f16767d5cb6df2d5d0e6383454887218973
 SHA512: b06d0b80de1a5bd1a6c90b2b32f298182d6dda4294259266a29a09ec65e6bb3c19061543ea0bbab750ccd9a973d2631deeff32bcdfb4d80cf25e14309ebbd3ca
 
 Package: thc-hydra
-Version: 9.7
+Version: 9.8
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, make, clang, openssl, libssh
@@ -2669,10 +2689,10 @@ Description: Parallelized Login Cracker Supporting Numerous Protocols
  Designed for security researchers and penetration testers.
 Filename: dists/termuxvoid/main/binary-all/thc-hydra.deb
 Size: 1612
-MD5Sum: e9cc626de5d2aa97632c03d071e6a0c3
-SHA1: b1d23820e5977e638482fb3a97291d63636dfcb4
-SHA256: 680cb70c0f2ab817049121755b349a930ef06315da14fdb29669869d17e3cee6
-SHA512: a7d7a72fb38169e7b6b89975f8d0354befd8dfa1253f987ffb0b341b2767e663b14fb922c60195953510d6697c7fc0d11c2abc230d87d5114e26e749533c346f
+MD5Sum: 53f7780ee893adc5816d3e56e43479fd
+SHA1: d0e3bfe15f81e732cc1c558d607569fc67e77261
+SHA256: 154058e4427c09ca5acc1399eb614f43f17d5eb5cd99621018638ed187d3f020
+SHA512: 62788f7a49251f8089a29793f6bf33d6e0600e54d973a315332d06a182a2d96b43ed3a70db2274df19740e07d9eab5f6b42aaf9097f6e82544441b4698540616
 
 Package: the-theif
 Version: 2.1

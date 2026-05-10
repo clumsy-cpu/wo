@@ -14,6 +14,7 @@ This repository provides specialized security and penetration testing tools for 
 | [blackbox-framework](https://github.com/jothatron/blackbox) | Python‑based network analysis and exploitation toolkit |
 | [darksploit-framework](https://github.com/ykankaya/DarkSploit) | Tool to run and create exploits |
 | [drshell](https://github.com/DrDataYE/DrShell) | Reverse Shell Session Manager |
+| [haxrat](https://github.com/Anon4You/haxRat) | Cloud‑based remote Android management suite |
 | [hunner-framework](https://github.com/b3-v3r/Hunner) | Open Source Penetration Testing Framework |
 | [knockpy](https://github.com/guelfoweb/knock) | Subdomain enumeration and reconnaissance tool |
 | [metasploit-framework](https://www.metasploit.com/) | World’s most used penetration testing framework |
