@@ -2002,7 +2002,7 @@ SHA256: 5af060a642c8147ad88b7984a7d55bf822a424588911a04ad3d11bffd20043c8
 SHA512: 6beb438159788d004c812f0c44705d08d118e3b352b8a914b5fa7cd9be0060150c036f3ed5e31c86b67bf0d4c584bf5bdba8c39899cb555a398113d6709299b0
 
 Package: playit
-Version: 0.16.3
+Version: 0.17.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, rust, build-essential, pkg-config
@@ -2015,11 +2015,11 @@ Description: Global Proxy for Server Hosting Without Port Forwarding
  services to the internet with automatic SSL and global accessibility.
  Supports TCP, UDP, and HTTP traffic.
 Filename: dists/termuxvoid/main/binary-all/playit.deb
-Size: 1504
-MD5Sum: 3cd281e809b1a1dac9ff126fa3549a73
-SHA1: 9e30336fddd699891f8f7283c88e4ae285705899
-SHA256: cad6783b6b7b9b17a3129315e255d7c1978822cef812ebd6470ddb2c2b3ece10
-SHA512: 0959b46eda931417d7d5e8175503b4dd55d83f1131674fdffabe04dd76ee6e35b394d4b6455ace58203eb8b3a48019ddf2d34fc03f2d9c5df487b98aec197c63
+Size: 1508
+MD5Sum: f271f2fb97c34c2a8fcc437d915bfa69
+SHA1: 49acd8339f4d514879abea5844698d3605a04cb3
+SHA256: 42ee59558a142b964738b0253cce568a898ecd02b7613fd17099b5c8182d6aea
+SHA512: 2e0dd76a09ecd9952781085d039f9b19e447dc9f74bb81a2613b51e732430ba9127c8ac97c6631c3ac6f98c8242a91a75cfd15c5ebe21c57039a215255a292a1
 
 Package: powerdos
 Version: 1.0.1
