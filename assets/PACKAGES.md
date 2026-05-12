@@ -71,7 +71,7 @@ This repository provides specialized security and penetration testing tools for 
 | [vedic](https://github.com/vedic-lang/vedic) | World's first Sanskrit programming language |
 | [zen-c](https://github.com/z-libs/Zen-C) | High‑level systems programming language compiling to C |
 
-### 🖥️ Miscellaneous
+### 🖥️ Miscellaneous Utilities
 | Tool | Description |
 |------|-------------|
 | [alienkrishn](https://termuxvoid.github.io/) | TermuxVoid package manager and system helper |
@@ -84,9 +84,7 @@ This repository provides specialized security and penetration testing tools for 
 | [nethunter-cli](https://www.kali.org/) | Kali NetHunter Rootless Edition CLI |
 | [nvchad](https://github.com/NvChad/NvChad) | Neovim configuration framework |
 | [openbullet2](https://openbullet.dev/) | Web Application Security Testing Suite |
-| [openclaude](https://github.com/Gitlawb/openclaude) | Open‑source coding‑agent CLI for cloud and local LLMs |
 | [parrot-cli](https://www.parrotsec.org/) | Parrot Security OS 6.3 (Lorikeet) for Termux |
-| [playit](https://playit.gg/) | Global proxy for server hosting without port forwarding |
 | [spider](https://t.me/nullxvoid) | Telegram auto‑report script |
 | [sploitscan](https://github.com/xaitax/SploitScan) | Exploit intelligence gathering and analysis |
 | [term-helper](https://github.com/Anon4You/term-helper) | Terminal command helper and cheatsheet tool |
@@ -94,7 +92,6 @@ This repository provides specialized security and penetration testing tools for 
 | [termux-desktop-wallpapers](https://alienkrishn.infy.uk) | Wallpapers for termux-desktop |
 | [termux-penv](https://github.com/Anon4You/termux-penv.git) | Simplify chroot environments in Termux |
 | [wacli](https://wacli.sh/) | Command‑line tool for WhatsApp chat management |
-| [webhost](https://github.com/Anon4You/WebHost) | Easily serve any local web project to the internet — instantly |
 | [webserver](https://t.me/nullxvoid) | Simple web server for Termux |
 | [whatsapp-cli](https://github.com/vicentereig/whatsapp-cli) | Standalone CLI for WhatsApp using multidevice protocol |
 
@@ -203,8 +200,6 @@ This repository provides specialized security and penetration testing tools for 
 | [morphshell](https://github.com/termuxvoid/MorphShell) | Sleek Termux shell environment with dynamic themes |
 | [ruby-nokogiri](https://nokogiri.org/) | Ruby gem for HTML/XML parsing (system libraries) |
 | [shellcrypt](https://github.com/Anon4You/ShellCrypt) | Professional code obfuscation for Bash and Python |
-| [termux-ai](https://github.com/Anon4You/Termux-Ai) | Interactive AI assistant for Termux |
-| [termux-media-downloader](https://github.com/Anon4You/Termux-Media-Downloader) | High‑performance media downloader |
 | [tte](https://pypi.org/project/terminaltexteffects/) | Terminal Text Effects and Animation Library |
 
 ### 🎨 Text & Utilities
@@ -223,10 +218,12 @@ This repository provides specialized security and penetration testing tools for 
 ### 🤖 AI & Productivity
 | Tool | Description |
 |------|-------------|
-| [termux-ai](https://github.com/Anon4You/Termux-Ai) | Interactive AI assistant for Termux (also listed in System Tools) |
-| [termux-media-downloader](https://github.com/Anon4You/Termux-Media-Downloader) | High‑performance media downloader (also listed in System Tools) |
+| [9router](https://9router.com/) | Smart gateway between your tools and 60+ AI providers |
+| [openclaude](https://github.com/Gitlawb/openclaude) | Open‑source coding‑agent CLI for cloud and local LLMs |
+| [termux-ai](https://github.com/Anon4You/Termux-Ai) | Interactive AI assistant for Termux |
+| [termux-media-downloader](https://github.com/Anon4You/Termux-Media-Downloader) | High‑performance media downloader |
 
-### 🌐 Web Security
+### 🌐 Web Security & Tunneling
 | Tool | Description |
 |------|-------------|
 | [afrog](https://github.com/zan8in/afrog) | Fast Vulnerability Scanner with PoC Support |
@@ -241,8 +238,10 @@ This repository provides specialized security and penetration testing tools for 
 | [jsql](https://github.com/ron190/jsql-injection) | Lightweight SQL injection detection and exploitation tool |
 | [ngrok](https://ngrok.com) | Secure tunneling to localhost |
 | [nikto](https://github.com/sullo/nikto) | Comprehensive web server scanner |
+| [playit](https://playit.gg/) | Global proxy for server hosting without port forwarding |
 | [sqlmap](https://sqlmap.org/) | Automatic SQL injection and database takeover tool |
 | [sqlscan](https://github.com/machine1337/sqlscan) | Efficient tool to find SQL injection vulnerabilities |
+| [webhost](https://github.com/Anon4You/WebHost) | Easily serve any local web project to the internet — instantly |
 | [websploit](https://github.com/The404Hacking/websploit) | Advanced MITM framework |
 | [wpscan](https://wpscan.com/) | WordPress security scanner |
 | [xbomber](https://github.com/Anon4You/XBomber) | High‑performance SMS bombing tool for educational testing |
