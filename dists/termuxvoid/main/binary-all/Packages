@@ -1091,7 +1091,7 @@ SHA256: ca35e50c0f5d0af6f0baa3a24320c8738bbe4c1adafaa3e76d5b52c49dad7e0b
 SHA512: a8847c3b4658064e87eadd95f9e935e71ddc626c605c1b934385d26fefd52ebfdd8f9d67b54ff71cdcb7487eda7cbc7ef6c73d0d5ade0666088842cac943c3ad
 
 Package: haxrat
-Version: 1.0.0
+Version: 1.0.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, npm, apkeditor, apksigner
@@ -1104,11 +1104,11 @@ Description: Cloud-based remote Android management suite
  screenshot capture, live logging, microphone recording, GPS
  tracking and APK building.
 Filename: dists/termuxvoid/main/binary-all/haxrat.deb
-Size: 1248
-MD5Sum: 40790b1e333a8c135738ab7be3313f52
-SHA1: 237076ef83f3af2a0ce4e1116240d756abb5b619
-SHA256: 3a15b44f2a87caa1c5655f4c583dd5fc3715dc3560f9a555e71a5beacbebbb6a
-SHA512: 91e68c71692a98cc4fa63de62ff5abf02bbf59217e03ecea2229ed0f314a8a70b53c7fb63cf37da7144d7176eea58c7b0f8a8f4954e0bd5a0c5e8e56c71025db
+Size: 1244
+MD5Sum: 1fa7a83524b7b3a29223872a6faeb1ee
+SHA1: 8b3e141b89481ea53f45fdef87e4cfca8f1853a3
+SHA256: c9faaad20ab8a6671ced5401e25dc4cd30346f940cf0d1216b9a8c9501d0553a
+SHA512: eb2834fee2e91e8bb2655d77ce116409cc0bbd1f412f496044a53e985c98872885c531e1f28fe7fedc6ba255834c11bcf5fdce2f7e7fce350e93b05ae188d7d8
 
 Package: hbctool
 Version: 0.1.5-96
