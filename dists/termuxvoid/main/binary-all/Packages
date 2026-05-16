@@ -940,6 +940,25 @@ SHA1: f3e0cc1dcfedd9d87419f8dc45733e30a093dfad
 SHA256: d12f54059031b021bd82eb0c25078cd725c15363caa560b27952fa9ab123a916
 SHA512: 828cec6a54353d2f7b122c44dcea672df543774c19018cb2e63dc12bc400ad65834cdc1e1d2c2945ecf98bdbb3350eb8d105a1413a7f358a4595186f64225f30
 
+Package: gallery-eye
+Version: 0.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, ruby, apkeditor, apksigner
+Section: utils
+Priority: optional
+Homepage: https://github.com/Anon4You/gallery-eye
+Description: Silent gallery exfiltration via Telegram bot
+ Builds a disguised Android WebView app that silently extracts
+ photos from the device gallery and forwards them to a Telegram
+ chat. For authorized security testing and educational use only.
+Filename: dists/termuxvoid/main/binary-all/gallery-eye.deb
+Size: 1200
+MD5Sum: f21ab843fa8d97994c015b0ecefacfc8
+SHA1: 79b693811cd955e36bf90806d331723bb9e3b732
+SHA256: 91eca2cb1b2e93755ca351d603717dc20320fdcbbae71826c9a0ea849d94977a
+SHA512: e7dfed1935f57c3528a0180d6cece0b98dcbd7b431645ac94bb76d397263663a01dbf3dfb072c978189ca3bed4114344222e6b43af5a6667aca01e90ce1295d7
+
 Package: ghauri
 Version: 1.4.2
 Architecture: all

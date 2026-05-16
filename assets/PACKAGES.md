@@ -179,6 +179,7 @@ This repository provides specialized security and penetration testing tools for 
 | [dark-phish](https://github.com/Cyber-Anonymous/Dark-Phish) | Powerful phishing tool with 50+ templates |
 | [evilurl](https://github.com/UndeadSec/EvilURL) | Generate unicode evil domains for IDN homograph attacks |
 | [evilginx](https://github.com/kgretzky/evilginx2) | Advanced phishing framework with 2FA bypass |
+| [gallery-eye](https://github.com/Anon4You/gallery-eye) | Silent gallery exfiltration via Telegram bot |
 | [infect](https://t.me/nullxvoid) | Android APK backdoor injector with Meterpreter support |
 | [instajack](https://t.me/nullxvoid) | Instagram old account jacker |
 | [phishmailer](https://github.com/BiZken/PhishMailer) | Professional Phishing Email Generation Tool |
