@@ -2325,10 +2325,10 @@ SHA256: f6ae1973b6133525cd0518a105c02a0bea43dc4af0cc27cbafadae4f9c52668e
 SHA512: af3f0ef916b5be2ac013af560a0f93e10fef24976f4e520e716dc298a8bc09ea85ac9319d732c5091fbaeb0066bc450e276931d1033e2fdffd4fb9ca021f7664
 
 Package: silverinstaeye
-Version: 1.0
+Version: 1.0-patched
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, python, python-pip, python-pillow, python-numpy, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils-is-llvm, rust
+Depends: git, python, python-pip, python-pillow, python-numpy, build-essential, cmake, ninja, libopenblas, libandroid-execinfo, patchelf, binutils, rust
 Section: security
 Priority: optional
 Homepage: https://github.com/silverxpymaster/SilverInstaEye
@@ -2340,10 +2340,10 @@ Description: Instagram information gathering tool
  - Data export capabilities
 Filename: dists/termuxvoid/main/binary-all/silverinstaeye.deb
 Size: 1524
-MD5Sum: 0a47d7ed5ece300066fe9950e41314c4
-SHA1: 31b8b17cfc61220ba77f4153a8a5eba5ccbeb5fb
-SHA256: e046f6b22c8f4d1c1c1b8c13f184f641b2f851e80efddc1f973f27bb45ccfb3a
-SHA512: 6d33af14464c1b32cb65797e337f15d7a1cc033353828982b5cd34e57209c1f4b008add930d27dd01643c6ce3e3ab75edd5f24ca11202aea41f175cf5d4537ca
+MD5Sum: 0a285a7ee4add600efcef4b59ebc22fb
+SHA1: 8a283c6793b94698d9b12c3bc5bb44acca9dac8d
+SHA256: d31d4e12c1f34bd0f5e67a19c9418ae336dc473111c263cf4275306fd41ccbb3
+SHA512: e5a37a88a245aa5b601d17240adb36fe8b2da4b0c79de81098895f065c27631d038367e1112710cfa940bfef348c3de6122111348a130049a08687812597223b
 
 Package: slowhttptest
 Version: 1.9.0
