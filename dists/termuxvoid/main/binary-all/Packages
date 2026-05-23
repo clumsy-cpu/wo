@@ -1856,7 +1856,7 @@ SHA256: 7a7807581afbd9286f617d158431f211263fcebe293f154337503c437070b8cd
 SHA512: bdd5d6a3735d31dabc85c0888de4ad8d38fa4a74faf628aa2fecd843a7fd5bca99f50fd95782b362b8d41cf212d55bd89cfade8ff4271721b830a67c86f58bf5
 
 Package: openclaude
-Version: 0.13.0
+Version: 0.14.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: npm, ripgrep
@@ -1868,11 +1868,11 @@ Description: Open‑source coding‑agent CLI for cloud and local LLMs
  large language models from multiple providers (cloud or local),
  with features tailored for coding assistance and automation.
 Filename: dists/termuxvoid/main/binary-all/openclaude.deb
-Size: 1092
-MD5Sum: e71c2f2655b54f00569135933ae91280
-SHA1: fbabe077bc7267cea918a3a00f5ed45d97d60c05
-SHA256: 3963ed0a99466dbcd99b6bb92229aa69ce89bd0596cc292811bcc819846f0c6a
-SHA512: 9e3bbf07d27f7a396ed7cba444fb5ee3754788bef38f3a32f244d6366a89380eba90c7e74928af24224f1bdbe0105b78398923265c4ca7e474345cf74c9a39c5
+Size: 1088
+MD5Sum: cd4e1da5b1f395a61f2cfb9e4ca1ba8e
+SHA1: 5dbc10cf95f783c491d8ac271e99b1c60066dd73
+SHA256: 7ca22e78d59cc5d2f0b6c76f57e99149ac2c07983651c25f0684a00f08f253b2
+SHA512: 4bf63efd0dadad6feabd0c76a5f7b10f88f1a803fbc8d99db29c0ce1f5ad3e4685118e445f5ca5eddb7f6194edffbec37d5cf0107e73874a8d802bbb9d594408
 
 Package: pairip
 Version: 1.3.10
