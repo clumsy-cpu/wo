@@ -54,6 +54,7 @@ This repository provides specialized security and penetration testing tools for 
 | [silverinstaeye](https://github.com/silverxpymaster/SilverInstaEye) | Instagram information gathering tool |
 | [snoop](https://github.com/snooppr/snoop) | Information gathering tool using online resources |
 | [theharvester](https://github.com/laramies/theHarvester) | Email, subdomain, and name harvester |
+| [user-scanner](https://github.com/kaifcodec/user-scanner) | 2‑in‑1 Email & Username OSINT suite – 100+ email, 105+ username vectors |
 | [webinfo](https://github.com/Anon4You/webinfo/) | Website information gathering |
 
 ### 🦠 Malware Analysis

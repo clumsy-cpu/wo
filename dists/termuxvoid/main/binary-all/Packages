@@ -2844,6 +2844,24 @@ SHA1: 08cc0be33735ef3ee9e265294a8d8578ab9934d0
 SHA256: c353f4c4d5a201fc7d63e7e0ca3614b8f75421421cf4cfa26f3e370c2c06c57a
 SHA512: 2846bb2cdce0dcad048e1c554be04739a7233a74321285b4ee102ad6fc95ebd8255b2c9badf5c2486952767c3b93e400a64e8e56cd3ddb59dd41b9274cfb663c
 
+Package: user-scanner
+Version: 1.3.6.6
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-pip
+Section: utils
+Priority: optional
+Homepage: https://github.com/kaifcodec/user-scanner
+Description: 2-in-1 Email & Username OSINT suite
+ Analyzes 205+ scan vectors (100+ email / 105+ username) for
+ security research, investigations, and digital footprinting.
+Filename: dists/termuxvoid/main/binary-all/user-scanner.deb
+Size: 1036
+MD5Sum: fe6242551de1fc71349ac5451f4b8db2
+SHA1: dbe72faa180e93bae39935e5ad7b400f5bc96b2a
+SHA256: da6d580e3c4db600043c6dda3e565a9183d09b2c2f86cad26a36ccca552ee66d
+SHA512: 91bf8cb57ccc94e9d3155a16107d36c10c5943d646ac81ab347adb431a9aa6d276ec19b01fc8a30af6fd3415f7aae057bd71caa56c86dee2559de2633cbf3a29
+
 Package: vedic
 Version: 2.0.6
 Architecture: all
