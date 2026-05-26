@@ -118,6 +118,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 📊 Data Analysis
 | Tool | Description |
 |------|-------------|
+| [gron](https://github.com/tomnomnom/gron) | Make JSON greppable – transform JSON into discrete assignments |
 | [pip-basic-depends](https://alienkrishn.page.gd) | Essential build dependencies for Python packages |
 | [python-pandas](https://pandas.pydata.org) | Powerhouse data analysis toolkit |
 
@@ -131,6 +132,7 @@ This repository provides specialized security and penetration testing tools for 
 | [ffuf](https://github.com/ffuf/ffuf) | Fast web fuzzer written in Go |
 | [findomain](https://github.com/Findomain/Findomain) | Fastest and complete solution for domain recognition |
 | [fscan](https://github.com/shadow1ng/fscan/) | Comprehensive intranet scanning tool |
+| [gau](https://github.com/lc/gau) | Fetch known URLs from AlienVault, Wayback Machine, and CommonCrawl |
 | [ghosttrack](https://github.com/HunxByts/GhostTrack) | Advanced tracking and reconnaissance tool |
 | [gobuster](https://github.com/OJ/gobuster) | Directory/file & DNS busting tool written in Go |
 | [httpx](https://docs.projectdiscovery.io/tools/httpx) | Fast and multi‑purpose HTTP toolkit |
@@ -141,10 +143,12 @@ This repository provides specialized security and penetration testing tools for 
 | [pandora](https://github.com/MrSanZz/pandora) | Open source OSINT tool |
 | [paramspider](https://github.com/devanshbatham/paramspider) | Parameter discovery suite for web applications |
 | [pywhat](https://github.com/bee-san/pyWhat) | Identify anything – text analysis tool |
+| [qsreplace](https://github.com/tomnomnom/qsreplace) | Replace query strings in URLs – useful for URL manipulation |
 | [subcat](https://github.com/duty1g/subcat) | Lightning‑fast passive subdomain discovery tool |
 | [subfinder](https://docs.projectdiscovery.io/tools/subfinder) | Advanced subdomain discovery tool |
 | [subjack](https://github.com/haccer/subjack) | Subdomain takeover tool written in Go |
 | [subzy](https://github.com/PentestPad/subzy) | Subdomain takeover vulnerability scanner |
+| [unfurl](https://github.com/tomnomnom/unfurl) | Extract and manipulate URLs, domains, and paths with ease |
 | [vulnx](https://github.com/anouarbensaad/vulnx) | Intelligent vulnerability scanner for CMS |
 | [wafw00f](https://github.com/EnableSecurity/wafw00f) | Web Application Firewall detection tool |
 | [waybackurls](https://github.com/tomnomnom/waybackurls) | Fetch known URLs from Wayback Machine archives |

@@ -978,6 +978,25 @@ SHA1: 79b693811cd955e36bf90806d331723bb9e3b732
 SHA256: 91eca2cb1b2e93755ca351d603717dc20320fdcbbae71826c9a0ea849d94977a
 SHA512: e7dfed1935f57c3528a0180d6cece0b98dcbd7b431645ac94bb76d397263663a01dbf3dfb072c978189ca3bed4114344222e6b43af5a6667aca01e90ce1295d7
 
+Package: gau
+Version: 2.2.4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: net
+Priority: optional
+Homepage: https://github.com/lc/gau
+Description: Fetch known URLs from AlienVault OTX, Wayback Machine, Common Crawl
+ gau (getallurls) fetches known URLs from AlienVault's Open Threat Exchange,
+ the Wayback Machine, Common Crawl and URLScan for any given domain.
+ Inspired by Tomnomnom's waybackurls.
+Filename: dists/termuxvoid/main/binary-all/gau.deb
+Size: 1112
+MD5Sum: b1e577f749136a5b8f73787c16004b40
+SHA1: e30304e1d7c9fb345a373cac7c208493275b65a8
+SHA256: aeaffbb78ac0fc22cb476e243339da9f6c51343b9af7a19ebe7ee8020ec62d82
+SHA512: 15d79cdd9412a0f4513949190a7b7a042a490f2b0ba367bd2a8c033598fd55c807f6e14a3067663091dc546d1552b8368daf83b65fd8b381a88fea011ac6daeb
+
 Package: ghauri
 Version: 1.4.2
 Architecture: all
@@ -1069,6 +1088,25 @@ MD5Sum: 85b8470d5829ed523cb26019c1d5194c
 SHA1: c94ec99da91193b745d2e3d2df2180b8cb659b75
 SHA256: add0c2d5b2d878438c5fd17c920e062e25c882fb8dc1b6077835f2b46a1a7a81
 SHA512: 58a3bfd22123fe5036139a621c46d59bced70fb59b1d388941a740c7a1f7160e8a363497c404128d8d7f916ab5197e4f9209eb238feb5d8a9620cd87da2cae41
+
+Package: gron
+Version: 0.7.1
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://github.com/tomnomnom/gron
+Description: Make JSON greppable
+ gron transforms JSON into discrete assignments, making it easier
+ to grep for specific keys and values. It is useful for extracting
+ data from complex JSON structures in command-line pipelines.
+Filename: dists/termuxvoid/main/binary-all/gron.deb
+Size: 1060
+MD5Sum: 0862b8ca09523c2e03cf943d825b5635
+SHA1: 3e86ec3bad2d43b4c8d2cbbc5d025cbb26e4e000
+SHA256: f9f415bc5b7b8cd2aa2a924ae55742cb911b035139b773db6f9db9f35be224a1
+SHA512: b9daeae9cc8c420948aaeb70229364f9c4f8ab398cdd72fd33eb1421ef8fe01b43ea70f9f518806ed051a81c1cda7d5710fc9bb147da2184aab76b6527f273e5
 
 Package: hashcat
 Version: 7.1.2
@@ -2168,6 +2206,26 @@ SHA1: bc67b93b39e4d89a63c4f693fe06fce737ef9563
 SHA256: 9307030ea055179abf7932b9883b8df03638aec77baa58a44c4f3b46ac50877f
 SHA512: 60233ca793c595904741fac67b65acc30e8a7bd734306be3854eafaa1506916158a347cf1e9c0fadf385a2ea8d6653560465e2192b5b73b5b47925435df9e258
 
+Package: qsreplace
+Version: 0.0.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://github.com/tomnomnom/qsreplace
+Description: Accept URLs on stdin, replace all query string values with a user-supplied value
+ qsreplace is a command‑line tool that reads a list of URLs from standard input,
+ replaces every query parameter value with a string provided by the user, and
+ outputs the modified URLs. It is commonly used in penetration testing to
+ prepare URLs for fuzzing or injection attacks.
+Filename: dists/termuxvoid/main/binary-all/qsreplace.deb
+Size: 1220
+MD5Sum: bd847cc8070c1f3bf72cff95fa77bad6
+SHA1: cbcb5beffbcfabaa55ccd28442c183db9b09df67
+SHA256: ae5a0f5dd52f0ef37944b4544fd32fca21dd1d47f13da78d7a71c5e17357118a
+SHA512: 7c16818e6d2da73a555717cb6dfa487e4b85355dadce3902632f3f95965dbb96accefffd9990ad85f2bfd87dac070f071d18f2b6d5dced658995b7a23adaf3b5
+
 Package: random-banner
 Architecture: all
 Version: 1
@@ -2843,6 +2901,26 @@ MD5Sum: 3a6d005e15fb826f1a401d1c89471f49
 SHA1: 08cc0be33735ef3ee9e265294a8d8578ab9934d0
 SHA256: c353f4c4d5a201fc7d63e7e0ca3614b8f75421421cf4cfa26f3e370c2c06c57a
 SHA512: 2846bb2cdce0dcad048e1c554be04739a7233a74321285b4ee102ad6fc95ebd8255b2c9badf5c2486952767c3b93e400a64e8e56cd3ddb59dd41b9274cfb663c
+
+Package: unfurl
+Version: 0.4.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, golang
+Section: utils
+Priority: optional
+Homepage: https://github.com/tomnomnom/unfurl
+Description: Pull out bits of URLs provided on stdin
+ unfurl is a command‑line tool that extracts specific components
+ (scheme, domain, path, query parameters, etc.) from URLs passed
+ via standard input. It is useful for URL parsing and manipulation
+ in security testing and data processing pipelines.
+Filename: dists/termuxvoid/main/binary-all/unfurl.deb
+Size: 1188
+MD5Sum: 6d4242f2d50d28549a3ed51b613735d2
+SHA1: af589a358c9b1f16f66ff669e9fd23e2d48fe807
+SHA256: 0f104b474fa7b57625c0cd7188d2a32fbf148163f66c6c3795eb9f9202c7a04c
+SHA512: 3d64051dd8ae159df7779dd587ad37e5ab1be90356233a27aaa5e56f0f1eedd64f1e0672db12e6c9e051683aa47a43033f18b515e0c0b301352796b7c586ca21
 
 Package: user-scanner
 Version: 1.3.6.6
