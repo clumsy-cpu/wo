@@ -103,6 +103,7 @@ This repository provides specialized security and penetration testing tools for 
 | [brutespray](https://github.com/x90skysn3k/brutespray) | Brute‑force attacks from Nmap output |
 | [cewl](https://github.com/digininja/CeWL) | Custom wordlist generator from websites |
 | [cupp](https://github.com/Mebus/cupp) | Common User Passwords Profiler (CUPP) |
+| [elpscrk](https://github.com/D4Vinci/elpscrk.git) | Password profiling tool inspired by the Mr. Robot series |
 | [fuckyou](https://github.com/Anon4You/FuckYou) | Powerful and customizable password list generator |
 | [hashcat](https://hashcat.net/hashcat/) | World's fastest password recovery utility |
 | [hashid](https://github.com/psypanda/hashID) | Advanced hash identifier (300+ types) |

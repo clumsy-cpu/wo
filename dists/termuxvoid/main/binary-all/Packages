@@ -794,6 +794,24 @@ SHA1: 8c332b4d12e86a15085f9504cf6294b2fd79f75a
 SHA256: 12d5b36a4813e931b07bddef8c114fb9495f219ebab5caaf3208dd9c8c7f5b13
 SHA512: 655673f367a9e6c3d29f631343d72ca542d1117a94aeea10c036c27c704257dd2b43038730a93bee2aacdad6e9ad17bdb805fb3d4dae7ff25be5f20811d6fedf
 
+Package: elpscrk
+Version: 2.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, python, python-psutil
+Section: utils
+Priority: optional
+Homepage: https://github.com/D4Vinci/elpscrk
+Description: Intelligent common user-password profiler
+ Elpscrk is a password profiling tool inspired by the Mr. Robot series.
+ It generates intelligent password lists based on user information.
+Filename: dists/termuxvoid/main/binary-all/elpscrk.deb
+Size: 1108
+MD5Sum: 68f06e1b086dc938e32c564b2bec0d72
+SHA1: 2f1357d0206f10b5f68160357acb2516864672a8
+SHA256: 18866888b82170aabad81456e04652db4a5fd7059c9b1db98f7d264b30e52201
+SHA512: 279eb8332bf109245c158c95cfc9c84cad4c4cf916f513fabc287e5ca5b686dbe937186d213b23355e100a077fe6ece2bb8195cedcb70a9bda6100f18a975c48
+
 Package: enctool
 Version: 1.0
 Architecture: all
