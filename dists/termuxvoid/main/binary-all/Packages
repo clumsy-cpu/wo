@@ -812,6 +812,24 @@ SHA1: 2f1357d0206f10b5f68160357acb2516864672a8
 SHA256: 18866888b82170aabad81456e04652db4a5fd7059c9b1db98f7d264b30e52201
 SHA512: 279eb8332bf109245c158c95cfc9c84cad4c4cf916f513fabc287e5ca5b686dbe937186d213b23355e100a077fe6ece2bb8195cedcb70a9bda6100f18a975c48
 
+Package: emailcrawl
+Version: 1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: python, python-lxml
+Section: utils
+Priority: optional
+Homepage: https://github.com/techenthusiast167/EMAIL-CRAWL
+Description: Professional-grade OSINT email extraction tool
+ EmailCrawl performs comprehensive web crawling to extract email addresses
+ for cybersecurity professionals, penetration testers, and analysts.
+Filename: dists/termuxvoid/main/binary-all/emailcrawl.deb
+Size: 7732
+MD5Sum: e09ae5e7819d064d69a1d27af6e2d0f6
+SHA1: 34cdc7f231967ba9b09370bd47a7ffe525260f94
+SHA256: 1812eabbff31a65ae522fb256983f1dc8853e8d2a66aca5892d27e1a57ebcac9
+SHA512: 4ce3ea1ca67f8ef86952e424169d72ea0e3b9c72e5b107da262bf5b1a46735d25f65ac7926697f33af5e931fe6c403be541c0a55bbfa1a80c53322b1cd3a62ac
+
 Package: enctool
 Version: 1.0
 Architecture: all

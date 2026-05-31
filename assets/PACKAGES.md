@@ -39,6 +39,7 @@ This repository provides specialized security and penetration testing tools for 
 |------|-------------|
 | [byakugan](https://github.com/Anon4You/Byakugan.git) | Advanced footprinting tool for Termux |
 | [dorks-eye](https://github.com/BullsEye0/dorks-eye) | Google Hacking Dork Scraping and Searching Tool |
+| [emailcrawl](https://github.com/techenthusiast167/EMAIL-CRAWL) | Professional‑grade OSINT email extraction tool |
 | [holehe](https://github.com/megadose/holehe) | Email OSINT tool – check accounts on 120+ platforms |
 | [hound](https://github.com/Anon4You/hound) | Lightweight info gathering and GPS coordinate capture |
 | [instaghost](https://github.com/Anon4You/InstaGhost) | Professional Instagram OSINT tool |
