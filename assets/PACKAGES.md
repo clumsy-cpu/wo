@@ -234,6 +234,7 @@ This repository provides specialized security and penetration testing tools for 
 | Tool | Description |
 |------|-------------|
 | [9router](https://9router.com/) | Smart gateway between your tools and 60+ AI providers |
+| [antigravity-cli](https://antigravity.google/) | AI‑powered coding assistant (glibc wrapper for Termux) |
 | [opencode](https://opencode.ai/) | AI‑powered coding assistant (glibc version) |
 | [openclaude](https://github.com/Gitlawb/openclaude) | Open‑source coding‑agent CLI for cloud and local LLMs |
 | [termux-ai](https://github.com/Anon4You/Termux-Ai) | Interactive AI assistant for Termux |

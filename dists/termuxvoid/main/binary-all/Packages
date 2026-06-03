@@ -165,6 +165,25 @@ SHA1: e42123401ccf54986d3239b8679e1201e45feb29
 SHA256: ac3b23a8dc3bd29d74c9a7af6cd17637da6f70023930a3b02bc8e3dd736b9efb
 SHA512: 7f5ed7cbdd55d7a04916d2941d03f49e72f045951f1f6a0678e8c3aee430b764a9a4a4d9edae0e79919ead5e2681b3c99b0e95079b063fbb95cf66e530358a87
 
+Package: antigravity-cli
+Version: 1.0.4
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, clang, python
+Section: devel
+Priority: optional
+Homepage: https://antigravity.google/
+Description: AI‑powered coding assistant (glibc wrapper for Termux)
+ Antigravity CLI provides real‑time code suggestions. This package
+ downloads the official Linux ARM64 binary, applies necessary memory
+ patches, and runs it inside the Termux glibc environment.
+Filename: dists/termuxvoid/main/binary-all/antigravity-cli.deb
+Size: 2528
+MD5Sum: 75756e8e1e1bb9bf77feba6b96b03dcf
+SHA1: ab53d271382e6b796f1da5815d928b03a83cc331
+SHA256: 348ed0c41ea3faddec6af7b1ba16d17c620bd9bfb274a69c76566a7f86faa29a
+SHA512: b094d19fa2a703a2192d333941c4397aa0fc2a9a1387370bfb1f5e376c0c815b0bdac505a1a8323a238d2124fe473c2ab9c2510d7ed97dc43bd5a04c9ce702bd
+
 Package: antisplit
 Version: 1.2
 Architecture: all
