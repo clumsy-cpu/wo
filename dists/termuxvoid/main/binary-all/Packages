@@ -456,20 +456,20 @@ Package: bun
 Version: 1.3.14
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: curl, unzip
+Depends: curl, unzip, clang, glibc
 Section: devel
 Priority: optional
-Homepage: https://bun.com/
-Description: Incredibly fast JavaScript runtime, bundler, test runner and package manager
- Bun is an all‑in‑one toolkit for JavaScript and TypeScript applications.
- It includes a fast JavaScript runtime, a package manager, a test runner,
- and a bundler, all designed for performance and ease of use.
+Homepage: https://bun.sh
+Description: Incredibly fast JavaScript runtime (glibc wrapper for Termux)
+ Bun is an all‑in‑one JavaScript/TypeScript toolkit. This package
+ downloads the official Linux ARM64 or x86_64 binary and runs it
+ inside the Termux glibc environment.
 Filename: dists/termuxvoid/main/binary-all/bun.deb
-Size: 1520
-MD5Sum: af714b07614cfe77a0a792e184113cd8
-SHA1: 085830b7eacc337df4f29f088bda88eda0658b44
-SHA256: f16ea0902ccf10e9cc60f352ba70495075e06b3e011216f3b403663cd70872ca
-SHA512: c741d460254c2d5bd9af485e31054663ca9a1f3f774705391f0f01d50c4649d099aa167894d7c2a09067c621a043e844ba9216ccfcd50044fc9733bb57e83dfc
+Size: 2116
+MD5Sum: 6edf041a628bbd8248b8a7dab3955c78
+SHA1: 089c74d2e91faf1b6b256e733a966245e69e0ef4
+SHA256: 6a203cfe29415682a2bae0cf6297f06630cb965c6d35e338e023aff236db05a9
+SHA512: 881a0d639eb76bc048c3d7fd61d0d0927d9f36038260f21e1249f83ecc1bae55cbcaaedfb6f1a43a613c0ea50b694b39dd9e8ce7f4602cf162e69774d54ce0d1
 
 Package: burpsuite-pro
 Version: 2026.1.5
@@ -2685,7 +2685,7 @@ SHA256: 6209b63fd9b2f07ddb115f0f5d322105e1521898ce282c5780890eefa9c4022a
 SHA512: a1f8727921c2d2856ebaf7694ec83d738144eec14ffe7573e5705a0c7a9bea70972128ecf02c1d677ed3cfdf60ca3b3c93fd5603fb1c7c50e6812d193f97d14f
 
 Package: sqlmap
-Version: 1.10.3
+Version: 1.10.6
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: python, python-pip
@@ -2706,11 +2706,11 @@ Description: Automatic SQL Injection and Database Takeover Tool
  - Data extraction and file system access
  - Command execution and out-of-band connections
 Filename: dists/termuxvoid/main/binary-all/sqlmap.deb
-Size: 1592
-MD5Sum: 9b7df2add1906ce098d06859b7a6d91e
-SHA1: 4b239231939ef4608058f2dfd3f49665686780d1
-SHA256: e1c214742b41ce17800d9f7bcbb607212ff5f06478b8f032a84cb012f32c327d
-SHA512: 2837657215b7877993a0e62992dd4abb6b0339691df25fa64b73dc69824961d0d669376df63ff552afef338df7cb63c87f1124eb14d6b9b42d8c35e2e86938eb
+Size: 1596
+MD5Sum: 12c74c3b385786ce666863632db377b4
+SHA1: 05355adc2a63ee580348b4ea4554c5ed564d0f5d
+SHA256: 16575608aad407d65fbd5802da63f2bad808f308a75085b81a53a91efd1df5d5
+SHA512: 33a438c04c56ea4955be77a62926b14e494378fbb36b816ec00438c7b2e05e32a22978f97e0b6079f797ad283f1b096af97bd7c36775fd3e660090e4b006873c
 
 Package: sqlscan
 Version: 1
