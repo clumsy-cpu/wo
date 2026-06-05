@@ -2028,7 +2028,7 @@ SHA256: 7a7807581afbd9286f617d158431f211263fcebe293f154337503c437070b8cd
 SHA512: bdd5d6a3735d31dabc85c0888de4ad8d38fa4a74faf628aa2fecd843a7fd5bca99f50fd95782b362b8d41cf212d55bd89cfade8ff4271721b830a67c86f58bf5
 
 Package: openclaude
-Version: 0.16.1
+Version: 0.17.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: npm, ripgrep, proot
@@ -2041,10 +2041,10 @@ Description: Open‑source coding‑agent CLI for cloud and local LLMs
  with features tailored for coding assistance and automation.
 Filename: dists/termuxvoid/main/binary-all/openclaude.deb
 Size: 1388
-MD5Sum: b0fe44da6771279a78f4d90bce63b0c9
-SHA1: ee4084ced83b79dd8cb8cfe7b58e84a499536434
-SHA256: 7ea66093c07ba46d4db9e5396dc2283ceab948f73a5d9c49ce36f3daf5187ab4
-SHA512: ae95ea7ff88ffc2f187595c596d48affe12a1a4aa801a703df6e77d6dd0e57416748ecba97b61837f1636cab5395b2680cc1e5b89442253be08ed758b03223a1
+MD5Sum: 8a2801a196c438496af21e504b177bcf
+SHA1: 99a80a97a94d3b2615b9683ea443188ee89ac79a
+SHA256: 51b07f2fa3ef324c37af04297211aab5af7a46720799c1edd0e9d6bf7120894f
+SHA512: b07c575663b87be02ddce6c6862d62089af15312b62d1591b6ed42a0348263006678a3d96ac694c45da244c369cc8aa0fee8468374616cab07161e1d8fc2aaa8
 
 Package: opencode
 Version: 1.15.13
