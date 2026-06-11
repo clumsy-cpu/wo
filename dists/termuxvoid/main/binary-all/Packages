@@ -817,7 +817,7 @@ SHA256: 36b09da047c2e3fb868e3e5c756c26de04efb112843aa32b31b355e2f824085a
 SHA512: 49c9dbbbfd7f8ca51b606cdfa5d6e2d80b975675a37cb41486682f3ca6907177dd780555d23f14b744a872ed78dc23116fd677666250b77184ee1428de255570
 
 Package: dpt-shell
-Version: 2.11.1
+Version: 2.12.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, openjdk-21
@@ -826,11 +826,11 @@ Priority: optional
 Homepage: https://github.com/luoyesiqiu/dpt-shell
 Description: DPT Shell - Dex Protection Tool Shell dpt-shell is an Android Dex protection shell that hollows out Dex method implementations and reconstructs them at runtime.
 Filename: dists/termuxvoid/main/binary-all/dpt-shell.deb
-Size: 1420
-MD5Sum: f9bc40d70f9622c04f921909a6bfa44c
-SHA1: 17cc8aebf2cc4489da6332fa8729765ebda3f1f2
-SHA256: 7ede93c0d0dd7544b44056a3534fb1f965a57e0bbd5e2b3f44a24869e0a8626c
-SHA512: afb3bf392e72119b7df6919be98ddde3fb3dbfb09ddef9763793c2482bd6bc04322451b25461e0ff67bbe3900cecba7969369c109a125a1c190c916b58e33ca3
+Size: 1424
+MD5Sum: 496d0235aaef9e2c11f2d97dd238ad1b
+SHA1: 09cc24b3a471f5ba0e26073e831f68c506ee8c63
+SHA256: cc4aacda108926d08c4793ef58b5711924f1afb11effccb49aec9efd59b2128b
+SHA512: 9769dd6e1dec62d5ea92bd40bcfdc36bc3e64435c778430f63d4d79426a4090e0a3d1f3cb188c56316caa8bf1c4eb31f9456cbdc4a9524a3bb0b0839ea82bdb9
 
 Package: drshell
 Version: 1.0.1
@@ -2935,7 +2935,7 @@ SHA256: 7b07bce2c34d5c752b42bb0755f16dda2942ce4cdf62b290e1f04450677c889b
 SHA512: 23f1076301e6b8751e971228a4348cc573e2444078402a1be878d20b58dae04326959884b654541b7ce4c8d3d57e8a3dd2e3f28b545de45cc08efd41e540285c
 
 Package: termuxfetch
-Version: 1.0
+Version: 2.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: bash
@@ -2947,11 +2947,11 @@ Description: Neofetch‑like system information tool for Termux
  kernel, device model, uptime, package count, CPU, memory, shell,
  and architecture – all in a compact terminal output.
 Filename: dists/termuxvoid/main/binary-all/termuxfetch.deb
-Size: 2068
-MD5Sum: 4ad6592734c66b593572e60ca7d1f743
-SHA1: e2773fc084ae3f594a597cb57de4df12fdb975dd
-SHA256: 1d554897c5971601bb3c5fc6be82eac5eb77d487f318f46b52bc11fffb81b820
-SHA512: 27fc8305b3582a5510cd5e84963271c8955189e272e385c2920086882a95b7443796a13b6fdb8dd63430306bf0914b3a65850fc345b3b7c34ef9a10af02ff6ca
+Size: 2088
+MD5Sum: 2023c96ce8d72c47e15855de3b5b91a7
+SHA1: 0a3ce5c49a5c6a1c85f7bddf382132ced7151446
+SHA256: 037773831d75fbe530870c5303ad222a16994c2105d5b0f51923880ecb6e676c
+SHA512: 2e2d65d8bbe9d50fb325e873757d70ee61fc3048da142641b33d49f0d5a9b0a160c98f7affb26e6cf26981ebc24cf3067e4209f8e1df8ac3ea5433c3824bc596
 
 Package: termuxvoid-theme
 Version: 3.3
