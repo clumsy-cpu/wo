@@ -1757,7 +1757,7 @@ SHA256: 21ca90587421f7a5587b634f90d5f889f864b7a83917ca5e3ab81dfe68ec5d3b
 SHA512: 05983598931e51efe406a0b602e14bd450faf82816048cc684a7a3355eb7d63490bffd4c0a0bf3f23f39399c258d52a962bfa475e016295e946bb1b67b77e535
 
 Package: metasploit-framework
-Version: 6.4.135-dev
+Version: 6.4.136-dev
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: binutils, python, autoconf, bison, clang, coreutils, curl, findutils, apr, apr-util, postgresql, openssl, readline, libffi, libgmp, libpcap, libsqlite, libgrpc, libtool, libxml2, libxslt, ncurses, make, ncurses-utils, git, wget, unzip, zip, tar, termux-tools, termux-elf-cleaner, pkg-config, ruby, ruby-nokogiri, apktool, apksigner
@@ -1768,11 +1768,11 @@ Description: Penetration testing framework
  Metasploit Framework provides exploit development, payload delivery,
  and post‑exploitation capabilities for security assessments.
 Filename: dists/termuxvoid/main/binary-all/metasploit-framework.deb
-Size: 1872
-MD5Sum: 839bf69400940c127cb8afc11d68871f
-SHA1: 0c92fdb0bbe79c946c15fa220789f84864060e96
-SHA256: 8986b78bc60da1d4835b510452665d77bb47c8fc01a04d313e257d06b0a6594b
-SHA512: 0b846c5ef2d4893ec7424c3837e893ea1533a10d83d11d6cb686f615d3a4eadcf29ca5743a5d902d59eeab240331e47824b09ccd5ce975a9586eba8c36e89817
+Size: 1876
+MD5Sum: 569c88f41332937ae64a79258f6b5f79
+SHA1: 3b9857e993b332a1948b2186ea57468337b931d4
+SHA256: 5e554abf6f40f780b6d824b140899d0d86a9971eb52d8e429aceae81197f6136
+SHA512: fe8ff2223d6c289b3e97add2727e9b88742c20e4348e61cc6e3be3a1a7d11d007d4f53220866c9c66e33647fd0a991c532efd348724de7984cdc8714e04cf95d
 
 Package: mkwebapp
 Version: 1.0.0
@@ -2044,7 +2044,7 @@ SHA256: 51b07f2fa3ef324c37af04297211aab5af7a46720799c1edd0e9d6bf7120894f
 SHA512: b07c575663b87be02ddce6c6862d62089af15312b62d1591b6ed42a0348263006678a3d96ac694c45da244c369cc8aa0fee8468374616cab07161e1d8fc2aaa8
 
 Package: opencode
-Version: 1.17.0
+Version: 1.17.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: glibc, clang, python, curl, tar
@@ -2057,10 +2057,10 @@ Description: AI‑powered coding assistant (glibc version)
  inside Termux’s glibc environment.
 Filename: dists/termuxvoid/main/binary-all/opencode.deb
 Size: 1940
-MD5Sum: 86cad6fc3ea3092849b39a115f8be8da
-SHA1: cfd85568bfbce6f435f2b0778709030884611b85
-SHA256: 5a1225c23251c8f0598e42f3d19e4eda336c6ce2955381ba3d5ef1c21f576e40
-SHA512: e83f7fac07c7ed5af920cd5dc1e50a5027e379d3b75566e689bdf834c8abb7d2acc728a2d22e528306a1b117e54be43471a74a25d11a8b587b2d538bc9c3e8af
+MD5Sum: 9d5db5dfde332e71260c95f8127e64e4
+SHA1: a7af011a56b66b24743b1ea3b97382a63489e73a
+SHA256: e577c4d8bee6d9e29f726a31ad4cceab7b4d558542b253dcb2b42d7cfbe3f9d2
+SHA512: ab8df23797fef82c6c5dc959dcd941d5e6576e8064679e4dac7a3fc84e96fc268390473085df39effe92c59c2a286edcde81e809ee599504d56936e71bbd4cb2
 
 Package: pairip
 Version: 1.3.10
