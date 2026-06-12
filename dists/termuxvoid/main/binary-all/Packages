@@ -1768,11 +1768,11 @@ Description: Penetration testing framework
  Metasploit Framework provides exploit development, payload delivery,
  and post‑exploitation capabilities for security assessments.
 Filename: dists/termuxvoid/main/binary-all/metasploit-framework.deb
-Size: 1876
-MD5Sum: 569c88f41332937ae64a79258f6b5f79
-SHA1: 3b9857e993b332a1948b2186ea57468337b931d4
-SHA256: 5e554abf6f40f780b6d824b140899d0d86a9971eb52d8e429aceae81197f6136
-SHA512: fe8ff2223d6c289b3e97add2727e9b88742c20e4348e61cc6e3be3a1a7d11d007d4f53220866c9c66e33647fd0a991c532efd348724de7984cdc8714e04cf95d
+Size: 1888
+MD5Sum: 008af471596162f7f4e53b1435c62ebc
+SHA1: 28acf7a6ec71e11d616fae28c2e99fc74482483d
+SHA256: d70500d1c37fbe054c63747f1fbefeca7f2dca11c1bb913ad70dcd80ef53881e
+SHA512: b5f6804a61bde8191e0377071603fe068aa6bb079c1f26ae71ae9fbecfec9f9bf0fa48da7882db73ba567c1fa3b59bf4d3028335955a4af0bc8a037557c9ac19
 
 Package: mkwebapp
 Version: 1.0.0
@@ -2044,7 +2044,7 @@ SHA256: 51b07f2fa3ef324c37af04297211aab5af7a46720799c1edd0e9d6bf7120894f
 SHA512: b07c575663b87be02ddce6c6862d62089af15312b62d1591b6ed42a0348263006678a3d96ac694c45da244c369cc8aa0fee8468374616cab07161e1d8fc2aaa8
 
 Package: opencode
-Version: 1.17.3
+Version: 1.17.4
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: glibc, clang, python, curl, tar
@@ -2056,11 +2056,11 @@ Description: AI‑powered coding assistant (glibc version)
  This package uses the glibc build and includes a wrapper to run
  inside Termux’s glibc environment.
 Filename: dists/termuxvoid/main/binary-all/opencode.deb
-Size: 1940
-MD5Sum: 9d5db5dfde332e71260c95f8127e64e4
-SHA1: a7af011a56b66b24743b1ea3b97382a63489e73a
-SHA256: e577c4d8bee6d9e29f726a31ad4cceab7b4d558542b253dcb2b42d7cfbe3f9d2
-SHA512: ab8df23797fef82c6c5dc959dcd941d5e6576e8064679e4dac7a3fc84e96fc268390473085df39effe92c59c2a286edcde81e809ee599504d56936e71bbd4cb2
+Size: 1944
+MD5Sum: 7aa81497bc7a0d1c214a6a711b35c841
+SHA1: 63a0a3d05789498910087d42ae84de1e611262cb
+SHA256: fee0e4dc380ab7919e00b16958d41bac0f02344a80f929c59dd9c6e80339f74a
+SHA512: b75fcc4b055dcaed6b22e09862f798033ef8aac8e955b16ece65b5731e0244aa1c03a962bf1c1c9e17694434d6525209e5fa324f1f213e499cda64944b2099b2
 
 Package: pairip
 Version: 1.3.10
