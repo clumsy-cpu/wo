@@ -3,7 +3,7 @@
     <img alt="TermuxVoid" height="180" src="img/termuxvoid_logo.png">
     <h1>TermuxVoid APT Repository</h1>
   </a>
-  <p><b>🔓 Unofficial APT Repository: 190+ Ethical Hacking & Pentesting Packages</b></p>
+  <p><b>🔓 Unofficial APT Repository: 192+ Ethical Hacking & Pentesting Packages</b></p>
 
   <div>
     <a href="https://github.com/TermuxVoid/repo/stargazers">
@@ -18,11 +18,33 @@
   </div>
 </div>
 
+## 📖 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Prerequisites](#-prerequisites)
+- [Quick Installation](#-quick-installation)
+- [Featured Tools](#-featured-tools)
+- [Legal & Disclaimer](#-legal--disclaimer)
+- [Frequently Asked Questions](#-frequently-asked-questions)
+- [Support & Community](#-support--community)
+- [Contribution & Support](#-contribution--support)
+
+---
+
+## 📋 Prerequisites
+
+Before using TermuxVoid, ensure your environment meets these requirements:
+
+- **Termux** installed from [F-Droid](https://f-droid.org/en/packages/com.termux/) (recommended) or GitHub
+- **Android 7+** with ~2GB free storage for larger tools
+- **Working internet connection** for package downloads
+- **No root required** for most tools (some may need root for certain features)
+
 ---
 
 ## 🔍 Project Overview
 
-**TermuxVoid** is an **unofficial custom APT repository** that bridges the gap between mobile convenience and professional security auditing. We host **190+ advanced security tools** that are not available in the official Termux repositories, specifically compiled and optimized for Android architecture.
+**TermuxVoid** is an **unofficial custom APT repository** that bridges the gap between mobile convenience and professional security auditing. We host **192+ advanced security tools** that are not available in the official Termux repositories, specifically compiled and optimized for Android architecture.
 
 Whether you are a professional penetration tester or an ethical hacking enthusiast, TermuxVoid turns your Android device into a portable powerhouse.
 
@@ -92,6 +114,12 @@ graph TD
 ```
 </details>
 
+<div align="center">
+  <a href="assets/PACKAGES.md">
+    <img src="https://img.shields.io/badge/📦-Browse_All_192%2B_Packages-2ea44f?style=for-the-badge" alt="Browse All Packages">
+  </a>
+</div>
+
 ## ⚠️ Legal & Disclaimer
 
 > [!WARNING]
@@ -139,6 +167,33 @@ We are constantly expanding. You can request new tools via:
 <summary><b>How do I report a broken package?</b></summary>
 <br>
 Open an issue on **[GitHub](https://github.com/TermuxVoid/repo/issues)** with the tool name and error output. We aim to fix reported issues within 24 hours.
+</details>
+
+<details>
+<summary><b>How do I uninstall the TermuxVoid repository?</b></summary>
+<br>
+To remove the repository from your Termux environment:
+
+```bash
+rm $PREFIX/etc/apt/sources.list.d/termuxvoid.list
+rm $PREFIX/etc/apt/trusted.gpg.d/termuxvoid.gpg
+apt update
+```
+
+This removes the repository source and its GPG key without affecting already-installed packages.
+</details>
+
+<details>
+<summary><b>I get a "package not found" error — what should I do?</b></summary>
+<br>
+Ensure you have run `pkg update` after adding the repository. If the issue persists, try:
+
+```bash
+apt update
+pkg search <tool-name>
+```
+
+If the tool still doesn't appear, it may have a different package name — check the **[full package list](assets/PACKAGES.md)** for the exact name.
 </details>
 
 ## 🌐 Support & Community
