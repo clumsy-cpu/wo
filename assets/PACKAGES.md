@@ -256,6 +256,7 @@ This repository provides specialized security and penetration testing tools for 
 | [ngrok](https://termuxvoid.github.io/tool.html?name=ngrok) | Secure tunneling to localhost |
 | [nikto](https://termuxvoid.github.io/tool.html?name=nikto) | Comprehensive web server scanner |
 | [playit](https://termuxvoid.github.io/tool.html?name=playit) | Global proxy for server hosting without port forwarding |
+| [scanqli](https://termuxvoid.github.io/tool.html?name=scanqli) | A simple SQL injection scanner to detect classic, blind, and time‑based vulnerabilities |
 | [sqlmap](https://termuxvoid.github.io/tool.html?name=sqlmap) | Automatic SQL injection and database takeover tool |
 | [sqlscan](https://termuxvoid.github.io/tool.html?name=sqlscan) | Efficient tool to find SQL injection vulnerabilities |
 | [webhost](https://termuxvoid.github.io/tool.html?name=webhost) | Easily serve any local web project to the internet — instantly |
