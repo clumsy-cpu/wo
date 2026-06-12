@@ -28,7 +28,6 @@ Whether you are a professional penetration tester or an ethical hacking enthusia
 
 > [!NOTE]
 > This repository contains tools that are often excluded from official sources due to complexity or licensing. All packages are compiled natively for Termux.<br>
-> We also host **root packages**. See [root-repo.md](assets/root-repo.md) for details.
 
 
 ## 🚀 Quick Installation
@@ -37,7 +36,7 @@ Getting started is seamless. Run the following one-liner in your Termux terminal
 
 ```bash
 # Add repository
-curl -sL https://termuxvoid.github.io/repo/install.sh | bash
+curl -sL https://github.com/termuxvoid/repo/raw/main/install.sh | bash
 ```
 
 Once the repository is added, you can install any tool using `pkg install`:
