@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+go install github.com/gophish/gophish@latest
+
+if [[ ! -e $HOME/go/bin/gophish ]]; then
+  printf "\e[31mE: somthing went wrong..!!\e[0m\n"
+  exit 1
+else
+  chmod 751 -R $HOME/go/
+fi
+GOGITPATH="$HOME/go/pkg/mod/github.com"
+GOPHISH_DIR=$(find $GOGITPATH -type d -iname "gophish" | head -n 1)
+GOPHISH_SRC=$(ls $GOPHISH_DIR | grep "gophish")
+mv $HOME/go/bin/gophish $GOPHISH_DIR/$GOPHISH_SRC/ 
+cat > $HOME/go/bin/gophish <<- EOF
+#!$PREFIX/bin/sh
+cd $GOPHISH_DIR/$GOPHISH_SRC 
+exec $GOPHISH_DIR/$GOPHISH_SRC/gophish
+EOF
+
+cat > $PREFIX/bin/gophish <<- EOF
+#!$PREFIX/bin/sh 
+exec $HOME/go/bin/gophish
+EOF
+
+sed 's|"listen_url": "0.0.0.0:80",|"listen_url": "127.0.0.1:8080",|g' -i $GOPHISH_DIR/$GOPHISH_SRC/config.json
+chmod 640 $GOPHISH_DIR/$GOPHISH_SRC/config.json
+
+chmod +x $PREFIX/bin/gophish 
+chmod +x $HOME/go/bin/gophish
+
+

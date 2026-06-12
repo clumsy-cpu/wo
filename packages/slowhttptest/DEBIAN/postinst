@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+slowhttptestDir="$PREFIX/share/slowhttptest"
+cd $slowhttptestDir
+./configure
+make
+if [[ -e $slowhttptestDir/src/slowhttptest ]]; then
+  install -Dm700 -t $PREFIX/bin $slowhttptestDir/src/slowhttptest
+  echo -e "\n[*] SlowHttpTest installed...\nrun '\e[32mslowhttptest\e[0m' to execute it\n"
+else
+  echo "somthing went wrong..."
+  exit 1
+
+fi

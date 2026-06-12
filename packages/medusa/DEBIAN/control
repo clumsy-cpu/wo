@@ -1,0 +1,12 @@
+Package: medusa
+Version: 2.3
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: net
+Priority: optional
+Homepage: http://h.foofus.net/?page_id=51
+Description: Fast, Parallel Network Login Auditor
+ Medusa is a speedy, parallel, and modular login brute-forcer for
+ network services. Supporting numerous protocols including HTTP, FTP,
+ SSH, SMB, and many more for comprehensive security testing.

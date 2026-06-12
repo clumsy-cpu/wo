@@ -1,0 +1,21 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+echo -e "${GREEN}Uninstalling WPScan...${NC}"
+
+# Remove launcher script
+if [ -f "$PREFIX/bin/wpscan" ]; then
+    rm -f $PREFIX/bin/wpscan
+    echo -e "${GREEN}Removed launcher script${NC}"
+fi
+
+# Remove wpscan using nethunter
+nh apt remove -y wpscan 2>/dev/null || {
+    echo -e "${YELLOW}WPScan not found or already uninstalled.${NC}"
+}
+
+echo -e "${GREEN}WPScan completely removed${NC}"
+exit 0

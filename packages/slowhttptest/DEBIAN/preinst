@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+if [[ -d $PREFIX/share/slowhttptest ]]; then
+  rm -rf $PREFIX/share/slowhttptest
+fi

@@ -1,0 +1,12 @@
+Package: wpscan
+Version: 3.8.28
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: proot, tar, axel, nethunter-cli
+Section: web
+Priority: optional
+Homepage: https://wpscan.com/
+Description: WordPress Security Scanner
+ WPScan is a black box WordPress security scanner used to test
+ the security of WordPress websites by checking for vulnerabilities,
+ weak passwords, and misconfigurations.

@@ -1,0 +1,14 @@
+Package: exiftool
+Version: 13.57
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: git, perl
+Section: utils
+Priority: optional
+Homepage: https://exiftool.org/
+Description: Read, write and edit meta information in files
+ Metadata manipulation tool featuring:
+ - EXIF data extraction
+ - Multiple file format support
+ - Metadata editing
+ - Batch processing

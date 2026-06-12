@@ -1,0 +1,4 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# Clean previous installation
+rm -rf $PREFIX/share/nikto 2>/dev/null
+exit 0

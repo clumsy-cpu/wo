@@ -1,0 +1,38 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m'
+
+echo -e "${GREEN}Installing OpenBullet2 0.3.2...${NC}"
+
+DOWNLOAD_URL="https://github.com/termuxvoid/OpenBullet2-termux/releases/download/0.3.2/openbullet2.7z"
+
+echo -e "${YELLOW}Downloading OpenBullet2...${NC}"
+axel -o $TMPDIR/openbullet2.7z $DOWNLOAD_URL || {
+    echo -e "${RED}Error: Failed to download OpenBullet2.${NC}"
+    exit 1
+}
+
+echo -e "${YELLOW}Extracting OpenBullet2...${NC}"
+7z x $TMPDIR/openbullet2.7z -o$PREFIX/lib -y || {
+    echo -e "${RED}Error: Failed to extract OpenBullet2.${NC}"
+    exit 1
+}
+
+openbullet2_dir="$PREFIX/lib/openbullet2"
+
+echo -e "${YELLOW}Creating launcher...${NC}"
+cat > $PREFIX/bin/openbullet2 << EOF
+#!/data/data/com.termux/files/usr/bin/sh
+cd $openbullet2_dir
+exec dotnet OpenBullet2.Web.dll "\$@"
+EOF
+
+chmod +x $PREFIX/bin/openbullet2
+
+rm -f $TMPDIR/openbullet2.7z
+
+echo -e "${GREEN}OpenBullet2 installed successfully!${NC}"
+exit 0

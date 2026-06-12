@@ -1,0 +1,27 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+EXIFTOOL_DIR="$PREFIX/share/exiftool"
+LAUNCHER="$PREFIX/bin/exiftool"
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+echo -e "${GREEN}Installing exiftool ...${NC}"
+[ -d "$EXIFTOOL_DIR" ] && { echo "[*] Removing old installation..."; rm -rf "$EXIFTOOL_DIR"; }
+
+echo -e "${GREEN}Cloning repository...${NC}"
+git clone --depth=1 https://github.com/exiftool/exiftool.git "$EXIFTOOL_DIR" || {
+    echo -e "${RED}Error: Failed to clone exiftool repository.${NC}"
+    exit 1
+}
+
+echo -e "${GREEN}Creating launcher...${NC}"
+cat > "$LAUNCHER" << EOF
+#!/data/data/com.termux/files/usr/bin/bash
+exec perl "$EXIFTOOL_DIR/exiftool" "\$@"
+EOF
+chmod +x "$LAUNCHER"
+
+echo -e "${GREEN}exiftool installed successfully!${NC}"
+echo "Run: exiftool [OPTIONS] FILE(s)"
+exit 0

@@ -1,0 +1,11 @@
+Package: openbullet2
+Version: 0.3.2
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: aspnetcore-runtime-8.0, dotnet-host, dotnet-runtime-8.0, libsqlite, axel, p7zip
+Section: net
+Priority: optional
+Homepage: https://openbullet.dev/
+Description: Web Application Security Testing Suite
+ OpenBullet2 is a comprehensive web application security testing
+ platform for configurable pipelines and automated testing workflows.

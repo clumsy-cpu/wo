@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+GOGITPATH="$HOME/go/pkg/mod/github.com"
+GOPHISH_DIR=$(find $GOGITPATH -type d -iname "gophish" | head -n 1)
+rm -rf $GOPHISH_DIR
+rm -rf $PREFIX/bin/gophish
+rm -rf $HOME/go/bin/gophish 
+

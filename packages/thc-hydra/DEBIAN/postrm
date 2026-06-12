@@ -1,0 +1,24 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
+
+echo -e "${GREEN}Uninstalling THC-Hydra...${NC}"
+
+# Remove installed binaries and scripts
+cd $PREFIX/bin
+for i in hydra hydra-wizard.sh pw-inspector dpl4hydra.sh; do
+    if [ -f "$i" ] || [ -L "$i" ]; then
+        rm -f $i
+        echo -e "${GREEN}Removed: $i${NC}"
+    fi
+done
+
+# Clean any leftover build files
+if [ -d "$TMPDIR/thc-hydra" ]; then
+    rm -rf $TMPDIR/thc-hydra
+fi
+
+echo -e "${GREEN}THC-Hydra completely removed${NC}"
+exit 0
