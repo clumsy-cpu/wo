@@ -51,6 +51,9 @@ Whether you are a professional penetration tester or an ethical hacking enthusia
 > [!NOTE]
 > This repository contains tools that are often excluded from official sources due to complexity or licensing. All packages are compiled natively for Termux.<br>
 
+## 🔍 Why Open Source?
+
+So you see exactly what runs on your device before it runs. Every package is built from source — nothing is hidden. No TermuxVoid package touches `$PATH`, `$HOME`, or any Termux environment variable. We use **symlinks** instead of env mutations; uninstall leaves zero trace. Don't trust — verify.
 
 ## 🚀 Quick Installation
 
@@ -120,10 +123,19 @@ graph TD
   </a>
 </div>
 
+## 🧠 AI Agents
+
+| Tool | Description |
+| :--- | :--- |
+| **opencode** | AI-powered coding assistant |
+| **antigravity-cli** | AI coding assistant (glibc wrapper) |
+| **mimocode** | Autonomous AI engineer — creates, modifies, tests, deploys code |
+| **openclaude** | Open-source coding-agent CLI for cloud & local LLMs |
+
 ## ⚠️ Legal & Disclaimer
 
 > [!WARNING]
-> These tools are provided strictly for **educational purposes** and **authorized security testing**. Using these tools against systems without explicit permission is illegal. The maintainers of TermuxVoid are not responsible for any misuse or damage caused by these programs.
+> Educational purpose only. Do not use your knowledge for illegal things. I won't take any responsibility about your doing — you do illegal shit you end up in jail yourself. Know your laws, stay ethical, and don't be a criminal.
 
 ## ❓ Frequently Asked Questions
 
