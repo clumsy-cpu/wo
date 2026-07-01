@@ -11,6 +11,7 @@ This repository provides specialized security and penetration testing tools for 
 ### 🚨 Attack Tools
 | Tool | Description |
 |------|-------------|
+| [bettercap](https://termuxvoid.github.io/tool.html?name=bettercap) | Swiss Army knife for WiFi, BLE, HID, CAN-bus, IPv4/IPv6 reconnaissance and MITM attacks[reference:2] |
 | [blackbox-framework](https://termuxvoid.github.io/tool.html?name=blackbox-framework) | Python‑based network analysis and exploitation toolkit |
 | [darksploit-framework](https://termuxvoid.github.io/tool.html?name=darksploit-framework) | Tool to run and create exploits |
 | [darkterm](https://termuxvoid.github.io/tool.html?name=darkterm) | Advanced Ethical Hacking Framework with 60+ tools across 9 modules |
