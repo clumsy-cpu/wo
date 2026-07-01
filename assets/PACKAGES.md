@@ -260,6 +260,7 @@ This repository provides specialized security and penetration testing tools for 
 | [gophish](https://termuxvoid.github.io/tool.html?name=gophish) | Open‑Source Phishing Toolkit |
 | [hatcloud](https://termuxvoid.github.io/tool.html?name=hatcloud) | CloudFlare detector and information gatherer |
 | [jsql](https://termuxvoid.github.io/tool.html?name=jsql) | Lightweight SQL injection detection and exploitation tool |
+| [jwt-hack](https://termuxvoid.github.io/tool.html?name=jwt-hack) | JWT security testing and exploitation tool – signing, forging, algorithm confusion, kid injection and more |
 | [ngrok](https://termuxvoid.github.io/tool.html?name=ngrok) | Secure tunneling to localhost |
 | [nikto](https://termuxvoid.github.io/tool.html?name=nikto) | Comprehensive web server scanner |
 | [playit](https://termuxvoid.github.io/tool.html?name=playit) | Global proxy for server hosting without port forwarding |
