@@ -151,6 +151,7 @@ This repository provides specialized security and penetration testing tools for 
 | [nuclei](https://termuxvoid.github.io/tool.html?name=nuclei) | Advanced template‑based vulnerability scanner |
 | [pandora](https://termuxvoid.github.io/tool.html?name=pandora) | Open source OSINT tool |
 | [paramspider](https://termuxvoid.github.io/tool.html?name=paramspider) | Parameter discovery suite for web applications |
+| [photon](https://termuxvoid.github.io/tool.html?name=photon) | Lightweight web crawler for OSINT and reconnaissance |
 | [pywhat](https://termuxvoid.github.io/tool.html?name=pywhat) | Identify anything – text analysis tool |
 | [qsreplace](https://termuxvoid.github.io/tool.html?name=qsreplace) | Replace query strings in URLs – useful for URL manipulation |
 | [subcat](https://termuxvoid.github.io/tool.html?name=subcat) | Lightning‑fast passive subdomain discovery tool |
