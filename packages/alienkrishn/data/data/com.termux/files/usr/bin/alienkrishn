@@ -15,7 +15,7 @@ CYAN='\e[1;36m'
 NC='\e[0m'
 
 # Current Version
-current_version="2.0.6"
+current_version="2.0.7"
 
 # Trap Ctrl+C to kill any background processes
 cleanup() {
@@ -141,7 +141,7 @@ list_and_install_packages() {
     echo -e "${YELLOW}Fetching package list...${NC}\n"
 
     # Get list of package names from termuxvoid repo (ignore apt warning header)
-    mapfile -t packages < <(apt list 2>/dev/null | grep -v "^Listing..." | grep "/termuxvoid" | cut -d/ -f1)
+    mapfile -t packages < <(apt list -a 2>/dev/null | grep -v "^Listing..." | grep "/termuxvoid" | cut -d/ -f1)
 
     if [[ ${#packages[@]} -eq 0 ]]; then
         handle_error "No packages found." "Try running 'apt update' first."
