@@ -62,6 +62,7 @@ This repository provides specialized security and penetration testing tools for 
 | [silverinstaeye](https://termuxvoid.github.io/tool.html?name=silverinstaeye) | Instagram information gathering tool |
 | [snoop](https://termuxvoid.github.io/tool.html?name=snoop) | Information gathering tool using online resources |
 | [theharvester](https://termuxvoid.github.io/tool.html?name=theharvester) | Email, subdomain, and name harvester |
+| [tookie-osint](https://termuxvoid.github.io/tool.html?name=tookie-osint) | OSINT username search tool – scan 400+ social platforms |
 | [user-scanner](https://termuxvoid.github.io/tool.html?name=user-scanner) | 2‑in‑1 Email & Username OSINT suite – 100+ email, 105+ username vectors |
 | [webinfo](https://termuxvoid.github.io/tool.html?name=webinfo) | Website information gathering |
 
