@@ -2,7 +2,7 @@
 set -e
 
 MSFPATH="$PREFIX/opt/metasploit-framework"
-TAG="6.4.136"
+TAG="6.4.142"
 ZIP_URL="https://github.com/rapid7/metasploit-framework/archive/refs/tags/${TAG}.zip"
 
 [ -d "$MSFPATH" ] && rm -rf "$MSFPATH"

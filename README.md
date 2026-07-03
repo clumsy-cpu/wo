@@ -131,6 +131,7 @@ graph TD
 | **antigravity-cli** | AI coding assistant (glibc wrapper) |
 | **mimocode** | Autonomous AI engineer — creates, modifies, tests, deploys code |
 | **openclaude** | Open-source coding-agent CLI for cloud & local LLMs |
+| **hermes-agent** | AI-powered coding assistant and workflow automation tool |
 
 ## ⚠️ Legal & Disclaimer
 
