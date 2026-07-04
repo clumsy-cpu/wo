@@ -53,6 +53,7 @@ This repository provides specialized security and penetration testing tools for 
 | [iplookup](https://termuxvoid.github.io/tool.html?name=iplookup) | IP geolocation lookup script |
 | [linkwizard](https://termuxvoid.github.io/tool.html?name=linkwizard) | Powerful profile link finder for Termux |
 | [locateme](https://termuxvoid.github.io/tool.html?name=locateme) | Live location tracker using Google Maps |
+| [maigret](https://termuxvoid.github.io/tool.html?name=maigret) | Check username availability on thousands of websites worldwide |
 | [numinfo](https://termuxvoid.github.io/tool.html?name=numinfo) | Phone number intelligence and lookup tool |
 | [onionsearch](https://termuxvoid.github.io/tool.html?name=onionsearch) | Scrape .onion URLs from various Tor search engines |
 | [phoneinfo](https://termuxvoid.github.io/tool.html?name=phoneinfo) | Phone number lookup tool |
