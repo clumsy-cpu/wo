@@ -3,10 +3,19 @@ name: Build and Deploy APT Repo to gh-pages
 on:
   push:
     branches: [ main ]
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
       - name: Checkout code
@@ -53,7 +62,7 @@ jobs:
           gpg --verify repo/dists/termuxvoid/InRelease
 
       - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
