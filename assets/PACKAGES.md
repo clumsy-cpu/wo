@@ -213,6 +213,7 @@ This repository provides specialized security and penetration testing tools for 
 ### ⚡ System Tools
 | Tool | Description |
 |------|-------------|
+| [arsenal-ng](https://termuxvoid.github.io/tool.html?name=arsenal-ng) | Fast command launcher with 200+ cybersecurity cheat-sheets |
 | [blesh](https://termuxvoid.github.io/tool.html?name=blesh) | Bash Line Editor (ble.sh) – interactive command line editing |
 | [enctool](https://termuxvoid.github.io/tool.html?name=enctool) | Encrypt or decrypt bash files and marshal Python scripts |
 | [exiftool](https://termuxvoid.github.io/tool.html?name=exiftool) | Read, write and edit meta information in files |
@@ -260,6 +261,7 @@ This repository provides specialized security and penetration testing tools for 
 | [d-tect](https://termuxvoid.github.io/tool.html?name=d-tect) | D‑TECT – Pentest the Modern Web |
 | [ghauri](https://termuxvoid.github.io/tool.html?name=ghauri) | Advanced Cross‑Platform SQL Injection Scanner |
 | [gophish](https://termuxvoid.github.io/tool.html?name=gophish) | Open‑Source Phishing Toolkit |
+| [goshs](https://termuxvoid.github.io/tool.html?name=goshs) | Feature-rich single-binary file server for red teamers and developers |
 | [hatcloud](https://termuxvoid.github.io/tool.html?name=hatcloud) | CloudFlare detector and information gatherer |
 | [jsql](https://termuxvoid.github.io/tool.html?name=jsql) | Lightweight SQL injection detection and exploitation tool |
 | [jwt-hack](https://termuxvoid.github.io/tool.html?name=jwt-hack) | JWT security testing and exploitation tool – signing, forging, algorithm confusion, kid injection and more |
