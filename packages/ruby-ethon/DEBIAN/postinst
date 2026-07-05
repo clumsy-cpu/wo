@@ -1,0 +1,11 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+
+# Install the gem
+gem install ethon -v 0.18.0
+
+# Apply the patch to libc.rb
+find "$PREFIX/lib/ruby/gems" -name "libc.rb" -path "*/ethon/*" -exec sed -i 's/^[[:space:]]*attach_function :getdtablesize, [], :int/  def self.getdtablesize\n    1024\n  end/' {} \;
+
+echo "ruby-ethon installed successfully."
+exit 0

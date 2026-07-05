@@ -221,6 +221,7 @@ This repository provides specialized security and penetration testing tools for 
 | [ip-changer](https://termuxvoid.github.io/tool.html?name=ip-changer) | Change your IP address automatically |
 | [morphshell](https://termuxvoid.github.io/tool.html?name=morphshell) | Sleek Termux shell environment with dynamic themes |
 | [ruby-curb](https://termuxvoid.github.io/tool.html?name=ruby-curb) | Curb provides Ruby bindings for the libcurl HTTP client library |
+| [ruby-ethon](https://termuxvoid.github.io/tool.html?name=ruby-ethon) | Ruby libcurl wrapper using FFI for HTTP client functionality |
 | [ruby-nokogiri](https://termuxvoid.github.io/tool.html?name=ruby-nokogiri) | Ruby gem for HTML/XML parsing (system libraries) |
 | [shellcrypt](https://termuxvoid.github.io/tool.html?name=shellcrypt) | Professional code obfuscation for Bash and Python |
 | [termuxfetch](https://termuxvoid.github.io/tool.html?name=termuxfetch) | Neofetch‑like system information tool for Termux |
