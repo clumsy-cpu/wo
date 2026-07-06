@@ -1,55 +1,89 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-NC='\033[0m'
+echo "Installing THC-Hydra with Termux patches ..."
 
-echo -e "${GREEN}Installing THC-Hydra...${NC}"
-
-# Clone THC-Hydra repository
-echo -e "${YELLOW}Cloning THC-Hydra repository...${NC}"
+# Clone the repository
+echo "Cloning THC-Hydra repository..."
+rm -rf "$TMPDIR/thc-hydra" 2>/dev/null || true
 git clone https://github.com/vanhauser-thc/thc-hydra.git $TMPDIR/thc-hydra || {
-    echo -e "${RED}Error: Failed to clone THC-Hydra repository.${NC}"
+    echo "Error: Failed to clone THC-Hydra repository."
     exit 1
 }
 
 cd $TMPDIR/thc-hydra
 
-# Build process
-echo -e "${YELLOW}Building THC-Hydra...${NC}"
+# Patch 1: Fix man page directory in Makefile.am
+echo "Patching Makefile.am for Termux..."
+sed -i 's|^MANDIR = /man/man1/|MANDIR = /share/man/man1/|' Makefile.am
 
-# Clean previous builds
+# Patch 2: Disable fdsan on Termux (Android) in hydra.c
+echo "Patching hydra.c to fix fdsan error..."
+
+# Create temporary files in $TMPDIR (safe to write)
+cat > $TMPDIR/hydra_fdsan_block << 'EOF'
+#ifdef __TERMUX__
+#include <android/fdsan.h>
+#include <dlfcn.h>
+static inline void termux_disable_fdsan() {
+	// For Android 11+.
+	void *lib_handle = dlopen("libc.so", RTLD_LAZY);
+	if (lib_handle) {
+		void (*set_fdsan_error_level)(enum android_fdsan_error_level newlevel) = dlsym(lib_handle, "android_fdsan_set_error_level");
+		if (set_fdsan_error_level) {
+			set_fdsan_error_level(ANDROID_FDSAN_ERROR_LEVEL_DISABLED);
+    }
+		dlclose(lib_handle);
+	}
+}
+#endif
+EOF
+
+cat > $TMPDIR/hydra_fdsan_call << 'EOF'
+#ifdef __TERMUX__
+  termux_disable_fdsan();
+#endif
+EOF
+
+# Insert the fdsan block after the line containing "#include <term.h>"
+sed -i "/#include <term.h>/ r $TMPDIR/hydra_fdsan_block" hydra.c
+
+# Insert the call to termux_disable_fdsan() before the first printf in main
+sed -i "/  printf(\"%s %s (c) 2023 by %s & %s/ i\\
+#ifdef __TERMUX__\\
+  termux_disable_fdsan();\\
+#endif
+" hydra.c
+
+# Clean up temporary files
+rm -f $TMPDIR/hydra_fdsan_block $TMPDIR/hydra_fdsan_call
+
+# Build and install
+echo "Building THC-Hydra..."
 make clean 2>/dev/null || true
 
-# Configure with prefix
-echo -e "${YELLOW}Configuring build...${NC}"
 sh configure --prefix=$PREFIX || {
-    echo -e "${RED}Error: Configuration failed.${NC}"
+    echo "Error: Configuration failed."
     exit 1
 }
 
-# Compile
-echo -e "${YELLOW}Compiling...${NC}"
 make || {
-    echo -e "${RED}Error: Compilation failed.${NC}"
+    echo "Error: Compilation failed."
     exit 1
 }
 
-# Install
-echo -e "${YELLOW}Installing...${NC}"
 make install || {
-    echo -e "${RED}Error: Installation failed.${NC}"
+    echo "Error: Installation failed."
     exit 1
 }
 
-# Cleanup
+# Cleanup source
 rm -rf $TMPDIR/thc-hydra
 
-echo -e "${GREEN}THC-Hydra installed successfully!${NC}"
-echo -e "${YELLOW}Usage examples:${NC}"
+echo "THC-Hydra installed successfully!"
+echo "Usage examples:"
 echo "  hydra -l user -P passlist.txt ssh://target"
 echo "  hydra -L users.txt -p password ftp://target"
 echo "  hydra -l admin -P passwords.txt http-get://target/login"
 echo "  hydra -h for full help"
+
 exit 0
