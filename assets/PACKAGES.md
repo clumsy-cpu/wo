@@ -57,6 +57,7 @@ This repository provides specialized security and penetration testing tools for 
 | [numinfo](https://termuxvoid.github.io/tool.html?name=numinfo) | Phone number intelligence and lookup tool |
 | [onionsearch](https://termuxvoid.github.io/tool.html?name=onionsearch) | Scrape .onion URLs from various Tor search engines |
 | [phoneinfo](https://termuxvoid.github.io/tool.html?name=phoneinfo) | Phone number lookup tool |
+| [phoneinfoga](https://termuxvoid.github.io/tool.html?name=phoneinfoga) | Advanced phone number OSINT framework for information gathering and vulnerability scanning |
 | [publiceye](https://termuxvoid.github.io/tool.html?name=publiceye) | Comprehensive OSINT tool for information lookup |
 | [redhawk](https://termuxvoid.github.io/tool.html?name=redhawk) | All‑in‑one information gathering, vulnerability scanning and crawling |
 | [sherlock](https://termuxvoid.github.io/tool.html?name=sherlock) | Hunt down social media accounts by username |
