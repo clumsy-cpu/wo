@@ -2,7 +2,7 @@
 
 PREFIX=${PREFIX:-/data/data/com.termux/files/usr}
 
-rm -f "$PREFIX/bin/copilot-cli"
+rm -f "$PREFIX/bin/copilot"
 rm -rf "$PREFIX/share/copilot-cli"
 
 exit 0
