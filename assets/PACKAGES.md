@@ -178,7 +178,6 @@ This repository provides specialized security and penetration testing tools for 
 | [apkpatcher](https://termuxvoid.github.io/tool.html?name=apkpatcher) | Advanced APK Modification Tool |
 | [apkleaks](https://termuxvoid.github.io/tool.html?name=apkleaks) | Scanning APK file for URIs, endpoints & secrets |
 | [apksearch](https://termuxvoid.github.io/tool.html?name=apksearch) | APK Search Tool for Multiple APK Websites |
-| [apktool](https://termuxvoid.github.io/tool.html?name=apktool) | Reverse engineering Android APKs |
 | [qdl](https://termuxvoid.github.io/tool.html?name=qdl) | Qualcomm Download Tool (QDL) for EDL flashing – flash Qualcomm devices in EDL 9008 mode |
 | [blutter](https://termuxvoid.github.io/tool.html?name=blutter) | Flutter/Dart Binary Analysis and Reverse Engineering |
 | [dpt-shell](https://termuxvoid.github.io/tool.html?name=dpt-shell) | Android Dex protection shell implementation |
@@ -218,7 +217,6 @@ This repository provides specialized security and penetration testing tools for 
 | [arsenal-ng](https://termuxvoid.github.io/tool.html?name=arsenal-ng) | Fast command launcher with 200+ cybersecurity cheat-sheets |
 | [blesh](https://termuxvoid.github.io/tool.html?name=blesh) | Bash Line Editor (ble.sh) – interactive command line editing |
 | [enctool](https://termuxvoid.github.io/tool.html?name=enctool) | Encrypt or decrypt bash files and marshal Python scripts |
-| [exiftool](https://termuxvoid.github.io/tool.html?name=exiftool) | Read, write and edit meta information in files |
 | [ip-changer](https://termuxvoid.github.io/tool.html?name=ip-changer) | Change your IP address automatically |
 | [morphshell](https://termuxvoid.github.io/tool.html?name=morphshell) | Sleek Termux shell environment with dynamic themes |
 | [ruby-curb](https://termuxvoid.github.io/tool.html?name=ruby-curb) | Curb provides Ruby bindings for the libcurl HTTP client library |

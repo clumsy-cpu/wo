@@ -1,6 +1,0 @@
-#!/data/data/com.termux/files/usr/bin/bash
-
-# Standard removal
-rm -rf "$PREFIX/share/apktool" "$PREFIX/bin/apktool" 2>/dev/null
-
-echo "[+] APKTool completely removed"
