@@ -151,7 +151,7 @@ def main():
             time.sleep(1)
         elif choice == "5":
             console.print("[blue]Opening Telegram...[/blue]")
-            os.system("xdg-open https://t.me/nullxvoid")
+            os.system("xdg-open https://telegram.me/nullxvoid")
             time.sleep(1)
         elif choice == "6":
             update_config_interactive()

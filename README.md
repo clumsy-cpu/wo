@@ -173,7 +173,7 @@ Many of these tools (like Metasploit or Ghidra) have heavy dependencies, large s
 We are constantly expanding. You can request new tools via:
 
 1. Opening a **[GitHub Issue](https://github.com/TermuxVoid/repo/issues)**
-2. Contacting us on Telegram: **[Telegram @nullxvoid](https://t.me/nullxvoid)**
+2. Contacting us on Telegram: **[Telegram @nullxvoid](https://telegram.me/nullxvoid)**
 3. Sending an email to: **[termuxvoid@gmail.com](mailto:termuxvoid@gmail.com)**
 </details>
 
@@ -215,7 +215,7 @@ If the tool still doesn't appear, it may have a different package name — check
 Join our growing community of security researchers and mobile hackers.
 
 <div align="center">
-  <a href="https://t.me/nullxvoid">
+  <a href="https://telegram.me/nullxvoid">
     <img src="https://img.shields.io/badge/Telegram-Join_Group-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram">
   </a>
   <a href="https://youtube.com/@alienkrishnorg">

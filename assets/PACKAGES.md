@@ -285,7 +285,7 @@ This repository provides specialized security and penetration testing tools for 
 > Stay updated with new tools and announcements via our official channels.
 
 ## 🔄 Updates & Support
-- Telegram: [@nullxvoid](https://t.me/nullxvoid)
+- Telegram: [@nullxvoid](https://telegram.me/nullxvoid)
 - YouTube: [@alienkrishnorg](https://youtube.com/@alienkrishnorg)
 
 > [!WARNING]

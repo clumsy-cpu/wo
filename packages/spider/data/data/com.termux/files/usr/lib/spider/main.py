@@ -84,7 +84,7 @@ if number == "1":
 elif number == "2":
     os.system("python $PREFIX/lib/spider/report/reporter.py")
 elif number == "3":
-    os.system("xdg-open https://t.me/nullxvoid/3")
+    os.system("xdg-open https://telegram.me/nullxvoid/3")
 elif number == "0":
     re("Exiting from the script...")
     time.sleep(1)

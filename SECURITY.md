@@ -20,7 +20,7 @@ Don't understand the postinst? Copy it, ask an AI "what does this do and is it s
 
 ## Report a Vulnerability
 
-Open a [GitHub Issue](https://github.com/TermuxVoid/repo/issues) or contact [@nullxvoid](https://t.me/nullxvoid) on Telegram.
+Open a [GitHub Issue](https://github.com/TermuxVoid/repo/issues) or contact [@nullxvoid](https://telegram.me/nullxvoid) on Telegram.
 
 ## Legal
 
