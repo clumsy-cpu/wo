@@ -20,6 +20,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,17 +37,57 @@ jobs:
       - name: Create directories
         run: |
           mkdir -p debs repo
-          rm -rf debs/* repo/*
 
-      - name: Build .deb packages
+      - name: Restore debs cache
+        uses: actions/cache@v4
+        with:
+          path: debs
+          key: debs-${{ github.sha }}
+          restore-keys: debs-
+
+      - name: Check cache status
+        id: cache-check
         run: |
+          count=$(ls debs/*.deb 2>/dev/null | wc -l)
+          if [ "$count" -gt 0 ]; then
+            echo "Cached debs found: $count"
+            echo "hit=true" >> $GITHUB_OUTPUT
+          else
+            echo "No cached debs, full build needed"
+            echo "hit=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Build all packages (no cache)
+        if: steps.cache-check.outputs.hit == 'false'
+        run: |
+          echo "Building all packages..."
           for pkg_dir in packages/*/; do
             if [ -f "${pkg_dir}/DEBIAN/control" ]; then
               echo "Building package from ${pkg_dir}"
               dpkg-deb -b -Zxz "${pkg_dir}" debs/
             fi
           done
-          ls -la debs/
+          echo "Total debs: $(ls debs/*.deb | wc -l)"
+
+      - name: Build changed packages only (cache hit)
+        if: steps.cache-check.outputs.hit == 'true'
+        run: |
+          changed=$(git diff --name-only HEAD~1 -- packages/ 2>/dev/null || echo "")
+          if [ -z "$changed" ]; then
+            echo "No package changes detected, skipping build"
+          else
+            echo "Changed files:"
+            echo "$changed"
+            echo "$changed" | grep 'DEBIAN/control' | sed 's|/DEBIAN/control||' | while read pkg_dir; do
+              if [ -d "${pkg_dir}" ] && [ -f "${pkg_dir}/DEBIAN/control" ]; then
+                pkg_name=$(basename "${pkg_dir}")
+                echo "Rebuilding changed package: ${pkg_name}"
+                rm -f "debs/${pkg_name}"*.deb 2>/dev/null || true
+                dpkg-deb -b -Zxz "${pkg_dir}" debs/
+              fi
+            done
+          fi
+          echo "Total debs: $(ls debs/*.deb | wc -l)"
 
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v6
