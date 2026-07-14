@@ -243,7 +243,7 @@ SHA256: 462f40827ff9caedce5023dafc84c01a44221f6678f4d56cf117b7d5f447eb30
 SHA512: 9991ab001f5a99c63d04d208b84afbce0fb0dedba359fbe103108f36e66b056f4b6d1a08b2aca2eb839b7027e77e020ce66fc5f784f53ca2095b300aba962b3c
 
 Package: apkgen-cli
-Version: 1.4.0
+Version: 1.3.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, gum, termux-tools, android-sdk, flutter
@@ -254,12 +254,12 @@ Description: CLI tool to quickly generate Android APKs from local templates
  apkgen-cli simplifies Android APK generation using local templates.
  Supports Java, Kotlin, native, and Flutter projects, providing a streamlined
  workflow for developers and CI/CD pipelines.
-Filename: dists/termuxvoid/main/binary-all/apkgen-cli_1.4.0_all.deb
-Size: 1140
-MD5Sum: 4f1b4a117e7e1cd8137159845313dfef
-SHA1: 4c47e94b7bc15d1a1c347566f2752763fd09e28d
-SHA256: a5bafb1d5052ea16ece52db5077d5633d38be086b24720e6e6c16388acd89fb1
-SHA512: 843f54714106fefe6ed143af91040e269c00d8088c7b90fd9bb3391d6059f86f512f2dfe99121930538b90258663966f93f0a981c35f50bbcabd310a1eef1872
+Filename: dists/termuxvoid/main/binary-all/apkgen-cli_1.3.1_all.deb
+Size: 1144
+MD5Sum: c8bfcc327a27acbe12a58a280e14a22d
+SHA1: 24858e3c05e8bd606e1f83e71b85c954c3bb9564
+SHA256: 557a2ff162d1eaddf8d95e9de82852215a8d286cd6b70473e5195952862c8468
+SHA512: a5247288f02d33871da20f2b4264d4ee05bc5fb8cac4175490a216042bc2ea9ceb4d73465a4c329febcf70696b71599626388f8c618df5e0ca2f8232a979b1e2
 
 Package: apkleaks
 Version: 2.6.3
