@@ -57,7 +57,7 @@ rm -rf "$TMP_DIR"
 cat > "$PREFIX/bin/openbullet2" << 'EOF'
 #!/data/data/com.termux/files/usr/bin/sh
 cd "$PREFIX/lib/openbullet2"
-exec dotnet OpenBullet2.Web.dlli "$@"
+exec dotnet OpenBullet2.Web.dll "$@"
 EOF
 chmod +x "$PREFIX/bin/openbullet2"
 
