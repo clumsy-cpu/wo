@@ -89,6 +89,17 @@ jobs:
           fi
           echo "Total debs: $(ls debs/*.deb | wc -l)"
 
+      - name: Remove stale debs for deleted packages
+        run: |
+          for deb in debs/*.deb; do
+            pkg_name=$(basename "$deb" | sed 's/_.*//')
+            if [ ! -d "packages/${pkg_name}" ]; then
+              echo "Removing stale deb: ${deb}"
+              rm -f "$deb"
+            fi
+          done
+          echo "Final debs: $(ls debs/*.deb | wc -l)"
+
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@v6
         with:
