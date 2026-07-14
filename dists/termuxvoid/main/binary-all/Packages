@@ -2840,15 +2840,19 @@ Package: slowhttptest
 Version: 1.9.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: openssl, make, automake
+Depends: git, openssl, build-essential, findutils
+Section: net
+Priority: optional
 Homepage: https://github.com/shekyan/slowhttptest
-Description: Application Layer DoS attack simulator
+Description: Application Layer Denial of Service attack simulator
+ slowhttptest is a tool to test the vulnerability of web servers to
+ slow HTTP attacks (Slowloris, Slow POST, Slow Read, etc.).
 Filename: dists/termuxvoid/main/binary-all/slowhttptest_1.9.0_all.deb
-Size: 100648
-MD5Sum: e2f99a78dc37c756bfec48019fbba347
-SHA1: 9671c0ef90947dc765182855f832dda9cf7a006c
-SHA256: 8f53401bf15bc9cb22329f1a85578abda12372e3cf889824e188b30002811080
-SHA512: 350f7a314b0f876035c7eb8542230744ec82124f65d536912178405f26e2eed5b4efd4356e840bb6fbb94e935713ea3fe00e768ac235914055d12dd3174140eb
+Size: 1396
+MD5Sum: 29f4027532d0312c279f99f783651ca6
+SHA1: e83baf8166dc045491f207a4d258c53df160ff5c
+SHA256: 535bf06209070aa025a1c19db90054e5dc4093393699ed71f9be37f9b7144e59
+SHA512: c32930b60ad20212a077d295654524581ce871668e446fbcdeb6e8091deab4044e6d2030dcd5036674f43f6c23e234324faf05722a1295324acb8d18b4c1b211
 
 Package: sms-stealer
 Version: 0.1.0
