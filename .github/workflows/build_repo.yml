@@ -42,7 +42,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: debs
-          key: debs-${{ github.sha }}
+          key: debs-main
           restore-keys: debs-
 
       - name: Check cache status
