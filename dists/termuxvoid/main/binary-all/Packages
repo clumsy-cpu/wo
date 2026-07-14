@@ -2136,7 +2136,7 @@ SHA256: 96fd792548dd847badbc55b2bc377018965416f44e13417db35fdbcc75aab9d8
 SHA512: d8e599a0b5928c9964c1135e4a4b84585d0a4ddc026e73dd4a21e82554df7618f71f6713665774070ed2723b899823b2fad8c370dfbcf7b9caf4697c167a43df
 
 Package: openbullet2
-Version: 2.0.1
+Version: 2.0.1-0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, tar, dotnet-sdk-10.0, npm, libsqlite
@@ -2147,12 +2147,12 @@ Description: Cross-platform automation suite powered by .NET Core
  OpenBullet2 allows to perform requests towards a target webapp and offers
  many tools to work with the results. It can be used for scraping, parsing
  data, automated pentesting and much more.
-Filename: dists/termuxvoid/main/binary-all/openbullet2_2.0.1_all.deb
-Size: 1844
-MD5Sum: 3870422c7fcb4cb4c440aeee1c274b74
-SHA1: e3f256003f19508ed01027683db626bd7d512d2b
-SHA256: 478d973fd4a4c21f646a1f13b5f8d11280517ff8dfff509e6cca912d8906f494
-SHA512: f1f1783350c2899e01f5d1aa01e213534fbae3026ade9aac1917ffd563fd3a9437576fd18d2d87d40924bb265a58dd857d743ee183e77cd297810b04106ecd0d
+Filename: dists/termuxvoid/main/binary-all/openbullet2_2.0.1-0_all.deb
+Size: 1840
+MD5Sum: eae5e7c0750a250bbf1add60547757a4
+SHA1: 8b878ee788db2fbf805a13d187d6e4ce64d19b86
+SHA256: 7c8113d669d7395291b9edaefb0f3ff7c2a7aa4c8eb3e5761997331d2dffe547
+SHA512: 911853ba5df754220057437a06b818825c9f97b68d5e4ffb9af0b6961419183ec197e350e8dd17f1a78e808da1d46d4efa84d112aa2130442300c2d78725e980
 
 Package: openbullet
 Version: 1.0.2
