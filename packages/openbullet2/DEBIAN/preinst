@@ -1,15 +1,9 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
-RED='\033[0;31m'
-NC='\033[0m'
-
 ARCH=$(uname -m)
-
-if [ "$ARCH" != "aarch64" ]; then
-    echo -e "${RED}Error: OpenBullet2 only supports aarch64 architecture.${NC}"
-    echo "Your architecture: $ARCH"
-    echo "This package cannot be installed on this device."
-    exit 1
-fi
-
-exit 0
+case "$ARCH" in
+    aarch64|x86_64) exit 0 ;;
+    *)
+        echo "Error: OpenBullet2 supports only aarch64 or x86_64. Your arch: $ARCH" >&2
+        exit 1
+        ;;
+esac

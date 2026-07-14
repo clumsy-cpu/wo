@@ -1,20 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-NC='\033[0m'
-
-echo -e "${GREEN}Uninstalling OpenBullet2...${NC}"
-
-if [ -f "$PREFIX/bin/openbullet2" ]; then
-    rm -f $PREFIX/bin/openbullet2
-    echo -e "${GREEN}Removed launcher script${NC}"
-fi
-
-if [ -d "$PREFIX/lib/openbullet2" ]; then
-    rm -rf $PREFIX/lib/openbullet2
-    echo -e "${GREEN}Removed OpenBullet2 directory${NC}"
-fi
-
-echo -e "${GREEN}OpenBullet2 completely removed${NC}"
+rm -f "$PREFIX/bin/openbullet2"
+rm -rf "$PREFIX/lib/openbullet2"
+echo "OpenBullet2 completely removed."
 exit 0
