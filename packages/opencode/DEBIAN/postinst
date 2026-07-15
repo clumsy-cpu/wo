@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 set -e
-
+ 
 PREFIX=${PREFIX:-/data/data/com.termux/files/usr}
 VERSION="1.18.1"
 TARFILE="opencode-linux-arm64.tar.gz"
