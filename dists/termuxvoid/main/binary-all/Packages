@@ -1248,18 +1248,22 @@ SHA256: 6e553050c902418c4a538eed48e492353869aadbc10d73a536a58f270264496f
 SHA512: 87a7978b75c7a27367bfa0f437e48be6a94682d199d0206588c1bee0c40c240a7ddf808fe1f9a735946b6baebf8fa8fbc1fde3c55dad2eafe4856c96e3ffda3e
 
 Package: gophish
-Version: 0.12.1-latest
+Version: 0.12.1-0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: golang 
+Depends: git, golang, build-essential, sqlite3
+Section: net
+Priority: optional
 Homepage: https://getgophish.com/
-Description: Open-Source Phishing Toolkit
-Filename: dists/termuxvoid/main/binary-all/gophish_0.12.1-latest_all.deb
-Size: 1148
-MD5Sum: 546e18832a1fb9c6e3e7c4e5cb40fae2
-SHA1: 6a91930d3f10004977063956550b9511fc5c5ef1
-SHA256: 1b5152998249b335395fcce416c35b84c0d87d37f7ad62c5f8c27208a93f096a
-SHA512: b43c3d74f920fff7df3943d9bc3fe8eaa49288db9f76b85feb597d430883d1d4c1c9d45e8fe0d53a245aed3045da6911775219e3fcf083363ba218266c2f6813
+Description: Open-source phishing framework
+ Gophish is a powerful and easy-to-use phishing toolkit designed for
+ security professionals to run phishing campaigns and track results.
+Filename: dists/termuxvoid/main/binary-all/gophish_0.12.1-0_all.deb
+Size: 1380
+MD5Sum: a4aff3191c0085aa74cb75cc6a7c2b69
+SHA1: 74dcae9679a040e336442f6328f4ecbb226fdfae
+SHA256: 903074f6abc8d1f3f205216641583bca91e988d0e1c779bd7b903e8f4be3ea92
+SHA512: 587b7a47fc635b9353e05535e1d005d97148ffa626178f997fc7080c2f0b60575f8fdf7d1ed05e0c85f8b14b6dd38419faef6f3e5fb43c61670f4ad60816fd34
 
 Package: goshs
 Version: 2.1.4
@@ -2176,7 +2180,7 @@ SHA256: 7009775b608327e3585f725647819abf04e3aa4e0ac5cdf7114b17ef2e4e6720
 SHA512: 162d45a39aab8f3b08b86faea4cf116f0a3f81f74c54b9a95190ef0854cef997f80e2cd9e1e213716677b4cdad521aa69e4747d492ff1b23bd16b37b770e8b55
 
 Package: openclaude
-Version: 0.24.0
+Version: 0.23.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: npm, ripgrep, proot
@@ -2187,15 +2191,15 @@ Description: Open‑source coding‑agent CLI for cloud and local LLMs
  OpenClaude provides a command‑line interface for interacting with
  large language models from multiple providers (cloud or local),
  with features tailored for coding assistance and automation.
-Filename: dists/termuxvoid/main/binary-all/openclaude_0.24.0_all.deb
+Filename: dists/termuxvoid/main/binary-all/openclaude_0.23.0_all.deb
 Size: 1360
-MD5Sum: aaaea58d45add485f047d6926d73f322
-SHA1: dacf9dbfe14147ee742ceb163c92a263d30f593e
-SHA256: ea7ec709ff10b8729c2871c876d5cd6745e5ee7356d65202fe57ec7d294875bf
-SHA512: 38f755d5c87666070e201fdaea7ff23f47ef2ce15e1337f1623bbd8414aff18f033fb167caea8ac3f92dee2c9830740d26d67100e37f352f3d18ef0e34a0fdec
+MD5Sum: 08addca2611753f4fc57c98253212140
+SHA1: e2e95e67a5888c21c7799817f7501ec49e0f6f65
+SHA256: 01081e899ac6f9448534262b3ccb31785cd9c8bbd25633cf249eb1aa34811c71
+SHA512: 314081d4f38b6917b4cdb7ff719d21c87e8b8241bdb100236cbbaca2892d097d84701e4a2dd1bb561e1c1bbd4ad538c42b96d31f76e0351a9430615bd99d4cd7
 
 Package: opencode
-Version: 1.18.1
+Version: 1.17.20
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: glibc, clang, python, curl, tar
@@ -2206,12 +2210,12 @@ Description: AI‑powered coding assistant (glibc version)
  OpenCode provides real‑time code completions and AI assistance.
  This package uses the glibc build and includes a wrapper to run
  inside Termux’s glibc environment.
-Filename: dists/termuxvoid/main/binary-all/opencode_1.18.1_all.deb
+Filename: dists/termuxvoid/main/binary-all/opencode_1.17.20_all.deb
 Size: 1924
-MD5Sum: c1ca5ed87c4a455e95ba31d2352ed403
-SHA1: 945dc3668bc890b659ebd64b4247802d1d2c1bed
-SHA256: bba7f33033a0780e91de1ebb1a4333f880776738062a6fd57fcd123233901558
-SHA512: 7bc25b9f07678c7d82a0dfeae0e2e20bc689efc59720ff58804e645d83533375e0dbe9e0c092b4f0da478102bc0435336f07dea0263518c0cf3544d5129d50ab
+MD5Sum: 8a3c2ae28711852a2135d277a9ad77f2
+SHA1: e46c0980e1780203891b2c976e5d7bdc2c07f3cd
+SHA256: 087920eee7ed31d10a1fa9032f9989d18cd69b059349081db39495c906b2efbf
+SHA512: 4e9f4d195ce4bbdd2bf265a3854b9e2d8a5efc4c41b85e12451a3e4897c2338219bd6c8fe7f06144e0eddd2b1897951890d794d4112540cf9aeb5a7a7a38e655
 
 Package: pairip
 Version: 1.3.10
