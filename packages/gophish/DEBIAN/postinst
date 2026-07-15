@@ -1,31 +1,42 @@
-#!/usr/bin/env bash
-go install github.com/gophish/gophish@latest
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
 
-if [[ ! -e $HOME/go/bin/gophish ]]; then
-  printf "\e[31mE: somthing went wrong..!!\e[0m\n"
-  exit 1
-else
-  chmod 751 -R $HOME/go/
-fi
-GOGITPATH="$HOME/go/pkg/mod/github.com"
-GOPHISH_DIR=$(find $GOGITPATH -type d -iname "gophish" | head -n 1)
-GOPHISH_SRC=$(ls $GOPHISH_DIR | grep "gophish")
-mv $HOME/go/bin/gophish $GOPHISH_DIR/$GOPHISH_SRC/ 
-cat > $HOME/go/bin/gophish <<- EOF
-#!$PREFIX/bin/sh
-cd $GOPHISH_DIR/$GOPHISH_SRC 
-exec $GOPHISH_DIR/$GOPHISH_SRC/gophish
+REPO="https://github.com/gophish/gophish.git"
+TMP_DIR="$TMPDIR/gophish-build"
+SHARE_DIR="$PREFIX/share/gophish"
+BIN_DIR="$PREFIX/bin"
+
+rm -rf "$TMP_DIR" 2>/dev/null || true
+
+# Remove old installation to avoid stale files
+rm -rf "$SHARE_DIR" 2>/dev/null || true
+
+mkdir -p "$TMP_DIR"
+cd "$TMP_DIR"
+
+git clone --depth 1 "$REPO"
+cd gophish
+
+go build -trimpath -ldflags "-w -s" -o gophish
+
+mkdir -p "$SHARE_DIR"
+cp -r db static templates config.json gophish "$SHARE_DIR/"
+
+# Fix phishing port from 80 to 8080
+sed -i 's/"listen_url": "0\.0\.0\.0:80"/"listen_url": "0.0.0.0:8080"/' "$SHARE_DIR/config.json"
+
+cat > "$BIN_DIR/gophish" << 'EOF'
+#!/data/data/com.termux/files/usr/bin/bash
+cd "$PREFIX/share/gophish"
+exec ./gophish "$@"
 EOF
+chmod +x "$BIN_DIR/gophish"
 
-cat > $PREFIX/bin/gophish <<- EOF
-#!$PREFIX/bin/sh 
-exec $HOME/go/bin/gophish
-EOF
+cd /
+rm -rf "$TMP_DIR"
 
-sed 's|"listen_url": "0.0.0.0:80",|"listen_url": "127.0.0.1:8080",|g' -i $GOPHISH_DIR/$GOPHISH_SRC/config.json
-chmod 640 $GOPHISH_DIR/$GOPHISH_SRC/config.json
-
-chmod +x $PREFIX/bin/gophish 
-chmod +x $HOME/go/bin/gophish
-
-
+echo "Gophish installed successfully."
+echo "Admin: https://127.0.0.1:3333"
+echo "Phishing: http://0.0.0.0:8080"
+echo "Run 'gophish' to start."
+exit 0
