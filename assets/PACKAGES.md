@@ -150,6 +150,7 @@ This repository provides specialized security and penetration testing tools for 
 | [httpx](https://termuxvoid.github.io/tool.html?name=httpx) | Fast and multi‑purpose HTTP toolkit |
 | [katana](https://termuxvoid.github.io/tool.html?name=katana) | Next‑generation crawling and spidering framework |
 | [mantra](https://termuxvoid.github.io/tool.html?name=mantra) | API key hunter for JS files and web pages |
+| [metabigor](https://termuxvoid.github.io/tool.html?name=metabigor) | OSINT tool without API keys – network discovery, ASN/IP lookups, and search engine queries |
 | [naabu](https://termuxvoid.github.io/tool.html?name=naabu) | Fast port scanning tool with SYN/CONNECT modes |
 | [nuclei](https://termuxvoid.github.io/tool.html?name=nuclei) | Advanced template‑based vulnerability scanner |
 | [pandora](https://termuxvoid.github.io/tool.html?name=pandora) | Open source OSINT tool |
