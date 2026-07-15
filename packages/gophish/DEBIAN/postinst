@@ -20,7 +20,7 @@ cd gophish
 go build -trimpath -ldflags "-w -s" -o gophish
 
 mkdir -p "$SHARE_DIR"
-cp -r db static templates config.json gophish "$SHARE_DIR/"
+cp -r db static templates config.json gophish VERSION "$SHARE_DIR/"
 
 # Fix phishing port from 80 to 8080
 sed -i 's/"listen_url": "0\.0\.0\.0:80"/"listen_url": "0.0.0.0:8080"/' "$SHARE_DIR/config.json"
