@@ -1891,6 +1891,25 @@ SHA1: d48901d2a216cdb73ab26fef755975514ee27a69
 SHA256: 641feb900844fa9e1a10d72f6a3c5597bb16d9d142b3533f5506793d069a4bcd
 SHA512: 6430e7a898b053622927fe0485f4ab056a700c5203e68fec787e18f1c03b0468eca394c20709710a12455b7910d6fe65c9906ceba4f92cda86baf7242295dc2b
 
+Package: metabigor
+Version: 2.1.0
+Architecture: all
+Maintainer: Alienkrishn [Anon4You]
+Depends: curl, tar, git, golang
+Section: net
+Priority: optional
+Homepage: https://github.com/j3ssie/metabigor
+Description: OSINT tool without API keys
+ Metabigor is an intelligence framework designed to perform OSINT tasks
+ without requiring API keys. Features include network discovery, ASN/IP
+ lookups, and command-line search engine queries.
+Filename: dists/termuxvoid/main/binary-all/metabigor_2.1.0_all.deb
+Size: 1620
+MD5Sum: 550af289526bd81758c56a2b09cce9b7
+SHA1: 14aaea2e9e8b994cd557cd626986ab6adbf0c6b3
+SHA256: 707a204bac91438a3fd3c20fca02c2be6e89d2b218753eaeeb4e5fe75b2e26cd
+SHA512: 914cbd1aeedee953e688038c6666a41b79fe814e05b918caffdef37b8f29b528c56f82e0426a6f1be33e7849294b08434a484993d0039250581be6cfc6fe510b
+
 Package: metasploit-framework
 Version: 6.4.142-dev
 Architecture: all
