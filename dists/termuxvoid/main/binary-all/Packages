@@ -2136,7 +2136,7 @@ SHA256: 96fd792548dd847badbc55b2bc377018965416f44e13417db35fdbcc75aab9d8
 SHA512: d8e599a0b5928c9964c1135e4a4b84585d0a4ddc026e73dd4a21e82554df7618f71f6713665774070ed2723b899823b2fad8c370dfbcf7b9caf4697c167a43df
 
 Package: openbullet2
-Version: 2.0.1-0
+Version: 2.0.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, tar, dotnet-sdk-10.0, npm, libsqlite
@@ -2147,12 +2147,12 @@ Description: Cross-platform automation suite powered by .NET Core
  OpenBullet2 allows to perform requests towards a target webapp and offers
  many tools to work with the results. It can be used for scraping, parsing
  data, automated pentesting and much more.
-Filename: dists/termuxvoid/main/binary-all/openbullet2_2.0.1-0_all.deb
-Size: 1840
-MD5Sum: eae5e7c0750a250bbf1add60547757a4
-SHA1: 8b878ee788db2fbf805a13d187d6e4ce64d19b86
-SHA256: 7c8113d669d7395291b9edaefb0f3ff7c2a7aa4c8eb3e5761997331d2dffe547
-SHA512: 911853ba5df754220057437a06b818825c9f97b68d5e4ffb9af0b6961419183ec197e350e8dd17f1a78e808da1d46d4efa84d112aa2130442300c2d78725e980
+Filename: dists/termuxvoid/main/binary-all/openbullet2_2.0.1_all.deb
+Size: 1844
+MD5Sum: 3870422c7fcb4cb4c440aeee1c274b74
+SHA1: e3f256003f19508ed01027683db626bd7d512d2b
+SHA256: 478d973fd4a4c21f646a1f13b5f8d11280517ff8dfff509e6cca912d8906f494
+SHA512: f1f1783350c2899e01f5d1aa01e213534fbae3026ade9aac1917ffd563fd3a9437576fd18d2d87d40924bb265a58dd857d743ee183e77cd297810b04106ecd0d
 
 Package: openbullet
 Version: 1.0.2
@@ -2176,7 +2176,7 @@ SHA256: 7009775b608327e3585f725647819abf04e3aa4e0ac5cdf7114b17ef2e4e6720
 SHA512: 162d45a39aab8f3b08b86faea4cf116f0a3f81f74c54b9a95190ef0854cef997f80e2cd9e1e213716677b4cdad521aa69e4747d492ff1b23bd16b37b770e8b55
 
 Package: openclaude
-Version: 0.23.0
+Version: 0.24.0
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: npm, ripgrep, proot
@@ -2187,15 +2187,15 @@ Description: Open‑source coding‑agent CLI for cloud and local LLMs
  OpenClaude provides a command‑line interface for interacting with
  large language models from multiple providers (cloud or local),
  with features tailored for coding assistance and automation.
-Filename: dists/termuxvoid/main/binary-all/openclaude_0.23.0_all.deb
+Filename: dists/termuxvoid/main/binary-all/openclaude_0.24.0_all.deb
 Size: 1360
-MD5Sum: 08addca2611753f4fc57c98253212140
-SHA1: e2e95e67a5888c21c7799817f7501ec49e0f6f65
-SHA256: 01081e899ac6f9448534262b3ccb31785cd9c8bbd25633cf249eb1aa34811c71
-SHA512: 314081d4f38b6917b4cdb7ff719d21c87e8b8241bdb100236cbbaca2892d097d84701e4a2dd1bb561e1c1bbd4ad538c42b96d31f76e0351a9430615bd99d4cd7
+MD5Sum: aaaea58d45add485f047d6926d73f322
+SHA1: dacf9dbfe14147ee742ceb163c92a263d30f593e
+SHA256: ea7ec709ff10b8729c2871c876d5cd6745e5ee7356d65202fe57ec7d294875bf
+SHA512: 38f755d5c87666070e201fdaea7ff23f47ef2ce15e1337f1623bbd8414aff18f033fb167caea8ac3f92dee2c9830740d26d67100e37f352f3d18ef0e34a0fdec
 
 Package: opencode
-Version: 1.17.20
+Version: 1.18.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: glibc, clang, python, curl, tar
@@ -2206,12 +2206,12 @@ Description: AI‑powered coding assistant (glibc version)
  OpenCode provides real‑time code completions and AI assistance.
  This package uses the glibc build and includes a wrapper to run
  inside Termux’s glibc environment.
-Filename: dists/termuxvoid/main/binary-all/opencode_1.17.20_all.deb
+Filename: dists/termuxvoid/main/binary-all/opencode_1.18.1_all.deb
 Size: 1924
-MD5Sum: 8a3c2ae28711852a2135d277a9ad77f2
-SHA1: e46c0980e1780203891b2c976e5d7bdc2c07f3cd
-SHA256: 087920eee7ed31d10a1fa9032f9989d18cd69b059349081db39495c906b2efbf
-SHA512: 4e9f4d195ce4bbdd2bf265a3854b9e2d8a5efc4c41b85e12451a3e4897c2338219bd6c8fe7f06144e0eddd2b1897951890d794d4112540cf9aeb5a7a7a38e655
+MD5Sum: c1ca5ed87c4a455e95ba31d2352ed403
+SHA1: 945dc3668bc890b659ebd64b4247802d1d2c1bed
+SHA256: bba7f33033a0780e91de1ebb1a4333f880776738062a6fd57fcd123233901558
+SHA512: 7bc25b9f07678c7d82a0dfeae0e2e20bc689efc59720ff58804e645d83533375e0dbe9e0c092b4f0da478102bc0435336f07dea0263518c0cf3544d5129d50ab
 
 Package: pairip
 Version: 1.3.10
