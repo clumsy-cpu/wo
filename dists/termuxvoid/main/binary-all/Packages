@@ -1248,7 +1248,7 @@ SHA256: 6e553050c902418c4a538eed48e492353869aadbc10d73a536a58f270264496f
 SHA512: 87a7978b75c7a27367bfa0f437e48be6a94682d199d0206588c1bee0c40c240a7ddf808fe1f9a735946b6baebf8fa8fbc1fde3c55dad2eafe4856c96e3ffda3e
 
 Package: gophish
-Version: 0.12.1
+Version: 0.12.1-termuxvoid
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: git, golang, build-essential, sqlite
@@ -1258,12 +1258,12 @@ Homepage: https://getgophish.com/
 Description: Open-source phishing framework
  Gophish is a powerful and easy-to-use phishing toolkit designed for
  security professionals to run phishing campaigns and track results.
-Filename: dists/termuxvoid/main/binary-all/gophish_0.12.1_all.deb
-Size: 1376
-MD5Sum: da341af3c1cdffab270d3e6b6f61e643
-SHA1: 04c9f8738058272737781e13f2e79d30ea90c257
-SHA256: c19ae9f8d777d09006de139c7442aeacd326096b8a5aa1bd5a15c4214ed35f87
-SHA512: bed7f8b8af2774b510bf7c5cf2e6e20792e5756a647215c0fb12577318d2e84af1e5a81b0043073ab6c6eef0b0692461d825e3c95047ead4e590acf74f5a0282
+Filename: dists/termuxvoid/main/binary-all/gophish_0.12.1-termuxvoid_all.deb
+Size: 1392
+MD5Sum: 3275c165c700719038f0cbc7a23439a1
+SHA1: 4c7a5978abfb48b6dbbc364b3b7ba96e11b22288
+SHA256: f5b341fd114e322094825bb0388cea50f1ebe133cd9e021e4499340914a07ffb
+SHA512: 035c018e152c9a1dd969ed4db653047f57e9271a9ac0b5edf0e632d1b76eb65639d6d38166e6991d69d311660c02cbafd50f76040f5ef94d692374d3e76f84c3
 
 Package: goshs
 Version: 2.1.4
