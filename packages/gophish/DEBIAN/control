@@ -1,8 +1,8 @@
 Package: gophish
-Version: 0.12.1-0
+Version: 0.12.1
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
-Depends: git, golang, build-essential, sqlite3
+Depends: git, golang, build-essential, sqlite
 Section: net
 Priority: optional
 Homepage: https://getgophish.com/
