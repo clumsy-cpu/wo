@@ -187,7 +187,7 @@ SHA256: 870f09b957c9aa376a1e0c0d5a9dd848925189991a1fcacb97eadcc814557880
 SHA512: c535c12c390f6fb09e7d7e4c8ba4490549beb0c296f01402b11748d8e207d9b2dee7263249829ab5abdf20316ff21dddccd240309fa4c7ea619bece17c479f62
 
 Package: antigravity-cli
-Version: 1.1.1
+Version: 1.1.3
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, clang, python, glibc
@@ -198,12 +198,12 @@ Description: AI‑powered coding assistant (glibc wrapper for Termux)
  Antigravity CLI provides real‑time code suggestions. This package
  downloads the official Linux ARM64 binary, applies necessary memory
  patches, and runs it inside the Termux glibc environment.
-Filename: dists/termuxvoid/main/binary-all/antigravity-cli_1.1.1_all.deb
+Filename: dists/termuxvoid/main/binary-all/antigravity-cli_1.1.3_all.deb
 Size: 2516
-MD5Sum: 21d03e3c56602b0e0e1bb86c66ab1737
-SHA1: e593e142427d2f4e78b51eb5023eb4ccc531c13c
-SHA256: 9b04d79f8d3851055d1782ec9ad8f1b3a1e259aef01b19988323c71c4849dde9
-SHA512: 8815dd911c7b55674966e886a41a0f3685dda52775ee6f9384ed4bdd2c55cb9a3e4e3ba3705abfc290479c03a38afdfd02b713bd6fa78baa754aa84f6dfc6b47
+MD5Sum: 1871e17b3be8291eb915e8562af7a68b
+SHA1: 1c321611512eca3e93227de042c31235aef72caf
+SHA256: e36bd59b44604a8fe9da5bd75acc8e93be5980365b6bf51c1c8a58355636af5e
+SHA512: 0fa431d82346061b98feb98ee6d3967a1fd3957892e6b9943b57f315b48491d7b43e533240619155177dd120c251fa8d006747371c3e0b6ae6b7a340c3dddc4f
 
 Package: antisplit
 Version: 1.2
@@ -1401,7 +1401,7 @@ SHA256: 4629e8a4017b8bc7c3f59246576dd125e522cb69a375d01c61213f9634babb93
 SHA512: 76931f2f67e6c03a6e1671b8c9d38cb10b19c6cdb3c090102af9f8394c487a330272c6b9d4e0996df1cb8e07fb95f9ca44336ec4381ed3827b269c9f8b6c6be9
 
 Package: hermes-agent
-Version: 0.18.0
+Version: 0.18.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: npm, uv, git, python, clang, rust, make, pkg-config, libffi, openssl, nodejs, ripgrep, ffmpeg, python-psutil
@@ -1411,12 +1411,12 @@ Homepage: https://github.com/NousResearch/hermes-agent
 Description: AI-powered coding assistant and workflow automation tool
  Hermes Agent is an autonomous AI agent designed to assist with coding,
  research, and complex task automation through natural language commands.
-Filename: dists/termuxvoid/main/binary-all/hermes-agent_0.18.0_all.deb
+Filename: dists/termuxvoid/main/binary-all/hermes-agent_0.18.2_all.deb
 Size: 1408
-MD5Sum: 67c6842be351574f57ce4bc2c31bb6ac
-SHA1: 009c444dc8d13d95fc9ea50ed0b211953f5afbd5
-SHA256: d101660fe7b06611e1a48c34e19fea92b125d5ba154d0ca47100c746823f25b5
-SHA512: 0a39e579756d514da453353a00f43e951f6738bfff9d7b766f15f42cf70c4d5b41373f41f3851464244f425610abb843512d7e08ef89ee19cf2fbb8578b1603d
+MD5Sum: 6c195ef4d4989abc9bb12e809f5f8a8d
+SHA1: 464d28f01d874040cf389c2205311eafb6c52bee
+SHA256: 4507c6a68fe151f495227e4eb6f0d2bdd830b78e9162941ec781f2f6e4fdf469
+SHA512: fd2f8f32a14fa09f89c6663e5ea295e96a0db2485d852c09be6f58d6fd31aef03d1e98770e5afed4378f5b7046fb1b15c48945c6cfcb3e5333ede48df7fce335
 
 Package: holehe
 Version: 1.61
@@ -1891,25 +1891,6 @@ SHA1: d48901d2a216cdb73ab26fef755975514ee27a69
 SHA256: 641feb900844fa9e1a10d72f6a3c5597bb16d9d142b3533f5506793d069a4bcd
 SHA512: 6430e7a898b053622927fe0485f4ab056a700c5203e68fec787e18f1c03b0468eca394c20709710a12455b7910d6fe65c9906ceba4f92cda86baf7242295dc2b
 
-Package: metabigor
-Version: 2.1.0
-Architecture: all
-Maintainer: Alienkrishn [Anon4You]
-Depends: curl, tar, git, golang
-Section: net
-Priority: optional
-Homepage: https://github.com/j3ssie/metabigor
-Description: OSINT tool without API keys
- Metabigor is an intelligence framework designed to perform OSINT tasks
- without requiring API keys. Features include network discovery, ASN/IP
- lookups, and command-line search engine queries.
-Filename: dists/termuxvoid/main/binary-all/metabigor_2.1.0_all.deb
-Size: 1620
-MD5Sum: 550af289526bd81758c56a2b09cce9b7
-SHA1: 14aaea2e9e8b994cd557cd626986ab6adbf0c6b3
-SHA256: 707a204bac91438a3fd3c20fca02c2be6e89d2b218753eaeeb4e5fe75b2e26cd
-SHA512: 914cbd1aeedee953e688038c6666a41b79fe814e05b918caffdef37b8f29b528c56f82e0426a6f1be33e7849294b08434a484993d0039250581be6cfc6fe510b
-
 Package: metasploit-framework
 Version: 6.4.142-dev
 Architecture: all
@@ -1929,7 +1910,7 @@ SHA256: 55531697203ad87d454abfe12e44e580548ec2c589c2ac1577caf4d68baa80bc
 SHA512: a4cd40e9aef1e4428eecede7c37f38fc72399eef136e0360f30d475e9a79c8b3d4f4d48ce7c1a6e5b5aaf5380c969f47cc080e3d98de33823a298998d7460004
 
 Package: mimocode
-Version: 0.1.5
+Version: 0.1.6
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: curl, clang, glibc, tar
@@ -1940,12 +1921,12 @@ Description: AI‑powered coding assistant (glibc wrapper for Termux)
  MiMo‑Code is an intelligent code completion and generation tool.
  This package downloads the official Linux ARM64 or x86_64 binary
  and runs it inside the Termux glibc environment.
-Filename: dists/termuxvoid/main/binary-all/mimocode_0.1.5_all.deb
+Filename: dists/termuxvoid/main/binary-all/mimocode_0.1.6_all.deb
 Size: 2052
-MD5Sum: 97c7aeedc25c0f1859175a13be0a2340
-SHA1: 75cb08dd9971db0a51569d8b270122ce2f6307e8
-SHA256: d9e9eb4ed1d4d5a05a271354fa75b85bca812c0184a4a0473a641279709cef86
-SHA512: e576e442139f0fa9c9c96db44d6e28875b5a695ddc16d2ee4dc6fbfc78e3dc9b6d4f5fe8403a98dca6d4e1497ea1b05f9ecf260b052bb3f5ebab416c1dcddce0
+MD5Sum: f3387e66f143c6210a824664a69165df
+SHA1: 2f5fac87a3ac9b9467302552d1f21e9094fe437b
+SHA256: 605a33c26040cb8aa1adf2b30efd59061b2da142fa8804c37daa83a33f8b89c2
+SHA512: 13a5b57680104d3a95acb097ef22ce5297bf7887004970f285e0074247e9b623e5413e08438bbb8e9b9ee734e4d9510f362d8886adda9da9d386cfacbf5f728a
 
 Package: mkwebapp
 Version: 1.0.0
@@ -2218,7 +2199,7 @@ SHA256: edc2c57047e90bda6ecbd016eeff67d0e876fed90c05ecb74b5c61d2d503e4c0
 SHA512: 0e4fb715fe3cdf04fb526e044f569963fd6195c5df32dd69599d84ecdfd3530b75814d9fd64269d5153d72a056221d0694728ed72046205d5dd9550e287c7bf2
 
 Package: opencode
-Version: 1.18.1-0
+Version: 1.18.2
 Architecture: all
 Maintainer: Alienkrishn [Anon4You]
 Depends: glibc, clang, python, curl, tar
@@ -2229,12 +2210,12 @@ Description: AI‑powered coding assistant (glibc version)
  OpenCode provides real‑time code completions and AI assistance.
  This package uses the glibc build and includes a wrapper to run
  inside Termux’s glibc environment.
-Filename: dists/termuxvoid/main/binary-all/opencode_1.18.1-0_all.deb
+Filename: dists/termuxvoid/main/binary-all/opencode_1.18.2_all.deb
 Size: 1920
-MD5Sum: a7eed2ab2617ba52fdc9e03bcc388ba0
-SHA1: 12ba8506a5a21bed80371288dd60294a2b731651
-SHA256: e97f06135e75e6d9c5a2a6f9afff50c8e49a44e72af8e615a7c473ec115bfc9f
-SHA512: 51d2da70c2bcdd999352941dc373a975d31b730d59741fc371c66d90d2171d545bc2452287e4355dafcaa771a53596ebc0344ff5fc5ea1d89f64b032efd4fc07
+MD5Sum: c0bdf83520c75debd2d4135ad8dbdc73
+SHA1: 14999ee01c7a598b6bff83618633ab5b99acc3e1
+SHA256: b956470b23866d32a67d3781d1aa62a9178264a649f008b044d2c46f104bb202
+SHA512: 725b5ba64373ccab828474fe8d622bc6c5749c595794247bae792561bf3b0156e27deea22287793150a24aa991094058a5f385aaefb95231617b4e20351cdbfc
 
 Package: pairip
 Version: 1.3.10
