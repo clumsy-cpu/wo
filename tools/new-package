@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/data/data/com.termux/files/usr/bin/bash
 # new-package - scaffold a TermuxVoid-style .deb package directory.
 #
 # Generates packages/<name>/DEBIAN/{control,preinst,postinst,postrm} from
@@ -20,7 +20,8 @@
 #       --homepage https://bun.sh --desc 'Incredibly fast JavaScript runtime'
 #
 #   new-package --type pip-build --name python-pandas --version 2.2.3 \
-#       --pip pandas --desc 'Powerful data analysis library'
+#       --pip pandas --desc 'Powerful data analysis library' \
+#       --build-deps 'cython meson-python versioneer'   # extra pip build backends
 #
 #   new-package --type jar-launcher --name apkeditor --version 1.4.9 \
 #       --jar-url 'https://github.com/REAndroid/APKEditor/releases/download/V1.4.9/APKEditor-1.4.9.jar' \
@@ -41,10 +42,14 @@ die() { echo "new-package: error: $*" >&2; exit 1; }
 
 TYPE="" NAME="" VERSION="" DESC="" HOMEPAGE="" MAINTAINER="" DEPENDS="" SECTION=""
 URL="" ARCHIVE="auto" BIN_NAME="" USE_SHIM="no" TAG_AARCH64="linux-aarch64" TAG_X86_64="linux-x86_64"
-PIP_SPEC="" JAR_URL="" OUT_DIR="$REPO_ROOT/packages"
+PIP_SPEC="" PIP_BUILD_DEPS="" JAR_URL="" OUT_DIR="$REPO_ROOT/packages"
 SETENVS=()
 
 while [ $# -gt 0 ]; do
+    # accept --opt=value as well as --opt value
+    case "$1" in
+        --*=*) set -- "${1%%=*}" "${1#*=}" "${@:2}" ;;
+    esac
     case "$1" in
         --type)        TYPE="$2"; shift 2 ;;
         --name)        NAME="$2"; shift 2 ;;
@@ -62,6 +67,7 @@ while [ $# -gt 0 ]; do
         --tag-aarch64) TAG_AARCH64="$2"; shift 2 ;;
         --tag-x86_64)  TAG_X86_64="$2"; shift 2 ;;
         --pip)         PIP_SPEC="$2"; shift 2 ;;
+        --build-deps)  PIP_BUILD_DEPS="$2"; shift 2 ;;
         --jar-url)     JAR_URL="$2"; shift 2 ;;
         --out)         OUT_DIR="$2"; shift 2 ;;
         -h|--help)     usage; exit 0 ;;
@@ -72,7 +78,14 @@ done
 [ -n "$TYPE" ] || die "--type is required (glibc-binary | pip-build | jar-launcher)"
 [ -n "$NAME" ] || die "--name is required"
 [ -n "$VERSION" ] || die "--version is required"
-[ -d "$TOOLS_DIR/templates/$TYPE" ] || die "unknown type: $TYPE"
+if [ ! -d "$TOOLS_DIR/templates" ]; then
+    die "templates/ not found next to this script (looked in $TOOLS_DIR).
+Run it from a repo checkout (tools/new-package). To put it on PATH,
+symlink it instead of copying: ln -sf ~/wo/tools/new-package \$PREFIX/bin/"
+fi
+if [ ! -d "$TOOLS_DIR/templates/$TYPE" ]; then
+    die "unknown type: $TYPE (available: $(ls "$TOOLS_DIR/templates" | tr '\n' ' '))"
+fi
 
 case "$TYPE" in
     glibc-binary)
@@ -91,7 +104,7 @@ case "$TYPE" in
         ;;
     pip-build)
         PIP_SPEC="${PIP_SPEC:-${NAME#python-}}"
-        DEPENDS="${DEPENDS:-python, python-pip, build-essential, binutils-is-llvm}"
+        DEPENDS="${DEPENDS:-python, python-pip, build-essential, binutils}"
         SECTION="${SECTION:-python}"
         ;;
     jar-launcher)
@@ -148,11 +161,14 @@ render() {
     content=${content//'{{TAG_AARCH64}}'/$TAG_AARCH64}
     content=${content//'{{TAG_X86_64}}'/$TAG_X86_64}
     content=${content//'{{PIP_SPEC}}'/$PIP_SPEC}
+    content=${content//'{{PIP_BUILD_DEPS}}'/$PIP_BUILD_DEPS}
     content=${content//'{{JAR_URL}}'/$JAR_URL}
     printf '%s\n' "$content" > "$dst"
 }
 
 mkdir -p "$PKG_DIR/DEBIAN"
+# dpkg-deb requires 0755..0775 on the control dir; don't trust the umask
+chmod 755 "$PKG_DIR" "$PKG_DIR/DEBIAN"
 for tmpl in "$TOOLS_DIR/templates/$TYPE/DEBIAN"/*; do
     fname=$(basename "$tmpl")
     render "$tmpl" "$PKG_DIR/DEBIAN/$fname"

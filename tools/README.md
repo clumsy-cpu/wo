@@ -72,6 +72,17 @@ Generates `packages/<name>/DEBIAN/{control,preinst,postinst,postrm}` from
 (`.github/workflows/build_repo.yml`) untouched, or locally with
 `dpkg-deb -b -Zxz packages/<name>/ debs/`.
 
+Both scripts must live next to their `lib/` and `templates/` directories.
+Run them from the checkout (`tools/new-package ...`), or put them on PATH
+with a **symlink, not a copy**:
+
+```sh
+ln -sf ~/wo/tools/new-package ~/wo/tools/termuxify "$PREFIX/bin/"
+```
+
+On a non-Termux machine (where the Termux bash path in the shebang does
+not exist), invoke them as `bash tools/new-package ...`.
+
 ```sh
 # Pattern A: glibc binary (bun-style). ${VERSION} and ${ARCH_TAG} in the
 # URL are resolved at install time on the device:
