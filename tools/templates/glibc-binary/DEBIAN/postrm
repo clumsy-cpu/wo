@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+PREFIX=${PREFIX:-/data/data/com.termux/files/usr}
+rm -f "$PREFIX/bin/{{NAME}}"
+rm -f "$PREFIX/lib/{{NAME}}-shim.so"
+rm -rf "$PREFIX/share/{{NAME}}"
+exit 0

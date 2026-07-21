@@ -1,0 +1,178 @@
+#!/usr/bin/env bash
+# new-package - scaffold a TermuxVoid-style .deb package directory.
+#
+# Generates packages/<name>/DEBIAN/{control,preinst,postinst,postrm} from
+# the templates in tools/templates/, ready to build with:
+#     dpkg-deb -b -Zxz packages/<name>/ debs/
+# or simply push to main and let .github/workflows/build_repo.yml build it.
+#
+# Patterns (--type):
+#   glibc-binary   prebuilt glibc Linux binary run via the Termux glibc
+#                  loader + compiled C launcher (bun/opencode style)
+#   pip-build      Python package built natively on-device with pip
+#                  (python-pandas style)
+#   jar-launcher   upstream JAR + java -jar launcher (apkeditor style)
+#
+# Examples:
+#   new-package --type glibc-binary --name bun --version 1.3.14 \
+#       --url 'https://github.com/oven-sh/bun/releases/download/bun-v${VERSION}/bun-${ARCH_TAG}.zip' \
+#       --shim --depends 'curl,unzip,clang,glibc' \
+#       --homepage https://bun.sh --desc 'Incredibly fast JavaScript runtime'
+#
+#   new-package --type pip-build --name python-pandas --version 2.2.3 \
+#       --pip pandas --desc 'Powerful data analysis library'
+#
+#   new-package --type jar-launcher --name apkeditor --version 1.4.9 \
+#       --jar-url 'https://github.com/REAndroid/APKEditor/releases/download/V1.4.9/APKEditor-1.4.9.jar' \
+#       --desc 'APK editing tool'
+set -e
+# bash >= 5.2 treats & in ${var//pat/rep} replacements specially; the
+# replacement values here (C sources) contain literal & and must stay verbatim
+shopt -u patsub_replacement 2>/dev/null || true
+
+TOOLS_DIR=$(cd "$(dirname "$(realpath "$0")")" && pwd)
+REPO_ROOT=$(cd "$TOOLS_DIR/.." && pwd)
+
+usage() {
+    sed -n '2,30p' "$0" | sed 's/^# \{0,1\}//'
+}
+
+die() { echo "new-package: error: $*" >&2; exit 1; }
+
+TYPE="" NAME="" VERSION="" DESC="" HOMEPAGE="" MAINTAINER="" DEPENDS="" SECTION=""
+URL="" ARCHIVE="auto" BIN_NAME="" USE_SHIM="no" TAG_AARCH64="linux-aarch64" TAG_X86_64="linux-x86_64"
+PIP_SPEC="" JAR_URL="" OUT_DIR="$REPO_ROOT/packages"
+SETENVS=()
+
+while [ $# -gt 0 ]; do
+    case "$1" in
+        --type)        TYPE="$2"; shift 2 ;;
+        --name)        NAME="$2"; shift 2 ;;
+        --version)     VERSION="$2"; shift 2 ;;
+        --desc)        DESC="$2"; shift 2 ;;
+        --homepage)    HOMEPAGE="$2"; shift 2 ;;
+        --maintainer)  MAINTAINER="$2"; shift 2 ;;
+        --depends)     DEPENDS="$2"; shift 2 ;;
+        --section)     SECTION="$2"; shift 2 ;;
+        --url)         URL="$2"; shift 2 ;;
+        --archive)     ARCHIVE="$2"; shift 2 ;;
+        --bin)         BIN_NAME="$2"; shift 2 ;;
+        --shim)        USE_SHIM="yes"; shift ;;
+        --setenv)      SETENVS+=("$2"); shift 2 ;;
+        --tag-aarch64) TAG_AARCH64="$2"; shift 2 ;;
+        --tag-x86_64)  TAG_X86_64="$2"; shift 2 ;;
+        --pip)         PIP_SPEC="$2"; shift 2 ;;
+        --jar-url)     JAR_URL="$2"; shift 2 ;;
+        --out)         OUT_DIR="$2"; shift 2 ;;
+        -h|--help)     usage; exit 0 ;;
+        *) die "unknown option: $1 (see --help)" ;;
+    esac
+done
+
+[ -n "$TYPE" ] || die "--type is required (glibc-binary | pip-build | jar-launcher)"
+[ -n "$NAME" ] || die "--name is required"
+[ -n "$VERSION" ] || die "--version is required"
+[ -d "$TOOLS_DIR/templates/$TYPE" ] || die "unknown type: $TYPE"
+
+case "$TYPE" in
+    glibc-binary)
+        [ -n "$URL" ] || die "glibc-binary requires --url (may contain \${VERSION} and \${ARCH_TAG})"
+        DEPENDS="${DEPENDS:-curl, unzip, tar, clang, glibc}"
+        SECTION="${SECTION:-devel}"
+        BIN_NAME="${BIN_NAME:-$NAME}"
+        if [ "$ARCHIVE" = "auto" ]; then
+            case "$URL" in
+                *.zip)          ARCHIVE="zip" ;;
+                *.tar.gz|*.tgz) ARCHIVE="tar.gz" ;;
+                *.tar.xz|*.txz) ARCHIVE="tar.xz" ;;
+                *)              ARCHIVE="raw" ;;
+            esac
+        fi
+        ;;
+    pip-build)
+        PIP_SPEC="${PIP_SPEC:-${NAME#python-}}"
+        DEPENDS="${DEPENDS:-python, python-pip, build-essential, binutils-is-llvm}"
+        SECTION="${SECTION:-python}"
+        ;;
+    jar-launcher)
+        [ -n "$JAR_URL" ] || die "jar-launcher requires --jar-url"
+        DEPENDS="${DEPENDS:-curl, openjdk-21}"
+        SECTION="${SECTION:-utils}"
+        ;;
+esac
+
+DESC="${DESC:-$NAME}"
+HOMEPAGE="${HOMEPAGE:-https://github.com}"
+if [ -z "$MAINTAINER" ]; then
+    GIT_NAME=$(git -C "$REPO_ROOT" config user.name 2>/dev/null || true)
+    MAINTAINER="${GIT_NAME:-TermuxVoid Maintainer}"
+fi
+
+PKG_DIR="$OUT_DIR/$NAME"
+[ -e "$PKG_DIR" ] && die "$PKG_DIR already exists; remove it first or pick another --name"
+
+# ── build multi-line token values for the glibc-binary pattern ──────────
+SHIM_C_SOURCE="" WRAPPER_C_SOURCE="" SETENV_LINES=""
+if [ "$TYPE" = "glibc-binary" ]; then
+    SHIM_C_SOURCE=$(<"$TOOLS_DIR/lib/shim.c")
+    for kv in ${SETENVS[@]+"${SETENVS[@]}"}; do
+        k="${kv%%=*}"; v="${kv#*=}"
+        [ -n "$k" ] && [ "$k" != "$kv" ] || die "--setenv expects KEY=VALUE, got: $kv"
+        SETENV_LINES+="    setenv(\"$k\", \"$v\", 1);"$'\n'
+    done
+    # Render the wrapper for embedding in postinst: {{LD_SO}} becomes the
+    # shell variable ${LD_SO} so the arch is resolved at install time
+    # (the postinst embeds this in an unquoted heredoc).
+    WRAPPER_C_SOURCE=$(<"$TOOLS_DIR/lib/wrapper.c.tmpl")
+    WRAPPER_C_SOURCE=${WRAPPER_C_SOURCE//'{{LD_SO}}'/\$\{LD_SO\}}
+    WRAPPER_C_SOURCE=${WRAPPER_C_SOURCE//'{{SETENV_LINES}}'/$SETENV_LINES}
+fi
+
+render() {
+    local src="$1" dst="$2" content
+    content=$(<"$src")
+    # multi-line sources first: they may themselves contain {{NAME}} tokens
+    content=${content//'{{SHIM_C_SOURCE}}'/$SHIM_C_SOURCE}
+    content=${content//'{{WRAPPER_C_SOURCE}}'/$WRAPPER_C_SOURCE}
+    content=${content//'{{NAME}}'/$NAME}
+    content=${content//'{{VERSION}}'/$VERSION}
+    content=${content//'{{MAINTAINER}}'/$MAINTAINER}
+    content=${content//'{{DEPENDS}}'/$DEPENDS}
+    content=${content//'{{SECTION}}'/$SECTION}
+    content=${content//'{{HOMEPAGE}}'/$HOMEPAGE}
+    content=${content//'{{DESC}}'/$DESC}
+    content=${content//'{{URL}}'/$URL}
+    content=${content//'{{ARCHIVE}}'/$ARCHIVE}
+    content=${content//'{{BIN_NAME}}'/$BIN_NAME}
+    content=${content//'{{USE_SHIM}}'/$USE_SHIM}
+    content=${content//'{{TAG_AARCH64}}'/$TAG_AARCH64}
+    content=${content//'{{TAG_X86_64}}'/$TAG_X86_64}
+    content=${content//'{{PIP_SPEC}}'/$PIP_SPEC}
+    content=${content//'{{JAR_URL}}'/$JAR_URL}
+    printf '%s\n' "$content" > "$dst"
+}
+
+mkdir -p "$PKG_DIR/DEBIAN"
+for tmpl in "$TOOLS_DIR/templates/$TYPE/DEBIAN"/*; do
+    fname=$(basename "$tmpl")
+    render "$tmpl" "$PKG_DIR/DEBIAN/$fname"
+    case "$fname" in
+        control) chmod 644 "$PKG_DIR/DEBIAN/$fname" ;;
+        *)       chmod 755 "$PKG_DIR/DEBIAN/$fname" ;;
+    esac
+done
+
+# sanity: no unsubstituted tokens may remain
+if grep -rn '{{[A-Z_]*}}' "$PKG_DIR" >/dev/null 2>&1; then
+    grep -rn '{{[A-Z_]*}}' "$PKG_DIR" >&2
+    die "unsubstituted tokens remain in $PKG_DIR (see above)"
+fi
+
+echo "[+] Scaffolded $PKG_DIR"
+echo
+echo "Next steps:"
+echo "  1. Review the generated files, especially DEBIAN/postinst"
+echo "  2. Build locally:  dpkg-deb -b -Zxz '$PKG_DIR' debs/"
+echo "     ...or push to main and let the build_repo workflow build it"
+echo "  3. Test on-device: dpkg -i debs/${NAME}_${VERSION}_all.deb"
+exit 0

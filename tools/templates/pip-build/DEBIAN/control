@@ -1,0 +1,12 @@
+Package: {{NAME}}
+Version: {{VERSION}}
+Architecture: all
+Maintainer: {{MAINTAINER}}
+Depends: {{DEPENDS}}
+Section: {{SECTION}}
+Priority: optional
+Homepage: {{HOMEPAGE}}
+Description: {{DESC}} (built natively on-device for Termux)
+ This package builds and installs the Python package "{{PIP_SPEC}}"
+ natively on the device with pip at install time, linked against the
+ Termux Python.

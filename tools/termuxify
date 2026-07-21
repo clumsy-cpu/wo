@@ -1,0 +1,174 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# termuxify - wrap a prebuilt glibc Linux binary so it runs on Termux.
+#
+# Automates the technique used by the bun/opencode packages in this repo:
+# the binary is stored untouched as $PREFIX/share/<name>/<name>.real and a
+# small compiled C launcher in $PREFIX/bin/<name> execs the Termux glibc
+# dynamic loader with --library-path (and optionally an LD_PRELOAD syscall
+# shim that works around Android's EACCES on /, /data and /data/data).
+#
+# Examples:
+#   termuxify --name bun --url "https://github.com/oven-sh/bun/releases/download/bun-v1.3.14/bun-linux-aarch64.zip" --shim
+#   termuxify --name mytool --file ./mytool --setenv FOO=bar
+set -e
+
+usage() {
+    cat <<'EOF'
+Usage: termuxify --name NAME (--url URL | --file PATH) [options]
+
+Required:
+  --name NAME          Command name to install as $PREFIX/bin/NAME
+  --url URL            Download URL of the glibc Linux binary (or archive)
+  --file PATH          Use a local binary/archive instead of downloading
+
+Options:
+  --archive TYPE       zip | tar.gz | tar.xz | raw | auto (default: auto,
+                       guessed from the URL/file extension)
+  --bin NAME           Executable name inside the archive (default: --name)
+  --shim               Build and preload the syscall shim that fixes EACCES
+                       on /, /data, /data/data and $HOME paths (aarch64 only).
+                       Enable it if the binary fails with "permission denied"
+                       touching those paths (bun needs this).
+  --setenv KEY=VALUE   Extra environment variable baked into the launcher
+                       (repeatable)
+  -h, --help           Show this help
+
+Prerequisites: pkg install clang glibc curl unzip (or tar/xz-utils)
+EOF
+}
+
+die() { echo "termuxify: error: $*" >&2; exit 1; }
+
+NAME="" URL="" FILE="" ARCHIVE="auto" BIN_NAME="" USE_SHIM="no"
+SETENVS=()
+
+while [ $# -gt 0 ]; do
+    case "$1" in
+        --name)    NAME="$2"; shift 2 ;;
+        --url)     URL="$2"; shift 2 ;;
+        --file)    FILE="$2"; shift 2 ;;
+        --archive) ARCHIVE="$2"; shift 2 ;;
+        --bin)     BIN_NAME="$2"; shift 2 ;;
+        --shim)    USE_SHIM="yes"; shift ;;
+        --setenv)  SETENVS+=("$2"); shift 2 ;;
+        -h|--help) usage; exit 0 ;;
+        *) die "unknown option: $1 (see --help)" ;;
+    esac
+done
+
+[ -n "$NAME" ] || { usage >&2; die "--name is required"; }
+{ [ -n "$URL" ] || [ -n "$FILE" ]; } || die "one of --url or --file is required"
+[ -n "$URL" ] && [ -n "$FILE" ] && die "--url and --file are mutually exclusive"
+BIN_NAME="${BIN_NAME:-$NAME}"
+
+PREFIX=${PREFIX:-/data/data/com.termux/files/usr}
+TMPDIR=${TMPDIR:-$PREFIX/tmp}
+TOOLS_DIR=$(cd "$(dirname "$(realpath "$0")")" && pwd)
+
+ARCH=$(uname -m)
+case "$ARCH" in
+    aarch64) LD_SO="ld-linux-aarch64.so.1" ;;
+    x86_64)  LD_SO="ld-linux-x86-64.so.2" ;;
+    *) die "unsupported architecture: $ARCH (need aarch64 or x86_64)" ;;
+esac
+if [ "$USE_SHIM" = "yes" ] && [ "$ARCH" != "aarch64" ]; then
+    die "--shim uses raw AArch64 syscalls and only works on aarch64"
+fi
+
+# ── prerequisite checks ─────────────────────────────────────────────────
+MISSING=""
+command -v clang >/dev/null 2>&1 || MISSING="$MISSING clang"
+[ -x "$PREFIX/glibc/lib/$LD_SO" ] || MISSING="$MISSING glibc"
+[ -n "$URL" ] && ! command -v curl >/dev/null 2>&1 && MISSING="$MISSING curl"
+
+SRC="${URL:-$FILE}"
+if [ "$ARCHIVE" = "auto" ]; then
+    case "$SRC" in
+        *.zip)            ARCHIVE="zip" ;;
+        *.tar.gz|*.tgz)   ARCHIVE="tar.gz" ;;
+        *.tar.xz|*.txz)   ARCHIVE="tar.xz" ;;
+        *)                ARCHIVE="raw" ;;
+    esac
+fi
+case "$ARCHIVE" in
+    zip)    command -v unzip >/dev/null 2>&1 || MISSING="$MISSING unzip" ;;
+    tar.gz|tar.xz) command -v tar >/dev/null 2>&1 || MISSING="$MISSING tar" ;;
+    raw)    : ;;
+    *) die "unknown archive type: $ARCHIVE" ;;
+esac
+[ -z "$MISSING" ] || die "missing prerequisites, run: pkg install$MISSING"
+
+[ -f "$TOOLS_DIR/lib/shim.c" ] || die "cannot find lib/shim.c next to this script"
+[ -f "$TOOLS_DIR/lib/wrapper.c.tmpl" ] || die "cannot find lib/wrapper.c.tmpl next to this script"
+
+# ── fetch / stage ───────────────────────────────────────────────────────
+SHARE_DIR="$PREFIX/share/$NAME"
+STAGING="$TMPDIR/termuxify-$NAME.$$"
+mkdir -p "$SHARE_DIR" "$PREFIX/bin" "$PREFIX/lib" "$STAGING"
+trap 'rm -rf "$STAGING"' EXIT
+
+if [ -n "$URL" ]; then
+    echo "[*] Downloading $URL"
+    curl -fsSL -o "$STAGING/payload" "$URL"
+else
+    [ -f "$FILE" ] || die "no such file: $FILE"
+    cp "$FILE" "$STAGING/payload"
+fi
+
+case "$ARCHIVE" in
+    zip)    unzip -q "$STAGING/payload" -d "$STAGING/x" ;;
+    tar.gz) mkdir -p "$STAGING/x"; tar -xzf "$STAGING/payload" -C "$STAGING/x" ;;
+    tar.xz) mkdir -p "$STAGING/x"; tar -xJf "$STAGING/payload" -C "$STAGING/x" ;;
+    raw)    mkdir -p "$STAGING/x"; cp "$STAGING/payload" "$STAGING/x/$BIN_NAME" ;;
+esac
+
+ORIG_BIN=$(find "$STAGING/x" -type f -name "$BIN_NAME" | head -n1)
+if [ -z "$ORIG_BIN" ]; then
+    # fall back to the largest file, which is almost always the binary
+    ORIG_BIN=$(find "$STAGING/x" -type f -exec ls -S {} + 2>/dev/null | head -n1)
+fi
+[ -n "$ORIG_BIN" ] || die "no executable named '$BIN_NAME' found in the archive (try --bin)"
+
+REAL_BIN="$SHARE_DIR/$NAME.real"
+mv "$ORIG_BIN" "$REAL_BIN"
+chmod +x "$REAL_BIN"
+echo "[*] Installed real binary: $REAL_BIN"
+
+# ── optional LD_PRELOAD syscall shim ────────────────────────────────────
+SHIM_SO="$PREFIX/lib/$NAME-shim.so"
+if [ "$USE_SHIM" = "yes" ]; then
+    echo "[*] Compiling syscall shim..."
+    clang -O2 -fPIC -shared -nostdlib -o "$SHIM_SO" "$TOOLS_DIR/lib/shim.c"
+    chmod +x "$SHIM_SO"
+fi
+
+# ── render + compile launcher wrapper ───────────────────────────────────
+ENVFILE="$STAGING/setenv.inc"
+: > "$ENVFILE"
+for kv in ${SETENVS[@]+"${SETENVS[@]}"}; do
+    k="${kv%%=*}"; v="${kv#*=}"
+    [ -n "$k" ] && [ "$k" != "$kv" ] || die "--setenv expects KEY=VALUE, got: $kv"
+    printf '    setenv("%s", "%s", 1);\n' "$k" "$v" >> "$ENVFILE"
+done
+
+awk -v name="$NAME" -v ldso="$LD_SO" -v envfile="$ENVFILE" '
+    /\{\{SETENV_LINES\}\}/ {
+        while ((getline line < envfile) > 0) print line
+        close(envfile)
+        next
+    }
+    { gsub(/\{\{NAME\}\}/, name); gsub(/\{\{LD_SO\}\}/, ldso); print }
+' "$TOOLS_DIR/lib/wrapper.c.tmpl" > "$STAGING/wrapper.c"
+
+echo "[*] Compiling launcher..."
+CFLAGS_SHIM=""
+[ "$USE_SHIM" = "yes" ] && CFLAGS_SHIM="-DSHIM_PATH=\"$SHIM_SO\""
+# shellcheck disable=SC2086
+clang -O2 $CFLAGS_SHIM -o "$PREFIX/bin/$NAME" "$STAGING/wrapper.c"
+chmod +x "$PREFIX/bin/$NAME"
+
+echo "[+] Done. Try it: $NAME --version"
+echo "    Real binary: $REAL_BIN"
+[ "$USE_SHIM" = "yes" ] && echo "    Shim:        $SHIM_SO"
+echo "    To remove:   rm -f '$PREFIX/bin/$NAME' '$SHIM_SO'; rm -rf '$SHARE_DIR'"
+exit 0
