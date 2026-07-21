@@ -1,0 +1,12 @@
+Package: {{NAME}}
+Version: {{VERSION}}
+Architecture: all
+Maintainer: {{MAINTAINER}}
+Depends: {{DEPENDS}}
+Section: {{SECTION}}
+Priority: optional
+Homepage: {{HOMEPAGE}}
+Description: {{DESC}} (glibc wrapper for Termux)
+ This package downloads the official Linux binary at install time and
+ runs it inside the Termux glibc environment via the glibc dynamic
+ loader, fronted by a small compiled launcher in $PREFIX/bin.

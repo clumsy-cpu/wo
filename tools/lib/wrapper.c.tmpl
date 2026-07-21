@@ -1,0 +1,57 @@
+/*
+ * Launcher wrapper for {{NAME}}: runs the real glibc binary through the
+ * Termux glibc dynamic loader instead of Android's bionic linker.
+ *
+ * Rendered by tools/termuxify or tools/new-package. Tokens:
+ *   {{NAME}}          command / package name
+ *   {{LD_SO}}         glibc loader filename for the target arch
+ *   {{SETENV_LINES}}  extra setenv() calls (may be empty)
+ *
+ * Compile-time switch: define SHIM_PATH to the absolute path of an
+ * LD_PRELOAD shim .so to have the loader preload it:
+ *   clang -O2 -DSHIM_PATH='"/data/data/com.termux/files/usr/lib/{{NAME}}-shim.so"' ...
+ */
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <stdio.h>
+#include <limits.h>
+
+int main(int argc, char** argv) {
+    unsetenv("LD_PRELOAD");
+    unsetenv("LD_LIBRARY_PATH");
+
+    setenv("HOME", "/data/data/com.termux/files/home", 1);
+    setenv("TMPDIR", "/data/data/com.termux/files/usr/tmp", 1);
+    setenv("SSL_CERT_FILE", "/data/data/com.termux/files/usr/etc/tls/cert.pem", 1);
+{{SETENV_LINES}}
+
+    char* loader = "/data/data/com.termux/files/usr/glibc/lib/{{LD_SO}}";
+    char* lib_path = "/data/data/com.termux/files/usr/glibc/lib";
+    char* real_bin = "/data/data/com.termux/files/usr/share/{{NAME}}/{{NAME}}.real";
+
+#ifdef SHIM_PATH
+    int extra = 6;
+#else
+    int extra = 4;
+#endif
+    char** new_argv = malloc((argc + extra) * sizeof(char*));
+    if (!new_argv) return 1;
+
+    int i = 0;
+    new_argv[i++] = loader;
+    new_argv[i++] = "--library-path";
+    new_argv[i++] = lib_path;
+#ifdef SHIM_PATH
+    new_argv[i++] = "--preload";
+    new_argv[i++] = SHIM_PATH;
+#endif
+    new_argv[i++] = real_bin;
+    for (int j = 1; j < argc; j++) new_argv[i++] = argv[j];
+    new_argv[i] = NULL;
+
+    execv(loader, new_argv);
+    perror("execv");
+    free(new_argv);
+    return 1;
+}

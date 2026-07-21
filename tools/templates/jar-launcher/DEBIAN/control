@@ -1,0 +1,11 @@
+Package: {{NAME}}
+Version: {{VERSION}}
+Architecture: all
+Maintainer: {{MAINTAINER}}
+Depends: {{DEPENDS}}
+Section: {{SECTION}}
+Priority: optional
+Homepage: {{HOMEPAGE}}
+Description: {{DESC}} (Java launcher for Termux)
+ This package downloads the upstream JAR at install time and installs
+ a launcher script in $PREFIX/bin that runs it with java -jar.
